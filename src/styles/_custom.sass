@@ -17,3 +17,330 @@
 
   100%
     transform: translateY(0px)
+
+.bg-01
+  background-image: url("../assets/curso/tema_1/img_1.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.img-a 
+  display: block 
+  margin: auto   
+  width: auto
+  height: auto
+
+.BorTit
+  border-left: 5px solid $color-acento-contenido
+  padding: 6px 0px 6px 10px
+
+.BorTit1
+  border-left: 5px solid $color-acento-contenido
+  padding: 6px 0px 6px 10px
+
+.list 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 30px
+      height: 30px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #FF8A5B
+      span 
+        color: white
+        font-weight: 700
+        font-size: small
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+      
+    
+    &__number 
+      position: relative
+      margin-right: 1rem
+      span 
+        color:orange
+        font-size: 15pt
+        font-weight: 700
+        line-height: 1.2
+      
+    
+    &__icon 
+      position: relative
+      width: 15px
+      margin-right: 0.65rem
+      img 
+        width: 15px
+        vertical-align: middle
+      
+    
+  
+  &__txt 
+    p:first-child,
+    h3:first-child 
+      margin-top: 0px
+
+.m-top      
+  margin-top: 5px !important
+
+.list_1 
+  width: 100%
+  display: flex !important
+  &__item 
+    &__bulletNumber 
+      position: relative
+      width: 50px
+      height: 50px
+      margin-right: 1rem
+      text-align: center
+      border-radius: 50%
+      background-color: #EA526F
+      margin-top: 30px
+      span 
+        color: white
+        font-weight: 700
+        font-size: 30px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+.tabs-b__tab  
+  background-color: #E8E8E8 !important
+  border: 15px solid white !important
+  font-size: 15px !important 
+  min-width: 270px   
+
+.tabs-b__tab--active
+  background: $color-primario !important
+  border: 15px solid white !important
+  font-size: 15px !important  
+  min-width: 270px
+
+.tabs-b__tab:hover
+  background-color: $color-primario !important
+  border: 15px solid white !important 
+  font-size: 15px !important    
+  min-width: 270px
+
+.tarjeta--bg1
+  background-color: #FFE8DE
+
+.cajon.color-primario 
+  background-color: #FFE8DE
+
+.border_1
+  border-right: 5px solid #FF8A5B
+  border-left: 5px solid #FF8A5B
+
+.tarjeta--bg2
+  background-color: #DBFAFA
+
+.tarjeta--bg3
+  background-color: #EDFCFC
+
+.cajon.color-secundario 
+  background-color: #DBFAFA
+
+.slyder-a__bullets
+  bottom: 0px !important
+
+.td_bg1
+  background-color: #FFF8F5
+
+.th_bg2
+  background-color: #F6F6F6
+
+.p_bg1
+  color: #EA526F
+
+.tarjeta--bg4
+  background-color: #FFE2D2
+
+.tarjeta--bg5
+  background-color: #FCE5E9
+
+.border--bg1
+  border: 3px solid #EA526F
+
+.border--bg2
+  border: 3px solid #25CED1
+
+.border--bg3
+  border-top: 5px solid#25CED1
+
+.border--bg4
+  border-top: 5px solid#FF8A5B
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected
+  color: $white !important
+
+.tabs-a__tab
+  background-color: #E8E8E8
+
+.bg01
+  background-image: url("../assets/curso/tema_5/img_5.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.bg02
+  background-image: url("../assets/curso/tema_5/img_6.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.bg03
+  background-image: url("../assets/curso/tema_5/img_7.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.bg04
+  background-image: url("../assets/curso/tema_5/img_8.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.box-images
+  display: flex
+  flex-flow: column
+  img
+    flex: 0
+  .box-color-soft
+    flex: 1
+    width: 100%
+    text-align: center
+  .box-color-soft.rosa
+    background-color: #F2D6E3
+  .box-color-soft.azul
+    background-color: #D6EBFB
+
+.tabs-d
+  margin-bottom: 15px
+
+.tabs-d__header
+  padding: 10px 10%
+  position: relative
+  &::before
+    content: ""
+    display: block
+    position: absolute;
+    top: 10%
+    bottom: 10%
+    left: 6%
+    right: 6%
+    background-color: $color-primario
+    border-radius: 15px;
+@media only screen and (min-width: 576px)
+  .tabs-d__header
+    &::before
+      top: 20%
+      bottom: 20%
+      left: 6%
+      right: 6%
+      border-radius: 15px;
+@media only screen and (min-width: 1200px)
+  .tabs-d__header
+    &::before
+      top: 20%
+      bottom: 20%
+      left: 6%
+      right: 6%
+      border-radius: 50em;
+
+
+.tabs-d__tab
+  position: relative
+  cursor: pointer
+  min-width: 170px
+  .number
+    position: absolute
+    top: 10px
+    left: 12px
+    color: $color-acento-botones
+    max-height: 60px
+    width: auto
+
+  .tabs-d__pre-header
+    border-radius: 1em
+    background: rgb(212,212,212)
+    background: linear-gradient(20deg, rgba(212,212,212,1) 0%, rgba(255,255,255,1) 100%)
+    padding: 7px
+    .tabs-d__container-header
+      &:hover
+        font-weight: 800
+        padding: 13% 20%
+      &.active
+        font-weight: 800
+        padding: 13% 20%
+      transition: all 0.3s
+      background-color: white
+      border-radius: 1em
+      text-align: center
+      padding: 12% 19%
+      color: #686868
+      font-weight: 600
+      > img
+        max-height: 60px
+        margin-top: 20px
+        margin-bottom: 10px
+  .tabs-d__container-active
+    margin: 0 15px
+    margin-top: 8px
+    margin-bottom: 8px
+    height: 7px
+    background-color: $color-acento-botones
+
+@media only screen and (max-width: 575px)
+  .tabs-d__tab
+    .tabs-d__pre-header
+      margin-bottom: 10px
+
+.tabs-c__tab  
+  background-color: #E8E8E8 !important
+  border: 15px solid white !important
+  font-size: 15px !important 
+  min-width: 270px   
+
+.tabs-c__tab--active
+  color: $white
+  background: $color-acento-contenido !important
+  border: 15px solid white !important
+  font-size: 15px !important  
+  min-width: 270px
+
+.tabs-c__tab:hover
+  color: $white
+  background-color: $color-acento-contenido !important
+  border: 15px solid white !important 
+  font-size: 15px !important    
+  min-width: 270px
+
+.tabs-c__tab--active:before 
+  width: 0
+  height: 0
+  border-left: 0px solid transparent
+  border-right: 0px solid transparent
+  border-top: 10px solid
+  left: 50%
+  top: calc(100% + 6px)
+
+.slyder-a__btn--sigt 
+  top: 160px !important
+
+.slyder-a__btn--atrs 
+  top: 160px !important
+
+.alt-tar
+  min-height: 420px
+  max-height: 100%
+
+@media screen and (max-width: 991px)
+  .slyder-abtn--sigt, .slyder-abtn--atrs
+    top: 102% !important
