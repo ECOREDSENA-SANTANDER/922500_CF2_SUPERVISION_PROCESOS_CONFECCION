@@ -55,7 +55,9 @@
         .cajon.color-secundario.p-4.mb-5
           p.mb-0.text-center A continuación en la tabla 1, se presentan algunas unidades de medida en su presentación más comercial, y en qué tipos de materiales e insumos se aplican generalmente.
 
-        p.BorTit Tabla 1. Ejemplos de unidades de medida y materiales.
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 1.
+          span Ejemplos de unidades de medida y materiales
         .tabla-a.color-acento-contenido.mb-5 
           table
             thead

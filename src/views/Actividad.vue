@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Nombre de la actividad
         p.mb-4 #[b Objetivo] 
         .tarjeta.actividad.p-3

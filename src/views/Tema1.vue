@@ -15,7 +15,7 @@
 
     separador
 
-    #t_1_1.titulo-segundo(data-aos="zoom-in")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 1.1  Materias primas
 
     p.mb-5(data-aos="zoom-in") Se puede definir la materia prima como el conjunto de elementos que están presentes en la elaboración de un producto, es decir aquello que se transforma y se incorpora en la producción final de un producto. Las materias primas pueden ser de tres tipos.
@@ -121,7 +121,7 @@
         .row.mb-5
           .col-lg-8(data-aos="fade-right")
             ul.lista-ul--color.mb-3
-              li 
+              li
                 i.lista-ul__vineta
                 h5 Composición de las telas
             p.mb-5 Hace referencia a las clases de fibras con las que están constituidas las telas, algunas están compuestas en un ciento por ciento de la misma fibra y hay otras conformadas por mezclas de diferentes fibras, unas naturales y otras sintéticas. Hay múltiples tejidos con mezclas, y de acuerdo con las textilerías que las fabrican, reciben diferentes nombres comerciales, tales como Indiana, Perchado, Monserrat Chicago, Amatista, Aurora, Vesubio, Arkansas. 
@@ -141,21 +141,21 @@
         .tarjeta.tarjeta--azul.p-4.mb-5
           SlyderA
             .row.justify-content-center
-              .col-md-6
+              .col-md-6.mb-4.mb-md-auto
                 figure
                   img.img-a(src='@/assets/curso/tema_1/img_11.png', alt='gabardina') 
               .col-md-6.mb-4.mb-md-0
                 h5 Gabardina
                 p Compuesta por fibras de algodón, es de difícil planchado y su aspecto es de brillo. Se utiliza en la confección de pantalones, trajes, abrigos y vestidos.
             .row.justify-content-center
-              .col-md-6
+              .col-md-6.mb-4.mb-md-auto
                 figure
                   img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Lino') 
               .col-md-6.mb-4.mb-md-0
                 h5 Lino
                 p Se origina en una planta y una fibra del mismo nombre, es un tejido fresco y durable, es recomendable para prendas informales de verano y para ropa de hogar.
             .row.justify-content-center
-              .col-md-6
+              .col-md-6.mb-4.mb-md-auto
                 figure
                   img.img-a(src='@/assets/curso/tema_1/img_13.png', alt='Franela') 
               .col-md-6.mb-4.mb-md-0
@@ -163,14 +163,14 @@
                 p.mb-0 Está compuesta por algodón o lana, se utiliza para ropa deportiva, chaquetas, vestidos. 
                 p Es una tela suave satinada, en los últimos tiempos es elaborada con fibras sintéticas.
             .row.justify-content-center
-              .col-md-6
+              .col-md-6.mb-4.mb-md-auto
                 figure
                   img.img-a(src='@/assets/curso/tema_1/img_14.png', alt='Crepé') 
               .col-md-6.mb-4.mb-md-0
                 h5 Crepé
                 p Puede ser de poliéster, algodón o seda. La caída, el espesor y el brillo, hacen parte de sus características. Los trajes de noche son las prendas preferidas para utilizar esta tela.
             .row.justify-content-center
-              .col-md-6
+              .col-md-6.mb-4.mb-md-auto
                 figure
                   img.img-a(src='@/assets/curso/tema_1/img_15.png', alt='Denim') 
               .col-md-6.mb-4.mb-md-0
@@ -192,7 +192,7 @@
 
     separador
 
-    #t_1_2.titulo-segundo(data-aos="zoom-in")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 1.2 Insumos
 
     .row.justify-content-center.mb-5
@@ -226,7 +226,7 @@
 
     separador
 
-    #t_1_3.titulo-segundo(data-aos="zoom-in")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 1.3  Cadena de valor
 
     .tarjeta--bg2.p-4.mb-5

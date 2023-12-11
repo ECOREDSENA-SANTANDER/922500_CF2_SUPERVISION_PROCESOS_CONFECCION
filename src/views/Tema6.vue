@@ -20,13 +20,12 @@
         .col-lg-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1
-            span Cuadro
-          p.BorTit Figura 1. Imagen de actividad de inventario.
+            span Imagen de actividad de inventario
           figure
             img(src='@/assets/curso/tema_6/img_1.png', alt='') 
           figcaption Nota. Arrechedora, I. (2020).
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         p.mb-5(data-aos="zoom-in") Observe el siguiente video, presentado por el Fondo Esperanza, donde se entregan #[i tips], consejos y recomendaciones relacionadas con el inventario, se refuerza la definición, como clasificarlo, codificarlo, listarlo, prestar atención a la información mínima que se debe incluir:
 
@@ -37,7 +36,7 @@
 
     separador
 
-    #t_6_1.titulo-segundo(data-aos="zoom-in")
+    #t_6_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 6.1 Políticas empresariales de inventarios 
 
     p(data-aos="zoom-in") Se definen como estrategias empresariales pensadas para administrar eficientemente los recursos materiales de la organización, potenciando así los procesos de calidad de servicio al cliente y minimizando costos de mantenimiento. 
@@ -84,7 +83,7 @@
 
     separador
 
-    #t_6_2.titulo-segundo(data-aos="zoom-in")
+    #t_6_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 6.2 Sistemas de inventarios
 
     p.mb-5(data-aos="zoom-in") Un sistema de inventarios es una herramienta de gestión empleada para registrar el conjunto de elementos que interactúan entre sí  productos, áreas, cantidades, precios, fechas, documentos, informaciones, logística, embalajes, presentación. También incluye en este sistema, normas, métodos y procedimientos aplicados para que la elaboración de inventarios realmente cumpla con su finalidad de saber cuánta mercancía existe, los niveles de rotación de los productos, cuales están por acabarse o identificar aquellos próximos a caducar y se pueden controlar las existencias de forma manual o de forma sistematizada.
@@ -107,7 +106,9 @@
                 figure
                   img(src='@/assets/curso/tema_6/img_2.png', alt='') 
 
-            p.BorTit Tabla 8. Ficha Control de inventario.
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Tabla 8.
+              span Ficha Control de inventario
             .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
               table
                 thead
@@ -192,7 +193,9 @@
 
             .row.justify-content-center.mb-5(data-aos="zoom-in")
               .col-lg-11
-                p.BorTit Figura 2. Insumos embalados en cajas de cartón que están identificadas con un código QR que contiene toda la información de su contenido.
+                .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                  h5 Figura 2.
+                  span Insumos embalados en cajas de cartón que están identificadas con un código QR que contiene toda la información de su contenido
                 figure
                   img(src='@/assets/curso/tema_6/img_6.png', alt='') 
                 figcaption Nota. Arrechedora, I. (2020).   
@@ -202,7 +205,7 @@
 
     separador
 
-    #t_6_3.titulo-segundo(data-aos="zoom-in")
+    #t_6_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 6.3 Funciones del inventario
 
     .row.justify-content-center.mb-5
@@ -223,7 +226,7 @@
 
     separador
 
-    #t_6_4.titulo-segundo(data-aos="zoom-in")
+    #t_6_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 6.4 Tipos de inventarios
 
     .row.justify-content-center

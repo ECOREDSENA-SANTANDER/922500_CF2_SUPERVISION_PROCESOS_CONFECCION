@@ -138,18 +138,18 @@ export default {
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Síntesis',
+      //   nombreRuta: 'sintesis',
+      //   desarrolloContenidos: true,
+      // },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -165,11 +165,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
+      // {
+      //   icono: 'fas fa-file-pdf',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/prueba.pdf',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -185,31 +185,161 @@ export default {
   complementario: [
     {
       tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'SENA. (2021) Telas, materiales, insumos y maquinaria para la confección de ropa interior. Material formativo Programa tecnólogo de diseño para la industria de la moda.',
+      tipo: 'PDF',
+      link: '/downloads/Anexo_1_Telas_Sena.pdf',
     },
     {
       tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia: 'Rojas C (s.f.) Fundamentación textil. Hilaturas – Hilos ',
+      tipo: 'PDF',
+      descarga: '/downloads/Anexo_2_Fundamentacion_Textil_Hilaturas_Hilos.pdf',
+    },
+    {
+      tema: '',
+      referencia:
+        'Coats Multisolution (s.f.) Cálculo de consumo de hilo para tejido liviano. ',
+      tipo: 'Documento',
+      descarga:
+        '/downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls',
+    },
+    {
+      tema: '',
+      referencia:
+        'Sipper, D; Bulfin, R. (1998). Planeación y control de la producción. McGraw-Hill Interamericana Editores.',
+      tipo: 'E-book/Enlace',
+      link:
+        'https://www.academia.edu/10997351/Daniel_Sipper_Planeaci%C3%B3n_y_Control_de_La_Producci%C3%B3n',
+    },
+    {
+      tema: '',
+      referencia:
+        'Fondo esperanza (s.f.) Cómo hacer un buen inventario | Aprendo y Emprendo. [Video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/s_GBs0V4cR0',
+    },
+    {
+      tema: '',
+      referencia:
+        'Hancco M. (2018) Tutorial Req Materia Prima y consumo [Video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/CEKjA_UsvnQ',
+    },
+    {
+      tema: '',
+      referencia:
+        'Cruz Fernández, A. (2017). Gestión de inventarios: UF0476 . IC Editorial. Ebooks 7-24. ',
+      tipo: 'Enlace de biblioteca',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8741 ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Ancho de la tela',
+      significado:
+        'Longitud determinada por la longitud de los hilos a lo ancho del telar, trama.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Calidad',
+      significado:
+        'Conjunto de especificaciones a cumplir, para dar satisfacción a una necesidad y expectativa del cliente.',
+    },
+    {
+      termino: 'Consumo promedio',
+      significado:
+        'Cantidad de materiales e insumos necesarios para la construcción de una prenda de vestir y/ o un servicio del sistema moda.',
+    },
+    {
+      termino: 'Investigación',
+      significado:
+        'Indagar tendencias, colores, procesos, utilizando como fuentes ferias, internet, desfiles. Desarrollo: elaborar prototipos con la anterior información.',
+    },
+    {
+      termino: 'Ficha técnica',
+      significado:
+        'Documento que contiene información que orienta los procesos para construir muestras y lotes de producción.',
+    },
+    {
+      termino: 'Marquilla instrucción lavado',
+      significado:
+        'Elemento que va fijado en la prenda que contiene información sobre los cuidados que hay que tener al lavar las prendas.',
+    },
+    {
+      termino: 'Producción',
+      significado:
+        'Conjunto de actividades que agregan valor para obtener un bien o un servicio.',
+    },
+    {
+      termino: 'Sistema',
+      significado:
+        'Conjunto de partes que interactúan, para conseguir el mismo objetivo, con excelente comunicación, y a la misma velocidad.',
+    },
+    {
+      termino: 'Tejido',
+      significado:
+        'Conjunto de hilos entrelazados, con características de peso, suavidad, composición, y volumen.',
+    },
+    {
+      termino: 'Trazo',
+      significado:
+        'Dibujo de los moldes sobre la tela o sobre un papel que tenga las medidas de la tela que se va a trabajar, en las cantidades y tallas que se requieran.',
+    },
+    {
+      termino: 'O.P.',
+      significado:
+        'Orden de producción: documento que describe de manera detallada las cantidades de los lotes a producir.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Arrechedora, I. (2020). Gestión de inventarios: concepto, tipos, modelos y ejemplos. Lifeder.',
+      link: 'https://www.lifeder.com/gestion-inventarios/',
+    },
+
+    {
+      referencia:
+        'Chi, B. (2020, 26 Nov). Ficha Técnica en moda: ¿qué información incluir? [Blog]. SeamPedia.com',
+      link: 'https://seampedia.com/ficha-tecnica-en-moda/',
+    },
+
+    {
+      referencia:
+        'Calderón Rojas, C. (2020).  Fundamentación textil, hilaturas e hilos. Material formativo para el Programa Tecnólogo en desarrollo de colecciones para la industria de la moda.',
+    },
+
+    {
+      referencia:
+        'Canal Fondo Esperanza. (2019). Como hacer un buen inventario, aprendo y emprendo. [Archivo de video] YouTube.',
+      link: 'https://www.youtube.com/watch?v=s_GBs0V4cR0',
+    },
+
+    {
+      referencia:
+        'Depositphotos. (2017). Fibras de material azul enlazadas. Blog fotos.',
+      link:
+        'https://sp.depositphotos.com/177910842/stock-photo-linked-blue-material-fibers.html',
+    },
+
+    {
+      referencia:
+        'Hancco Machaca, M. (2018) Tutorial requerimientos materia prima y consumo. [Archivo de video] YouTube',
+      link: 'https://www.youtube.com/watch?v=CEKjA_UsvnQ',
+    },
+
+    { referencia: 'Rojas C (s.f.) Fundamentación textil. Hilaturas – Hilos.' },
+
+    {
+      referencia:
+        'SENA. (2021). Componente formativo 14. Materiales e insumos para vestuario. Programa Tecnólogo en desarrollo de colecciones para la industria de la moda.',
+    },
+
+    {
+      referencia:
+        'SENA. (2021) Telas, materiales, insumos y maquinaria para la confección de ropa interior. Material formativo Programa tecnólogo de diseño para la industria de la moda. Recuperado de',
+      link:
+        'https://drive.google.com/file/d/0B0cUWYMxp4Tmb25Qal8yYzl0U1E/view?usp=sharing&resourcekey=0-tonU5rMv8Vs06Ef_RErNDQ',
     },
   ],
   creditos: [
@@ -217,8 +347,8 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Maria Camila Garcia Santamaria',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
@@ -233,10 +363,44 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Pedro Luis Sossa Ramírez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Formación en Diseño, Confección y Moda Regional Antioquia',
+        },
+        {
+          nombre: 'Liliana María Ceballos Gutiérrez',
+          cargo: 'Asesora metodologa diseño y desarrollo curricular',
+          centro:
+            'Centro de Formación en Diseño, Confección y Moda Regional Antioquia ',
+        },
+        {
+          nombre: 'Giovanna Escobar',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Servicios de Salud Regional Antioquia',
+        },
+        {
+          nombre: 'Liliana Morales',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital',
+        },
+        {
+          nombre: 'Vilma Lucia Perilla M',
+          cargo: 'Revisión pedagógica y metodológica',
+          centro: 'Centro de Gestión Industrial Regional Distrito Capital',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez',
+          cargo: 'Diseñador y evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica Regional Distrito Capital ',
         },
       ],
     },
@@ -244,28 +408,39 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Leyson Fabian Castaño Perez',
+          cargo: 'Soporte organizacional',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
+        },
+        {
+          nombre: ['Oscar Ivan Uribe Ortiz'],
+          cargo: 'Diseño web',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Ricardo Alfonso González Vargas',
+          cargo: 'Desarrollo front-end',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Jhon Edinson Castañeda Oviedo',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Jhana Johanna Bustillo Ardila',
+          cargo: 'Validación de diseño y contenido',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
       ],
     },
@@ -273,22 +448,9 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Validación y vinculación en plataforma LMS',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
       ],
     },

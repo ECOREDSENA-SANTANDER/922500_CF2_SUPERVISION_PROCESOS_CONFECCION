@@ -26,7 +26,7 @@
                 p.mt-4.mb-5 Determinar las cantidades de materias primas e insumos que componen los atuendos, y con esta información poder calcular todo lo necesario para confeccionar el lote.
     separador
 
-    #t_5_1.titulo-segundo(data-aos="zoom-in")
+    #t_5_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 5.1  Cálculo de consumo unitario
 
     .tarjeta--bg2.p-5.mb-5(data-aos="zoom-in")
@@ -72,7 +72,9 @@
                 h4 La puntada
                 p Dentro de toda la información que viene de diseño, también se hace referencia al tipo de puntada que quieren. Al definir el tipo de puntada entonces se conoce la relación del hilo del pespunte (aguja), hilo de amarre (bobina) y el hilo de cadeneta. Hasta ahí se llevan elementos importantes para el cálculo, máquina, tipo de costura,  posición del hilo, el tipo de tejido, las puntadas por pulgada (# de puntadas que hay en una longitud de una pulgada), y la medida de la longitud de la costura. 
 
-        p.BorTit(data-aos="zoom-in")  Tabla 5.  Relación de consumo de hilo.
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 5.
+          span Relación de consumo de hilo
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -274,14 +276,15 @@
         .tarjeta--bg2.p-4(data-aos="zoom-in")
           p.mb-0.text-center A continuación, se ve una imagen del trazo, cuya longitud es de 4 m 91.35 cm, en la cual hay dibujadas 4 tallas. De acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
 
-    p.BorTit(data-aos="zoom-in") Largo del trazo: 4 m
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+      span Largo del trazo: 4 m
     figure(data-aos="zoom-in")
       img.img-a(src='@/assets/curso/tema_5/img_9.png', alt='') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).
 
     separador
 
-    #t_5_2.titulo-segundo(data-aos="zoom-in")
+    #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 5.2 Cálculo de consumo por lote
 
     p.mb-5 Una vez se ha determinado cuántas son las cantidades de insumos y materias primas por una unidad, se multiplica por la cantidad del lote u orden de producción.
@@ -318,7 +321,9 @@
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
-        p.BorTit Tabla 6. Ficha de cálculo de consumo por lote.
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 6.
+          span Ficha de cálculo de consumo por lote
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -399,7 +404,9 @@
 
             p A continuación, se presenta la tabla 7 donde se incluyen valores unitario y total.
 
-    p.BorTit Tabla 7. Ficha de cálculo de consumo por lote.
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+      h5 Tabla 7.
+      span Ficha de cálculo de consumo por lote
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
       table
         thead

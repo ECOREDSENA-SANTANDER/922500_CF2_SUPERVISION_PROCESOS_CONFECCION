@@ -16,7 +16,7 @@
     
     separador
 
-    #t_4_1.titulo-segundo(data-aos="zoom-in")
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 4.1 Orden de producción (OP)
 
     p.text-center.mb-5 Es un documento en el cual se consigna información referente al lote que se va a producir, esta información se relaciona a continuación, ver ejemplo en tabla 4:
@@ -58,7 +58,9 @@
 
     .row.justify-content-center
       .col-lg-8
-        p.BorTit Tabla 4. Ejemplo ficha orden de producción.
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 4.
+          span Ejemplo ficha orden de producción
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -109,7 +111,7 @@
 
     separador
 
-    #t_4_2.titulo-segundo(data-aos="zoom-in")
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 4.2 Ficha técnica
 
     p.mb-5 Es un documento que le permite al departamento de creación comunicarse con las demás áreas encargadas de la elaboración de productos terminados, en este se especifica:

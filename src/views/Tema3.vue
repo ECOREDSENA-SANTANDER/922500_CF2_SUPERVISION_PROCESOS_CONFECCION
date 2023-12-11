@@ -77,7 +77,9 @@
 
         p.mb-5.text-center A continuación en la tabla 2, se puede observar un ejemplo de presupuesto de ventas donde se describe lo anteriormente dicho.
 
-        p.BorTit(data-aos="zoom-in") Tabla 2.  Ficha de presupuesto de ventas.
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Tabla 2.
+          span Ficha de presupuesto de ventas
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -204,7 +206,9 @@
 
         .row
           .col-lg-8(data-aos="fade-right")
-            p.BorTit Tabla 3.  Ficha de presupuesto de producción.
+            .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+              h5 Tabla 3.
+              span Ficha de presupuesto de producción
             .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
               table
                 thead
