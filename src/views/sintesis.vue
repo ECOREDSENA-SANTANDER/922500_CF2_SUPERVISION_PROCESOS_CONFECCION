@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 Para ejecutar un proyecto se hace necesario presupuestar los elementos que están presentes en la elaboración de los productos, pero así mismo se deben determinar las cantidades y costos de estos. Es decir, las materias primas presentes, las cuales pueden ser de distinto origen y tipo como fibras textiles o telas. A continuación, se presenta un esquema gráfico que resume de manera visual estos aspectos:
 
     .row.justify-content-center
       .col-lg-10.mb-5

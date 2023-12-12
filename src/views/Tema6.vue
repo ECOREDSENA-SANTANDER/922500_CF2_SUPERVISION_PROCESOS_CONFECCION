@@ -11,7 +11,7 @@
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10.border_1
-        p Es la descripción actualizada que realiza una organización de sus productos y/o servicios, donde se especifica: fecha, lugar, código, referencia, cantidad, este se registra de manera organizada, coherente y racional; este permite conocer qué se tiene y qué se necesita, para lograr esto es fundamental realizar una buena planeación, lo que permitirá un buen desempeño y la toma de mejores decisiones en la gestión de compras.
+        p Es la descripción actualizada que realiza una organización de sus productos o servicios, donde se especifica: fecha, lugar, código, referencia, cantidad, este se registra de manera organizada, coherente y racional; este permite conocer qué se tiene y qué se necesita, para lograr esto es fundamental realizar una buena planeación, lo que permitirá un buen desempeño y la toma de mejores decisiones en la gestión de compras.
 
     .cajon.color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.align-items-center
@@ -169,7 +169,7 @@
               .col-lg-4.mb-4.mb-lg-0(data-aos="slide-left")
                 img(src='@/assets/curso/tema_6/img_3.png', alt='') 
                 h5.text-center Los proveedores
-                p.text-center Nombre, dirección, portafolio de productos y/o servicios, precios, presentación, unidades de medida, redes, teléfonos, contactos y demás datos que lo identifique.
+                p.text-center Nombre, dirección, portafolio de productos o servicios, precios, presentación, unidades de medida, redes, teléfonos, contactos y demás datos que lo identifique.
 
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
                 img(src='@/assets/curso/tema_6/img_4.png', alt='') 

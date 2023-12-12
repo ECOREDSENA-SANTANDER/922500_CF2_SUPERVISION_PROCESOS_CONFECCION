@@ -12,7 +12,7 @@
       .col-lg-8
         figure.mb-3
           img.img-a(src='@/assets/curso/tema_4/img_1.png', alt='') 
-        p.mb-0 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción y/o fichas técnicas, y también en muestras físicas. De acuerdo con las características de estos elementos, la cantidad del lote a producir, y las políticas de la empresa; se procederá a calcular la necesidad de materiales e insumos.
+        p.mb-0 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción o fichas técnicas, y también en muestras físicas. De acuerdo con las características de estos elementos, la cantidad del lote a producir, y las políticas de la empresa; se procederá a calcular la necesidad de materiales e insumos.
     
     separador
 
@@ -54,7 +54,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-8.border_1
-        p.mb-0 Este documento debe ser aprobado por alguien de la organización, habitualmente es el gerente o administrador; también debe ser recibido por alguien del departamento de producción. Para el supervisor, esta información es importante para planear sus recursos. Este documento puede venir desde el departamento de corte, que a su vez lo recibieron de Gerencia de producción y/o de ventas. De acuerdo con el tamaño de la organización, hay una persona ejecutando cada labor, y si es una pequeña empresa, es una persona que gestiona y documenta las ventas de la compañía, y programa la producción.
+        p.mb-0 Este documento debe ser aprobado por alguien de la organización, habitualmente es el gerente o administrador; también debe ser recibido por alguien del departamento de producción. Para el supervisor, esta información es importante para planear sus recursos. Este documento puede venir desde el departamento de corte, que a su vez lo recibieron de Gerencia de producción o de ventas. De acuerdo con el tamaño de la organización, hay una persona ejecutando cada labor, y si es una pequeña empresa, es una persona que gestiona y documenta las ventas de la compañía, y programa la producción.
 
     .row.justify-content-center
       .col-lg-8

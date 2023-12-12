@@ -19,7 +19,7 @@
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
             .border--bg1.p-3
               .tarjeta--bg5.p-4
-                p.mb-0 Identificar los materiales e insumos que llevan las prendas de vestir, esta información viene en las fichas técnicas, y/o en las muestras iniciales o muestras físicas. Allí vienen definidos cuales son, y en que posiciones van. En las muestras iniciales y en las fichas técnicas vienen especificados: los insumos que se van a utilizar en los lotes de producción.
+                p.mb-0 Identificar los materiales e insumos que llevan las prendas de vestir, esta información viene en las fichas técnicas, o en las muestras iniciales o muestras físicas. Allí vienen definidos cuales son, y en que posiciones van. En las muestras iniciales y en las fichas técnicas vienen especificados: los insumos que se van a utilizar en los lotes de producción.
           .col-lg-6.d-flex(data-aos="fade-left")
             .border--bg2.p-3
               .tarjeta--bg2.p-4.d-flex
@@ -239,7 +239,7 @@
           .list__txt
             h5.m-top Cálculo de consumo de tela
 
-        p.mb-5(data-aos="zoom-in") Para determinar la cantidad de tela que consume o se requiere para confeccionar una prenda y/o un lote de producción, se depende de la elaboración del trazo, entendido como el dibujo de los moldes de la prenda que se va a cortar, sobre la tela o un papel que tenga las mismas dimensiones que ella; teniendo en cuenta que se debe ubicar de acuerdo con el ancho de la tela y evitando al máximo dejar espacios vacíos, ya que eso hace parte del desperdicio de tela.
+        p.mb-5(data-aos="zoom-in") Para determinar la cantidad de tela que consume o se requiere para confeccionar una prenda o un lote de producción, se depende de la elaboración del trazo, entendido como el dibujo de los moldes de la prenda que se va a cortar, sobre la tela o un papel que tenga las mismas dimensiones que ella; teniendo en cuenta que se debe ubicar de acuerdo con el ancho de la tela y evitando al máximo dejar espacios vacíos, ya que eso hace parte del desperdicio de tela.
 
         .cajon.color-primario.p-4(data-aos="zoom-in")
           p Los moldes se van ubicando, teniendo como límite el ancho de la tela, y en la medida que se van dibujando los moldes, se va alargando este dibujo, a esa longitud se denomina largo del trazo. De acuerdo con eso, ese largo del trazo se divide entre las tallas que se dibujaron y el resultado es el consumo promedio (C.P.)

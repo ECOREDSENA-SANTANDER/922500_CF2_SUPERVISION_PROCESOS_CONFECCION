@@ -25,7 +25,7 @@
                   img.img-a(src='@/assets/curso/tema_3/img_1.png', alt='') 
               .col-md-6.mb-4.mb-md-0
                 h5 Presupuesto de ventas
-                p Es el primer presupuesto que se realiza, y se refiere a definir qué tipo de prenda y/o servicio se pretende comercializar, en qué cantidades, y en cuánto tiempo se debe cumplir con los pedidos, definir qué tipo de prenda, especificando el estilo, la silueta, la tela y la referencia. 
+                p Es el primer presupuesto que se realiza, y se refiere a definir qué tipo de prenda o servicio se pretende comercializar, en qué cantidades, y en cuánto tiempo se debe cumplir con los pedidos, definir qué tipo de prenda, especificando el estilo, la silueta, la tela y la referencia. 
 
                 p Se puede realizar con registros de movimientos históricos, temporadas de demanda especializada, o estudios de mercadeo y tendencias. 
             .row.justify-content-center.align-items-center
@@ -163,7 +163,7 @@
                 figure
                   img.img-a(src='@/assets/curso/tema_3/img_7.png', alt='') 
               .col-md-6.mb-4.mb-md-0
-                p Todas las actividades del departamento de producción están encaminadas a proveer a la compañía de productos y/o servicios, que serán facturados y despachados (ventas), de ahí es importante que, el encargado de administrar el área de confecciones conozca la relación: presupuesto de ventas y presupuesto de producción.
+                p Todas las actividades del departamento de producción están encaminadas a proveer a la compañía de productos o servicios, que serán facturados y despachados (ventas), de ahí es importante que, el encargado de administrar el área de confecciones conozca la relación: presupuesto de ventas y presupuesto de producción.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure

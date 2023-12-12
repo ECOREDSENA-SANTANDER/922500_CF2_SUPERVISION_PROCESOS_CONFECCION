@@ -138,18 +138,18 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   icono: 'fas fa-sitemap',
-      //   titulo: 'Síntesis',
-      //   nombreRuta: 'sintesis',
-      //   desarrolloContenidos: true,
-      // },
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
