@@ -8,9 +8,9 @@
         span 3
       h1 Presupuestos
 
-    p Para planear y ejecutar un proyecto de la manera más apropiada, es importante dimensionar y estimar la cantidad de recursos necesarios, las cantidades, el momento, y el costo de estos, a ese cálculo se le denomina presupuestar. 
+    p(data-aos='fade-right') Para planear y ejecutar un proyecto de la manera más apropiada, es importante dimensionar y estimar la cantidad de recursos necesarios, las cantidades, el momento, y el costo de estos, a ese cálculo se le denomina presupuestar. 
 
-    p.mb-5 El encargado de la actividad de producción debe saber articular su función de producir prendas, con las actividades donde se origina la información que va a definir sus objetivos, por eso es muy importante que comprenda las actividades que anteceden su programación. Incorporar los objetivos de la empresa a todos los integrantes de la organización es una premisa muy válida a tener en cuenta.
+    p.mb-5(data-aos='fade-left') El encargado de la actividad de producción debe saber articular su función de producir prendas, con las actividades donde se origina la información que va a definir sus objetivos, por eso es muy importante que comprenda las actividades que anteceden su programación. Incorporar los objetivos de la empresa a todos los integrantes de la organización es una premisa muy válida a tener en cuenta.
 
     .row.justify-content-center
       .col-lg-10
@@ -22,7 +22,7 @@
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_1.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_1.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 h5 Presupuesto de ventas
                 p Es el primer presupuesto que se realiza, y se refiere a definir qué tipo de prenda o servicio se pretende comercializar, en qué cantidades, y en cuánto tiempo se debe cumplir con los pedidos, definir qué tipo de prenda, especificando el estilo, la silueta, la tela y la referencia. 
@@ -31,25 +31,25 @@
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_2.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_2.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p En las empresas que trabajan para el sistema moda, la comunicación entre el departamento de ventas con el de producción es necesaria e importante, facilita que la información esté a tiempo para los interesados, y ahorra mucho tiempo. 
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_3.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_3.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p Cuando el encargado de la producción conoce las necesidades de despachos con todas sus características: cliente, fecha, especificaciones, lugar de destino y demás; tácitamente integra estas necesidades a su equipo de trabajo y capacidades de producción, y esto se convierte en un valor agregado para su desempeño.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_4.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_4.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p Existen varias maneras de registrar este tipo de actividad,  donde quede consignada la información  correspondiente de los productos a  facturar, los formatos utilizados se diseñan de acuerdo con la naturaleza de las compañías, tamaño, sector económico o régimen tributario.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_5.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_5.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p Deben contener información relacionada con:
                 ul.lista-ul--color
@@ -154,20 +154,20 @@
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_6.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_6.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 h5 Presupuesto de producción
                 p Este presupuesto se dedica a satisfacer el presupuesto de ventas, es un apoyo para que se cumplan los objetivos, es decir, este es el presupuesto encargado de identificar, calcular y proveer los recursos para que los presupuestos de ventas se cumplan. 
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_7.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_7.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p Todas las actividades del departamento de producción están encaminadas a proveer a la compañía de productos o servicios, que serán facturados y despachados (ventas), de ahí es importante que, el encargado de administrar el área de confecciones conozca la relación: presupuesto de ventas y presupuesto de producción.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_8.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_8.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p El presupuesto de producción debe determinar:
                 ul.lista-ul--color
@@ -183,20 +183,20 @@
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_9.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_9.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 h5 Para poder presupuestar recursos es importante:
                 p Establecer la cantidad de materiales disponibles: esto se conoce como inventario inicial, en el que se define cuánta materia prima y cuántos insumos se poseen a la fecha de inicio de la producción.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_10.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_10.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p Establecer la cantidad requerida de materiales e insumos, para esto es importante hacer cálculos sobre los consumos unitarios de recursos por prenda de vestir y multiplicar por la cantidad total del lote de producción que se va a realizar.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/tema_3/img_11.png', alt='') 
+                  img.img-a(src='@/assets/curso/tema_3/img_11.png', alt='Imagen decorativa') 
               .col-md-6.mb-4.mb-md-0
                 p Establecer si se requiere quedar con un inventario final: esto depende de las políticas de la empresa, sin embargo, es importante considerarlo para prever los imprevistos, prendas defectuosas o faltantes en el proceso. 
 
@@ -248,7 +248,7 @@
 
           .col-lg-4(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/tema_3/img_12.png', alt='') 
+              img(src='@/assets/curso/tema_3/img_12.png' alt='Imagen decorativa') 
 
         
 

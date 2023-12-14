@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.p-5.bg-01.rounded
+    .row.p-5.bg-01.rounded(data-aos='fade-right')
       .col-lg-6
         .row
           .col-lg-1.d-sm-none.d-lg-block

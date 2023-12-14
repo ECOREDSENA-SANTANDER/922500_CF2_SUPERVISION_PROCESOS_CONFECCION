@@ -8,10 +8,10 @@
         span 1
       h1 Materias primas e insumos 
 
-    p La diversidad de materias primas, accesorios e insumos que se relacionan con la industria textil hace de este escenario un gran campo para recorrer, en este sentido conocer los principales materiales e insumos para la confección es fundamental para decisiones futuras en relación con el diseño y la producción de prendas.
+    p(data-aos='fade-right') La diversidad de materias primas, accesorios e insumos que se relacionan con la industria textil hace de este escenario un gran campo para recorrer, en este sentido conocer los principales materiales e insumos para la confección es fundamental para decisiones futuras en relación con el diseño y la producción de prendas.
 
-    figure.mb-5
-      img(src='@/assets/curso/tema_1/img_2.png', alt='Texto que describa la imagen') 
+    figure.mb-5(data-aos='fade-left')
+      img(src='@/assets/curso/tema_1/img_2.png', alt='Imagen decorativa') 
 
     separador
 
@@ -42,12 +42,12 @@
           .text.px-lg-5.p-4
             p.mb-0 Son  extraídas de la tierra, el agua, pigmentos, metales y químicos, de ahí provienen los botones, hebillas, remaches, entre otros.
 
-    p.mb-5.text-center En el proceso de confección se utilizan una variedad de materiales, entre las más comunes se pueden relacionar las fibras textiles y las telas.
+    p.mb-5.text-center(data-aos='fade-right') En el proceso de confección se utilizan una variedad de materiales, entre las más comunes se pueden relacionar las fibras textiles y las telas.
 
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos='fade-right')
         .list.mb-3
-          .list__item 
+          .list__item
             .list__item__bulletNumber 
               span 1
           .list__txt
@@ -69,7 +69,7 @@
           .py-4.py-md-5.tab1(titulo="Seda")
             p.mb-0 Es una fibra de origen animal, o sea natural también, los gusanos de seda son los que la producen, en una serie de actividades largas y muy laboriosas, por ese motivo son fibras costosas. Es un tejido fino que requiere mucho cuidado en su utilización.
           .py-4.py-md-5.tab1(titulo="Lana")
-            p.mb-0 Es otra fibra natural de origen animal, su utilización es de las más antiguas que ha realizado la humanidad. Proviene de animales como las llamas,  las ovejas, las alpacas y las cabras.
+            p.mb-0(data-aos='fade-right') Es otra fibra natural de origen animal, su utilización es de las más antiguas que ha realizado la humanidad. Proviene de animales como las llamas,  las ovejas, las alpacas y las cabras.
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -85,7 +85,7 @@
           
           .col-lg-4(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/tema_1/img_6.png', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/tema_1/img_6.png', alt='Imagen decorativa') 
             
         ul.lista-ul--color.mb-3
           li 
@@ -96,7 +96,7 @@
 
         .tarjeta-avatar-b.mb-3(data-aos="fade-down-left")
           .tarjeta-avatar-b__img
-            img.img-a(src='@/assets/curso/tema_1/img_7.svg' alt='AvatarTop')
+            img.img-a(src='@/assets/curso/tema_1/img_7.svg' alt='Imagen decorativa fabricación')
           .tarjeta.tarjeta--bg1
             .p-4
               h5 Fabricación
@@ -104,7 +104,7 @@
 
         .tarjeta-avatar-b.mb-3(data-aos="fade-down-left")
           .tarjeta-avatar-b__img
-            img.img-a(src='@/assets/curso/tema_1/img_8.svg' alt='AvatarTop')
+            img.img-a(src='@/assets/curso/tema_1/img_8.svg' alt='Imagen decorativa textura')
           .tarjeta.tarjeta--bg1
             .p-4
               h5 Textura
@@ -112,7 +112,7 @@
 
         .tarjeta-avatar-b.mb-5(data-aos="fade-down-left")
           .tarjeta-avatar-b__img
-            img.img-a(src='@/assets/curso/tema_1/img_9.svg' alt='AvatarTop')
+            img.img-a(src='@/assets/curso/tema_1/img_9.svg' alt='Imagen decorativa elasticidad')
           .tarjeta.tarjeta--bg1
             .p-4
               h5 Elasticidad
@@ -136,28 +136,28 @@
             p Ver a continuación las más comunes. 
           .col-lg-4(data-aos="fade-left")
             figure
-              img(src='@/assets/curso/tema_1/img_10.png', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/tema_1/img_10.png', alt='Imagen decorativa') 
   
         .tarjeta.tarjeta--azul.p-4.mb-5
           SlyderA
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-auto
                 figure
-                  img.img-a(src='@/assets/curso/tema_1/img_11.png', alt='gabardina') 
+                  img.img-a(src='@/assets/curso/tema_1/img_11.png', alt='Imagen decorativa gabardina') 
               .col-md-6.mb-4.mb-md-0
                 h5 Gabardina
                 p Compuesta por fibras de algodón, es de difícil planchado y su aspecto es de brillo. Se utiliza en la confección de pantalones, trajes, abrigos y vestidos.
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-auto
                 figure
-                  img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Lino') 
+                  img.img-a(src='@/assets/curso/tema_1/img_12.png', alt='Imagen decorativa lino') 
               .col-md-6.mb-4.mb-md-0
                 h5 Lino
                 p Se origina en una planta y una fibra del mismo nombre, es un tejido fresco y durable, es recomendable para prendas informales de verano y para ropa de hogar.
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-auto
                 figure
-                  img.img-a(src='@/assets/curso/tema_1/img_13.png', alt='Franela') 
+                  img.img-a(src='@/assets/curso/tema_1/img_13.png', alt='Imagen decorativa Franela') 
               .col-md-6.mb-4.mb-md-0
                 h5 Franela
                 p.mb-0 Está compuesta por algodón o lana, se utiliza para ropa deportiva, chaquetas, vestidos. 
@@ -165,14 +165,14 @@
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-auto
                 figure
-                  img.img-a(src='@/assets/curso/tema_1/img_14.png', alt='Crepé') 
+                  img.img-a(src='@/assets/curso/tema_1/img_14.png', alt='Imagen decorativa crepé') 
               .col-md-6.mb-4.mb-md-0
                 h5 Crepé
                 p Puede ser de poliéster, algodón o seda. La caída, el espesor y el brillo, hacen parte de sus características. Los trajes de noche son las prendas preferidas para utilizar esta tela.
             .row.justify-content-center
               .col-md-6.mb-4.mb-md-auto
                 figure
-                  img.img-a(src='@/assets/curso/tema_1/img_15.png', alt='Denim') 
+                  img.img-a(src='@/assets/curso/tema_1/img_15.png', alt='Imagen decorativa denim') 
               .col-md-6.mb-4.mb-md-0
                 h5 Denim
                 p También conocida como tela vaquera o mezclilla, es empleado para la producción de jeans, anteriormente se composición era 100% algodón, pero en los últimos tiempos se le ha incorporado elastómero con el fin de que gane elasticidad.
@@ -214,13 +214,13 @@
       .col-lg-5(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('/downloads/eslabones_de_confeccion.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-ppt.svg")
+            img(src="@/assets/template/icono-ppt.svg" alt='Imagen decorativa')
           .anexo__texto
             p #[strong Anexo.] Eslabones de confección.
       .col-lg-5(data-aos="fade-left")
         a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_2_Fundamentacion_Textil_Hilaturas_Hilos.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-pdf.svg" alt='Imagen decorativa')
           .anexo__texto
             p #[strong Anexo.] Fundamentación Textil Hilaturas Hilos.
 
@@ -230,31 +230,31 @@
       .h2 1.3  Cadena de valor
 
     .tarjeta--bg2.p-4.mb-5
-      .row
+      .row(data-aos='fade-right')
         .col-lg-3
           figure
-            img(src='@/assets/curso/tema_1/img_23.png', alt='Texto que describa la imagen') 
+            img(src='@/assets/curso/tema_1/img_23.png', alt='Imagen decorativa') 
         .col-lg-9
           p Las materias primas y los insumos juegan un papel importante en la cadena de valor de las organizaciones, hacen parte de ese conjunto de elementos que van a relacionarse para obtener prendas de excelente calidad. Eso significa que entre todos los elementos y recursos que componen una prenda de vestir, los materiales con que están construidos, son una presencia muy importante.
 
           p.mb-0 Ese conjunto de partes o sistema significado en recursos tangibles e intangibles va agregando un valor a esa cadena, cada que se vincula. Se podría agregar que producción es un conjunto de actividades que agregan valor al proceso para obtener un bien o un servicio, en ese orden de ideas, irle sumando a ese proceso materiales e insumos contribuyen a la construcción de las prendas de vestir. 
 
     .row.justify-content-center.mb-5
-      .col-lg-10.border_1
+      .col-lg-10.border_1(data-aos='fade-left')
         p Dentro de ese conjunto de acciones y partes, se tienen las materias primas e insumos. Es factible que las materias primas que se utilicen les den una identidad a los productos, a la marca y a la organización como tal, haciendo parte de la estrategia diferenciadora, con respecto a la competencia. La calidad, el origen, o la marca de los insumos que entregan los proveedores, pueden ayudar a darle un mejor reconocimiento a las prendas de vestir, de ahí que en una buena selección de proveedores esté ayudando a mejorar la cadena de valor.
 
         p.mb-0 Las actividades que tienen que ver con quienes son los proveedores de insumos, los criterios con que se seleccionan y el sector al que pertenecen, permiten darles valor a los productos.
 
     .row.justify-content-center.mb-5
       .col-lg-7.tarjeta--bg1.p-2
-        p.text-center.mb-0 Cabe entonces revisar cuáles son los elementos que conforman la cadena de valor:
+        p.text-center.mb-0(data-aos='fade-right') Cabe entonces revisar cuáles son los elementos que conforman la cadena de valor:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-left')
       .col-lg-7
         figure.mb-5
-          img(src='@/assets/curso/tema_1/img_24.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/tema_1/img_24.svg', alt='Imagen decorativa') 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='fade-right')
       .col-lg-10
         .cajon.color-secundario.p-4
           p.mb-0 Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.

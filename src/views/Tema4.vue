@@ -9,9 +9,9 @@
       h1 Consumos de materias primas
 
     .row.justify-content-center
-      .col-lg-8
+      .col-lg-8(data-aos='fade-right')
         figure.mb-3
-          img.img-a(src='@/assets/curso/tema_4/img_1.png', alt='') 
+          img.img-a(src='@/assets/curso/tema_4/img_1.png', alt='Imagen decorativa') 
         p.mb-0 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción o fichas técnicas, y también en muestras físicas. De acuerdo con las características de estos elementos, la cantidad del lote a producir, y las políticas de la empresa; se procederá a calcular la necesidad de materiales e insumos.
     
     separador
@@ -131,16 +131,16 @@
     
 
     .row.justify-content-center.mb-5(data-aos="slide-down")
-      .col-lg-8
+      .col-lg-8(data-aos='fade-right')
         p.text-center.mb-5 
           strong Información que conforma la ficha técnica
         figure
-          img.img-a(src='@/assets/curso/tema_4/img_2.svg', alt='') 
+          img.img-a(src='@/assets/curso/tema_4/img_2.svg', alt='Imagen decorativa') 
         figcaption Nota. Chi, B. (2020).
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .bloque-texto-c.tarjeta--bg4.p-4.mb-5
+        .bloque-texto-c.tarjeta--bg4.p-4.mb-5(data-aos='fade-left')
           i.fas.fa-quote-right
           h3.mb-2 No existe ningún estándar internacional para hacer Fichas Técnicas, pero si existe un acuerdo general sobre el tipo de información que debes incluir. Esta información se desarrolla en varias hojas, y todas forman una Ficha Técnica
           span - Chi, 2020
@@ -152,7 +152,7 @@
             p En la imagen se observa la relación de la ficha técnica con los demás departamentos. 
           .col-lg-6(data-aos="fade-left")
             figure
-              img.img-a(src='@/assets/curso/tema_4/img_3.svg', alt='') 
+              img.img-a(src='@/assets/curso/tema_4/img_3.svg', alt='Imagen decorativa') 
             figcaption Nota. Chi, B. (2020).
         
     .row.justify-content-center.mb-5
@@ -161,7 +161,7 @@
           p.mb-0.text-center En la imagen se detalla un ejemplo de ficha técnica. 
 
     figure(data-aos="zoom-in")
-      img.img-a(src='@/assets/curso/tema_4/img_4.svg', alt='') 
+      img.img-a(src='@/assets/curso/tema_4/img_4.svg', alt='Imagen decorativa') 
     figcaption Nota. SENA (2021).
 
 

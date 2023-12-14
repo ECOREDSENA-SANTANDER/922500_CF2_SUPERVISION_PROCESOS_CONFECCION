@@ -13,7 +13,7 @@
         .cajon.color-primario.p-4.mb-5(data-aos="zoom-in")
           p En el área de confecciones de prendas de vestir, una de las funciones importantes a realizar es la relación de los materiales e insumos y el uso de estos en los procesos productivos necesarios para obtener prendas de vestir. En esta área no se define cuáles insumos llevan los vestuarios, esa actividad se realiza en el área de diseño, también conocida, como investigación y desarrollo.
 
-        p.mb-5 El encargado de producción no es quien define las materias primas que llevan las prendas de vestir, ni las cantidades unitarias, sin embargo, dentro de sus funciones está el comprender todo lo relacionado con esta actividad y determinar necesidades para los lotes a producir. Por ese motivo hace parte de sus competencias las siguientes actividades:
+        p.mb-5(data-aos='fade-left') El encargado de producción no es quien define las materias primas que llevan las prendas de vestir, ni las cantidades unitarias, sin embargo, dentro de sus funciones está el comprender todo lo relacionado con esta actividad y determinar necesidades para los lotes a producir. Por ese motivo hace parte de sus competencias las siguientes actividades:
 
         .row.justify-content-center
           .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
@@ -37,7 +37,7 @@
           p Desde la elaboración de la muestra inicial, se definen por cada prenda los insumos y materiales necesarios, es así como las fichas técnicas cobran gran importancia en el proceso de producción y los cálculos asociados, dejando registro para corroborar esta información y donde el encargado de producción puede basarse para hacer los respectivos cálculos de los lotes de producción.
         .col-lg-4
           figure
-            img.img-a(src='@/assets/curso/tema_5/img_1.png', alt='') 
+            img.img-a(src='@/assets/curso/tema_5/img_1.png' alt='Imagen decorativa') 
 
     .row.justify-content-center.mb-5
       .col-lg-11
@@ -53,7 +53,7 @@
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down-right")
             figure
-              img.img-a(src='@/assets/curso/tema_5/img_2.png', alt='') 
+              img.img-a(src='@/assets/curso/tema_5/img_2.png', alt='Imagen decorativa') 
           .col-lg-8(data-aos="fade-down-left")
             TabsA.color-acento-contenido.mb-5
               .tarjeta.tarjeta--bg4.p-4(titulo="El color")
@@ -150,7 +150,7 @@
         .row.mb-5
           .col-lg-4(data-aos="fade-down-left")
             figure
-              img.img-a(src='@/assets/curso/tema_5/img_3.png', alt='') 
+              img.img-a(src='@/assets/curso/tema_5/img_3.png', alt='Imagen decorativa') 
           .col-lg-8(data-aos="fade-down-right")
             ul.lista-ul--color.lista-ul--separador
               li 
@@ -201,7 +201,7 @@
               p Luego de conocer la cantidad de hilo para cada tipo de costura, la cantidad total de hilo por prenda y la necesidad de hilo para el lote, se calcula la cantidad de metros que trae cada cono y como resultado se conoce cuántos conos se necesitan. Se debe recordar, revisar el inventario inicial existente para este producto.
             .col-lg-4
               figure
-                img.img-a(src='@/assets/curso/tema_5/img_4.png', alt='') 
+                img.img-a(src='@/assets/curso/tema_5/img_4.png', alt='Imagen decorativa') 
 
         p.mb-5(data-aos="zoom-in") De acuerdo con la empresa proveedora de hilos, vienen en diferente presentación, y diferentes unidades de medida: metros, yardas y conos, teniendo en cuenta el calibre, vienen en presentación 2.500, 5.000, y 8.000 metros. Generalmente existe en las empresas una tabla dinámica para calcular el consumo de hilo, según los tejidos.
 
@@ -228,7 +228,7 @@
               .col-lg-9
                 a.anexo(:href="obtenerLink('/downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls')" target="_blank")
                   .anexo__icono
-                    img(src="@/assets/template/icono-xml.svg")
+                    img(src="@/assets/template/icono-xml.svg" alt='Imagen decorativa')
                   .anexo__texto
                     p #[strong Anexo.] Cálculo de consumo de hilo
 
@@ -279,7 +279,7 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       span Largo del trazo: 4 m
     figure(data-aos="zoom-in")
-      img.img-a(src='@/assets/curso/tema_5/img_9.png', alt='') 
+      img.img-a(src='@/assets/curso/tema_5/img_9.png', alt='Imagen decorativa') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).
 
     separador
@@ -398,7 +398,7 @@
         .row
           .col-lg-4(data-aos="fade-right")
             figure
-              img.img-a(src='@/assets/curso/tema_5/img_10.png', alt='') 
+              img.img-a(src='@/assets/curso/tema_5/img_10.png', alt='Imagen decorativa') 
           .col-lg-8(data-aos="fade-left")
             p En algunas ocasiones y de acuerdo con políticas de la empresa, se podrían incluir valores unitarios y valores totales, de los insumos y las materias primas necesarias.   
 
@@ -506,7 +506,7 @@
         p Con esta información se pueden planear también las compras y los presupuestos.
       .col-lg-4(data-aos="fade-left")
         figure
-          img.img-a(src='@/assets/curso/tema_5/img_11.png', alt='') 
+          img.img-a(src='@/assets/curso/tema_5/img_11.png', alt='Imagen decorativa') 
 
 
 

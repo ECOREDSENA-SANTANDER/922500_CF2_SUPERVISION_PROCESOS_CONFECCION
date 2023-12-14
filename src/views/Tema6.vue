@@ -22,7 +22,7 @@
             h5 Figura 1
             span Imagen de actividad de inventario
           figure
-            img(src='@/assets/curso/tema_6/img_1.png', alt='') 
+            img(src='@/assets/curso/tema_6/img_1.png', alt='Imagen decorativa') 
           figcaption Nota. Arrechedora, I. (2020).
 
     .row.justify-content-center
@@ -104,7 +104,7 @@
 
               .col-lg-4.mb-3.mb-lg-0.d-flex(data-aos="fade-down-right")
                 figure
-                  img(src='@/assets/curso/tema_6/img_2.png', alt='') 
+                  img(src='@/assets/curso/tema_6/img_2.png', alt='Imagen decorativa') 
 
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Tabla 8.
@@ -167,18 +167,18 @@
             p.mb-5 Se requiere disponer de un software, el cual hay que alimentarlo con la siguiente información: 
             .row.mb-5
               .col-lg-4.mb-4.mb-lg-0(data-aos="slide-left")
-                img(src='@/assets/curso/tema_6/img_3.png', alt='') 
+                img(src='@/assets/curso/tema_6/img_3.png', alt='Imagen decorativa') 
                 h5.text-center Los proveedores
                 p.text-center Nombre, dirección, portafolio de productos o servicios, precios, presentación, unidades de medida, redes, teléfonos, contactos y demás datos que lo identifique.
 
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-                img(src='@/assets/curso/tema_6/img_4.png', alt='') 
+                img(src='@/assets/curso/tema_6/img_4.png', alt='Imagen decorativa') 
                 h5.text-center Los productos
                 p.text-center Descripción, nombre comercial, presentación, unidad de medida, productor, código, referencia.
 
 
               .col-lg-4.mb-4.mb-lg-0(data-aos="fade-slide-right")
-                img(src='@/assets/curso/tema_6/img_5.png', alt='') 
+                img(src='@/assets/curso/tema_6/img_5.png', alt='Imagen decorativa') 
                 h5.text-center Los clientes
                 p.text-center Domicilio, precios de venta, redes, transportadoras, criterios de venta.
 
@@ -197,7 +197,7 @@
                   h5 Figura 2.
                   span Insumos embalados en cajas de cartón que están identificadas con un código QR que contiene toda la información de su contenido
                 figure
-                  img(src='@/assets/curso/tema_6/img_6.png', alt='') 
+                  img(src='@/assets/curso/tema_6/img_6.png', alt='Imagen decorativa') 
                 figcaption Nota. Arrechedora, I. (2020).   
 
             .cajon.color-secundario.p-4
@@ -212,7 +212,7 @@
       .col-lg-4(data-aos="fade-right")
         a.anexo.mb-4(:href="obtenerLink('/downloads/Infografia-CF2_Funciones inventario.pdf')" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src="@/assets/template/icono-pdf.svg" alt='Imagen decorativa')
           .anexo__texto
             p #[strong Anexo.] Funciones inventario
 
@@ -233,21 +233,21 @@
       .col-lg-10
         .tarjeta-avatar-b.mb-3(data-aos="fade-down-right")
             .tarjeta-avatar-b__img
-              img.img-a(src='@/assets/curso/tema_6/img_7.svg' alt='AvatarTop')
+              img.img-a(src='@/assets/curso/tema_6/img_7.svg' alt='Imagen decorativa')
             .tarjeta.tarjeta--bg1
               .p-4
                 h5 Inventario de materia prima e insumos 
                 p Se refiere a los elementos necesarios al inicio del proceso, y que se requieren para fabricar prendas de vestir.
         .tarjeta-avatar-b.mb-3(data-aos="fade-down-left")
             .tarjeta-avatar-b__img
-              img.img-a(src='@/assets/curso/tema_6/img_8.svg' alt='AvatarTop')
+              img.img-a(src='@/assets/curso/tema_6/img_8.svg' alt='Imagen decorativa')
             .tarjeta.tarjeta--bg1
               .p-4
                 h5 Inventario de producción en proceso
                 p En la medida que van avanzando los lotes en su proceso, adquieren un valor menor o mayor, de acuerdo con los recursos que se les haya invertido. 
         .tarjeta-avatar-b.mb-3(data-aos="fade-down-right")
             .tarjeta-avatar-b__img
-              img.img-a(src='@/assets/curso/tema_6/img_9.svg' alt='AvatarTop')
+              img.img-a(src='@/assets/curso/tema_6/img_9.svg' alt='Imagen decorativa')
             .tarjeta.tarjeta--bg1
               .p-4
                 h5 Inventario de producto terminado
