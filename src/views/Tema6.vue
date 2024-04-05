@@ -10,9 +10,9 @@
       
 
     .row.mb-5
-      .col-3 
-        img.img-a(src='@/assets/curso/temas/tema_6/img_10.svg', alt='Imagen decorativa')
-      .col-9
+      .col-sm-12.col-lg-3 
+        img.d-none.d-lg-block.img-a(src='@/assets/curso/temas/tema_6/img_10.svg', alt='Imagen decorativa')
+      .col-sm-12.col-lg-9
         p Es la descripción actualizada que realiza una organización de sus productos o servicios, donde se especifica: fecha, lugar, código, referencia, cantidad, este se registra de manera organizada, coherente y racional; este permite conocer qué se tiene y qué se necesita, para lograr esto es fundamental realizar una buena planeación, lo que permitirá un buen desempeño y la toma de mejores decisiones en la gestión de compras.
 
     .tarjeta--bg1.color-primario.p-4.mb-5(data-aos="zoom-in")
@@ -141,14 +141,14 @@
 
 
     .row.mb-5 
-      .col-7
+      .col-sm-12.col-lg-7
         .cajon.color-primario.p-4.mb-5
           p Después que el software tiene la información que le permite interactuar, se establece el código de identificación de los productos; de qué material está construido; con qué equipo se aplica, y en qué parte se coloca.
 
         p.mb-5 Estos programas tienen la facultad de imprimir códigos de barra entre otros, ya con los adhesivos de los códigos de barra, se le colocan a las materias primas e insumos, y con un lector de códigos de barra se lee la información allí consignada, este a su vez envía la información al sistema, este ejercicio se hace a la entrada y también a la salida, y de esta manera la información se mantiene actualizada, y en poco tiempo.
       
       .col-5
-        img(src='@/assets/curso/temas/tema_6/img_11.svg', alt='Imagen decorativa')
+        img.d-none.d-lg-block(src='@/assets/curso/temas/tema_6/img_11.svg', alt='Imagen decorativa')
 
     p.mb-5 Se utilizan también códigos QR, que son leídos con un dispositivo diseñado para ese fin. En ese código está toda la información de esa prenda de vestir, o de ese paquete, o de esa caja; existen sensores para determinar las cantidades que se tienen de algún producto.
 

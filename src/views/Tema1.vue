@@ -13,11 +13,11 @@
       .col-md.tarjeta.bg-02.p-5
         .row
           .col-2 
-            img.img-t.img-a.mt-4(src='@/assets/curso/temas/tema_1/img_25.svg', alt='Iconos de materias prima')
-          .col-6
+            img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_25.svg', alt='Iconos de materias prima')
+          .col-sm-12.col-lg-6
             p La diversidad de materias primas, accesorios e insumos que se relacionan con la industria textil hace de este escenario un gran campo para recorrer, en este sentido conocer los principales materiales e insumos para la confección es fundamental para decisiones futuras en relación con el diseño y la producción de prendas. 
           .col-4 
-            img.mt-4.img-b(src='@/assets/curso/temas/tema_1/img_2.png', alt='Telas de muestra')
+            img.mt-4.img-b.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_2.png', alt='Telas de muestra')
   
 
     separador
@@ -56,7 +56,7 @@
 
     .mt-5.d-flex.mb-5
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Fibras textiles
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 190px;') Fibras textiles
         img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
 
     p.md-4 Llevan este nombre un conjunto de filamentos o hebras que conforman los hilos con los que se construyen los tejidos; son naturales o sintéticas (provienen de derivados del petróleo). 
@@ -68,40 +68,40 @@
     TabsC(data-aos="flip-up")
       .py-4.py-md-5.tab1(titulo="Algodón")
         .row.justify-content-center
-          .col-5
-            p.mb-0 El algodón es una fibra textil de origen vegetal que se desarrolla alrededor de las semillas de la planta del mismo nombre, su principal característica es la capacidad de permitir la aireación, lo que hace que las telas fabricadas con esta fibra proporcionen una sensación de frescura al usarlas. Esta fibra es versátil, ya que permite una fácil manipulación en el tejido y puede mezclarse con otras fibras, lo que la convierte en una de las más utilizadas.
-          .col-5 
-            img(src='@/assets/curso/temas/tema_1/img_34.svg', alt="Algodon materia prima de origen natural")
+          .col-sm-12.col-lg-5
+            p.mb-0.mx-3 El algodón es una fibra textil de origen vegetal que se desarrolla alrededor de las semillas de la planta del mismo nombre, su principal característica es la capacidad de permitir la aireación, lo que hace que las telas fabricadas con esta fibra proporcionen una sensación de frescura al usarlas. Esta fibra es versátil, ya que permite una fácil manipulación en el tejido y puede mezclarse con otras fibras, lo que la convierte en una de las más utilizadas.
+          .col-sm-8.col-lg-5 
+            img.mx-3(src='@/assets/curso/temas/tema_1/img_34.svg', alt="Algodon materia prima de origen natural")
 
       .py-4.py-md-5.tab1(titulo="Rayón o viscosa")
         .row.justify-content-center
-          .col-5
-            p.mb-0 Rayón o viscosa es una fibra artificial manufacturada que luego de un proceso químico, el resultante es regenerado e introducido en orificios formado filamentos para luego hacer el tejido. Se utiliza para fabricar prendas cómodas  y su apariencia es similar algodón o a la seda.
-          .col-5 
-            img(src='@/assets/curso/temas/tema_1/img_35.svg', alt="Fibra artificial manufacturada")
+          .col-sm-12.col-lg-5
+            p.mb-0.mx-3 Rayón o viscosa es una fibra artificial manufacturada que luego de un proceso químico, el resultante es regenerado e introducido en orificios formado filamentos para luego hacer el tejido. Se utiliza para fabricar prendas cómodas  y su apariencia es similar algodón o a la seda.
+          .col-sm-12.col-lg-5 
+            img.mx-3(src='@/assets/curso/temas/tema_1/img_35.svg', alt="Fibra artificial manufacturada")
       .py-4.py-md-5.tab1(titulo="Lino")
         .row.justify-content-center
-          .col-5
-            p.mb-0 Esta fibra, originaria de la planta del mismo nombre, se utiliza para crear un tejido llamado lino, sus características más destacadas son la frescura, la comodidad y la elegancia. Además de su uso en prendas de vestir, el lino también se emplea en la confección de ropa de hogar.
-          .col-5 
-            img(src='@/assets/curso/temas/tema_1/img_36.svg', alt="Muestra tejido llamado Lino") 
+          .col-sm-12.col-lg-5
+            p.mb-0.mx-3 Esta fibra, originaria de la planta del mismo nombre, se utiliza para crear un tejido llamado lino, sus características más destacadas son la frescura, la comodidad y la elegancia. Además de su uso en prendas de vestir, el lino también se emplea en la confección de ropa de hogar.
+          .col-sm-12.col-lg-5 
+            img.mx-3(src='@/assets/curso/temas/tema_1/img_36.svg', alt="Muestra tejido llamado Lino") 
       .py-4.py-md-5.tab1(titulo="Seda")
         .row.justify-content-center
-          .col-5
-            p.mb-0 La seda es una fibra de origen animal, producida por los gusanos de seda en un proceso laborioso, lo que la convierte en una fibra costosa, pues es un tejido fino que requiere cuidado especial en su manejo.
-          .col-5 
-            img(src='@/assets/curso/temas/tema_1/img_37.svg', alt="Muestra seda de origen animal")
+          .col-sm-12.col-lg-5
+            p.mb-0.mx-3 La seda es una fibra de origen animal, producida por los gusanos de seda en un proceso laborioso, lo que la convierte en una fibra costosa, pues es un tejido fino que requiere cuidado especial en su manejo.
+          .col-sm-12.col-lg-5 
+            img.mx-3(src='@/assets/curso/temas/tema_1/img_37.svg', alt="Muestra seda de origen animal")
       .py-4.py-md-5.tab1(titulo="Lana")
         .row.justify-content-center
-          .col-5
-            p.mb-0 texto
-          .col-5 
-            img(src='@/assets/curso/temas/tema_1/img_34.svg', alt="Materias primas de origen mineral")
+          .col-sm-12.col-lg-5
+            p.mb-0.mx-3 No se encuentra en DI
+          .col-sm-12.col-lg-5 
+            img.mx-3(src='@/assets/curso/temas/tema_1/img_34.svg', alt="Materias primas de origen mineral")
 
 
     .mt-5.d-flex.mb-5
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Tela
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 100px;') Tela
         img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
       
     p.mb-5 Las telas son la materia prima por excelencia en la confección de prendas de vestir, siendo el componente principal en su composición, pues se trata de tejidos fabricados con fibras textiles entrelazadas en un telar o máquina, cuenta con diversos usos tanto en prendas de vestir como en ropa de hogar y otros sectores industriales y domésticos. Vale la pena señalar que además de las fibras vegetales, existen tejidos fabricados con fibras de origen animal.
@@ -110,8 +110,8 @@
     .row.mb-5
       .col-lg-2
           figure
-            img(src='@/assets/curso/temas/tema_1/img_26.png', alt='Imagen decorativa') 
-      .col-lg-9
+            img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_26.png', alt='Imagen decorativa') 
+      .col-lg-9.mt-3
         ul.lista-ul--color.mb-3
           li 
             i.lista-ul__vineta
@@ -147,10 +147,10 @@
 
 
     .row.mb-5
-      .col-2
+      .col-sm-12.col-lg-2
           figure
-            img(src='@/assets/curso/temas/tema_1/img_10.png', alt='Imagen decorativa') 
-      .col-lg-10
+            img.br-10.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_10.png', alt='Imagen decorativa') 
+      .col-sm-12.col-lg-10
         ul.lista-ul--color.mb-3
           li 
             i.lista-ul__vineta
@@ -216,7 +216,7 @@
 
       .col-2
         figure
-          img(src='@/assets/curso/temas/tema_1/img_30.png', alt='Imagen decorativa') 
+          img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_30.png', alt='Imagen decorativa') 
 
 
     .row.justify-content-center.mb-5
@@ -246,7 +246,7 @@
 
 
     .row.mb-5   
-      .col-8   
+      .col-sm-12.col-lg-8   
         .cajon.color-primario.p-4.mb-3
             p.text-center.mb-0 Los insumos se caracterizan por ser recursos, objetos o materiales transformados o modificados utilizados en la producción de otros bienes, productos o servicios. Estos juegan un papel muy importante en la estética y funcionalidad del producto, por eso son parte fundamental de la imagen de una prenda de vestir.
         p.mb-4 Los accesorios, directamente relacionados con el acabado y embalaje de un producto, se pueden definir como elementos terminados que ayudan a complementar, adornar o decorar el producto. En el proceso de producción, estos materiales e insumos se clasifican en dos escenarios: confección y empaque, los primeros se refieren a aquellos utilizados en la producción de prendas, mientras que los de empaque están relacionados con el producto final entregado al usuario.
@@ -254,7 +254,7 @@
 
       .col-4
         figure
-          img(src='@/assets/curso/temas/tema_1/img_32.png', alt='Imagen decorativa')
+          img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_32.png', alt='Imagen decorativa')
 
 
 
@@ -263,68 +263,68 @@
     .tarjeta.tarjeta--azul-1.p-3.bg05.mb-5 
       SlyderA
         .row.justify-content-center.align-items-center
-          .col-md-5.my-2.mb-md-0
+          .col-sm-12.col-lg-5.my-2.mb-md-0
             h4.mb-3 Hilos
             p.mb-3 Los materiales textiles en forma de hebra, que resultan del tratamiento de fibras y que tienen como características su longitud alargada y continua, se llaman hilos. 
             p Pueden ser de origen natural o sintético y se utilizan para coser, tejer y bordar, entre otras funciones. En la industria de la confección, son importantes ya que, junto con agujas y máquinas de coser, se encargan de unir las piezas cortadas.
         
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema_1/img_16.png', alt='Sistema de producción lineal')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_16.png', alt='Sistema de producción lineal')
 
         .row.justify-content-center.align-items-center
-          .col-md-5.my-2.mb-md-0
+          .col-sm-12.col-lg-5.my-2.mb-md-0
             h4.mb-3 Botones
             p.mb-3 Es un elemento que se incorpora a las prendas de vestir para que, al pasar por una abertura hecha en la tela, se encargue de unir dos piezas, y las asegure.
             p Están compuestos por metal, nácar, madera, plástico, u otro material diseñado para ese fin. Se pueden pegar en máquina con aguja e hilo, a mano, o en máquina de golpe llamada remachadora. 
         
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema_1/img_17.png', alt='Sistema de producción lineal')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_17.png', alt='Sistema de producción lineal')
 
         .row.justify-content-center.align-items-center
-          .col-md-5.my-2.mb-md-0
+          .col-sm-12.col-lg--5.my-2.mb-md-0
             h4.mb-3 Hebillas
             p Es una pieza que sirve para sujetar o enganchar partes de la prenda de vestir, puede ser fabricada en metal o plástico. Se utiliza en correas, cinturones, cargaderas, etc.
         
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema_1/img_18.png', alt='Sistema de producción lineal')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_18.png', alt='Sistema de producción lineal')
 
         .row.justify-content-center.align-items-center
-          .col-md-5.my-2.mb-md-0
+          .col-sm-12.col-lg--5.my-2.mb-md-0
             h4.mb-3 Remaches
             p Son elementos colocados en las terminaciones de las costuras de algunas piezas con el fin de darles más resistencia a las costuras. Se recomienda pegarlos en las relojeras y bolsillos delanteros y traseros. Pueden ser de metal o plástico.
 
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema_1/img_19.png', alt='Sistema de producción lineal')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_19.png', alt='Sistema de producción lineal')
 
         .row.justify-content-center.align-items-center
-          .col-md-5.my-2.mb-md-0
+          .col-sm-12.col-lg--5.my-2.mb-md-0
             h4.mb-3 Broches
             p Se colocan los broches en las prendas de vestir con propósitos meramente estéticos. También hay broches que se componen de dos piezas, macho y hembra que se utilizan para sujetar, de esta manera se relaciona con el verbo abrochar.
 
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema_1/img_20.png', alt='Sistema de producción lineal')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_20.png', alt='Sistema de producción lineal')
 
         .row.justify-content-center.align-items-center
-          .col-md-5.my-2.mb-md-0
+          .col-sm-12.col-lg--5.my-2.mb-md-0
             h4.mb-3 Cremalleras
             p También llamado cierre, que ese ubica en las prendas de vestir con el fin de cerrar y abrir aberturas o uniones de piezas. Está compuesto por unos dientes que se unen y abren, impulsados por una paleta o cabeza de cierre, estos dientes están sujetos por una cinta de tela en la mayoría de los casos. Los hay metálicos o de nylon o plástico.
 
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema_1/img_21.png', alt='Sistema de producción lineal')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_21.png', alt='Sistema de producción lineal')
 
         .row.justify-content-center.align-items-center
-          .col-md-5.my-2.mb-md-0
+          .col-sm-12.col-lg--5.my-2.mb-md-0
             h4.mb-3 Marquillas
             p Elemento que se coloca en las prendas de vestir y que sirve para identificar características como, la talla, la marca, instrucciones de lavado, país de origen, código de identificación, etc. Se ubican en la parte interna y externa de la prenda. Existen de diferentes materiales, tejidas, estampadas, de papel, de cuero, de cartón, entre otros.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema_1/img_22.png', alt='Sistema de producción lineal')
+              img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_22.png', alt='Sistema de producción lineal')
 
 
 
@@ -373,17 +373,17 @@
 
 
     .mt-5.d-flex.mb-0
-      .d-flex.flex-wrap.align-items-center.pe-4 
-        h3.col.px-4.mb-0.text-white.bg-img-tema1(style='width: 800px;') Cabe entonces revisar cuáles son los elementos que conforman la cadena de valor:
+      .d-flex.flex-wrap.align-items-center.pe-4-cus
+        h3.col.px-4-cus.mb-0.text-white.bg-img-tema1.wtitle Cabe entonces revisar cuáles son los elementos que conforman la cadena de valor:
 
     .tarjeta--bg3.p-4.mb-0.align-items-center
       .row.justify-content-center.mb-5(data-aos='fade-left')
-        .col-lg-7
+        .col-sm-12.col-lg-7
           figure.mb-5
             img(src='@/assets/curso/temas/tema_1/img_24.svg', alt='Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.')  
 
     .row.justify-content-center.mb-5
-      .col-7
+      .col-sm-12.col-lg-7
         .cajon.color-primario.p-4.mb-3
           p.text-center.mb-0 Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
 
@@ -485,153 +485,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass" scoped>
-
-.nav-holder2
-  height: 410px;
-  color: #FFF
-  display: inline-block
-  margin: 10px 5px
-  overflow: hidden
-  position: relative
-  -webkit-transform: translateZ(0)
-  -moz-transform: translateZ(0)
-  transform: translateZ(0)
-.nav-holder2 *, .nav-holder2 *:before, .nav-holder2 *:after
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
-  -webkit-transition: all 0.45s ease
-  -moz-transition: all 0.45s ease
-  transition: all 0.45s ease
-.nav-holder2:before
-  position: absolute
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  content: ''
-  background-color: #FFE8DE
-  z-index: 888
-  opacity: 0.8
-  -webkit-transition: all 0.45s ease
-  -moz-transition: all 0.45s ease
-  transition: all 0.45s ease
-.nav-holder2:before
-  -webkit-transform: translateY(100%)
-  -moz-transform: translateY(100%)
-  transform: translateY(100%)
-.nav-holder2:hover:before
-  -webkit-transform: translateY(0)
-  -moz-transform: translateY(0)
-  transform: translateY(0)
-  opacity: 1
-  -webkit-transition-delay: 0.1s
-  -moz-transition-delay: 0.1s
-  transition-delay: 0.1s
-.nav-holder2
-  .text
-    position: absolute
-    top: 80%
-    bottom: 0px
-    left: 0px
-    right: 0px
-    z-index: 100
-    bottom: 0
-    padding: 1em
-    z-index: 999
-  img
-    height: 410px;
-    backface-visibility: hidden
-    max-width: 100%
-    vertical-align: top
-    z-index: 0
-  p, h4, i, li, ul
-    margin: 0
-    opacity: 0
-.nav-holder2:hover
-  .text
-    top: 0
-  h4, p, i, li, ul
-    opacity: 1
-    -webkit-transition-delay: 0.2s
-    -moz-transition-delay: 0.2s
-    transition-delay: 0.2s
-@media (max-width: $bp-max-md)
-  .nav-holder2, .nav-holder3
-    height: 410px
-  .nav-holder2 img, .nav-holder3 img
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-.nav-holder3
-  height: 410px;
-  color: #FFF
-  display: inline-block
-  margin: 10px 5px
-  overflow: hidden
-  position: relative
-  -webkit-transform: translateZ(0)
-  -moz-transform: translateZ(0)
-  transform: translateZ(0)
-.nav-holder3 *, .nav-holder2 *:before, .nav-holder2 *:after
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
-  -webkit-transition: all 0.45s ease
-  -moz-transition: all 0.45s ease
-  transition: all 0.45s ease
-.nav-holder3:before
-  position: absolute
-  top: 0
-  bottom: 0
-  left: 0
-  right: 0
-  content: ''
-  background-color: #FFE8DE
-  z-index: 888
-  opacity: 0.8
-  -webkit-transition: all 0.45s ease
-  -moz-transition: all 0.45s ease
-  transition: all 0.45s ease
-.nav-holder3:before
-  -webkit-transform: translateY(100%)
-  -moz-transform: translateY(100%)
-  transform: translateY(100%)
-.nav-holder3:hover:before
-  -webkit-transform: translateY(0)
-  -moz-transform: translateY(0)
-  transform: translateY(0)
-  opacity: 1
-  -webkit-transition-delay: 0.1s
-  -moz-transition-delay: 0.1s
-  transition-delay: 0.1s
-.nav-holder3
-  .text
-    position: absolute
-    top: 80%
-    bottom: 0px
-    left: 0px
-    right: 0px
-    z-index: 999
-    bottom: 0
-    padding: 1em
-  img
-    height: 410px;
-    backface-visibility: hidden
-    max-width: 100%
-    vertical-align: top
-    z-index: 0
-  p, h4, i, li, ul
-    margin: 0
-    opacity: 0
-.nav-holder3:hover
-  .text
-    top: 0
-  h4, p, i, li, ul
-    opacity: 1;
-    -webkit-transition-delay: 0.2s;
-    -moz-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-</style>

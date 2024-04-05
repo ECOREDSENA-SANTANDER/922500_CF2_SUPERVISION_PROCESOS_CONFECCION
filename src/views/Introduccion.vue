@@ -10,7 +10,7 @@
       h1 Introducción
     
     .row.p-5.bg-01.rounded.mb-5(data-aos='fade-right')
-      .col-lg-6
+      .col-sm-12.col-lg-6
         .row
           .col-lg-1.d-sm-none.d-lg-block
             p.BorTit1.p-4 

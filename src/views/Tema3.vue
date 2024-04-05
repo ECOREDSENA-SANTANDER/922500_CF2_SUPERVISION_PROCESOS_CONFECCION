@@ -12,12 +12,12 @@
       .col-md.tarjeta.bg-02.p-5
         .row
           .col-2 
-            img.img-t.img-a.mt-4(src='@/assets/curso/temas/tema_3/img_13.svg', alt='Imagen descriptiva')
-          .col-6
+            img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_13.svg', alt='Imagen descriptiva')
+          .col-sm-12.col-lg-6
             p.mb-4 Para planear y ejecutar un proyecto de la manera más apropiada, es importante dimensionar y estimar la cantidad de recursos necesarios, las cantidades, el momento, y el costo de estos, a ese cálculo se le denomina presupuestar. 
             p El encargado de la actividad de producción debe saber articular su función de producir prendas, con las actividades donde se origina la información que va a definir sus objetivos, por eso es muy importante que comprenda las actividades que anteceden su programación. Incorporar los objetivos de la empresa a todos los integrantes de la organización es una premisa muy válida para tener en cuenta.
           .col-4  
-            img.img-b(src='@/assets/curso/temas/tema_3/img_14.png', alt='Para planear y ejecutar un proyecto de la manera más apropiada')
+            img.img-b.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_14.png', alt='Para planear y ejecutar un proyecto de la manera más apropiada')
 
     .row 
       .col-12
@@ -30,33 +30,33 @@
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/temas/tema_3/img_1.svg', alt='Imagen decorativa') 
-              .col-md-6.mb-4.mb-md-0
+                  img.img-a.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_1.svg', alt='Imagen decorativa') 
+              .col-sm-12.col-lg-6.mb-4.mb-md-0
                 h5 Presupuesto de ventas
                 p Se trata del primer presupuesto a realizar, que define el tipo de prenda o servicio a comercializar, las cantidades y el plazo para cumplir con los pedidos, esto implica especificar el estilo, la silueta, la tela y la referencia de las prendas, pudiendo basarse en registros históricos de movimientos, temporadas de demanda especializada o estudios de mercado y tendencias.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/temas/tema_3/img_2.svg', alt='Imagen decorativa') 
-              .col-md-6.mb-4.mb-md-0
+                  img.img-a.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_2.svg', alt='Imagen decorativa') 
+              .col-sm-12.col-lg-6.mb-4.mb-md-0
                 p En las empresas que trabajan para el sistema moda, la comunicación entre el departamento de ventas con el de producción es necesaria e importante, facilita que la información esté a tiempo para los interesados, y ahorra mucho tiempo. 
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/temas/tema_3/img_3.svg', alt='Imagen decorativa') 
-              .col-md-6.mb-4.mb-md-0
+                  img.img-a.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_3.svg', alt='Imagen decorativa') 
+              .col-sm-12.col-lg-6.mb-4.mb-md-0
                 p Cuando el encargado de la producción conoce las necesidades de despachos con todas sus características: cliente, fecha, especificaciones, lugar de destino y demás; tácitamente integra estas necesidades a su equipo de trabajo y capacidades de producción, y esto se convierte en un valor agregado para su desempeño.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/temas/tema_3/img_4.svg', alt='Imagen decorativa') 
-              .col-md-6.mb-4.mb-md-0
+                  img.img-a.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_4.svg', alt='Imagen decorativa') 
+              .col-sm-12.col-lg-6.mb-4.mb-md-0
                 p Existen varias maneras de registrar este tipo de actividad,  donde quede consignada la información  correspondiente de los productos a  facturar, los formatos utilizados se diseñan de acuerdo con la naturaleza de las compañías, tamaño, sector económico o régimen tributario.
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
-                  img.img-a(src='@/assets/curso/temas/tema_3/img_5.svg', alt='Imagen decorativa') 
-              .col-md-6.mb-4.mb-md-0
+                  img.img-a.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_5.svg', alt='Imagen decorativa') 
+              .col-sm-12.col-lg-6.mb-4.mb-md-0
                 p Deben contener información relacionada con:
                 ul.lista-ul--color
                   li 
@@ -212,10 +212,10 @@
       p.mb-5 A continuación, se presenta un ejemplo de un caso en el que se diligencia la ficha de presupuestos:
 
     .row.mb-5
-      .col-2
+      .col-sm-12.col-lg-2
         figure
-          img.img-a(src='@/assets/curso/temas/tema_3/img_17.svg', alt='Imagen decorativa') 
-      .col-10
+          img.img-a.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_17.svg', alt='Imagen decorativa') 
+      .col-sm-12.col-lg-10
         p.mb-5 En una compañía el estimado de ventas es de 500 unidades de camisetas en un período de un mes. La empresa tiene como política programar el 15% adicional al pedido, para resolver imprevistos que sucedan durante la producción, y al revisar en la bodega, se encuentran, que tienen 100 camisetas. En la siguiente tabla se ilustra la solución al ejemplo planteado.
 
       .row
@@ -263,7 +263,7 @@
 
         .col-lg-4(data-aos="fade-left")
           figure
-            img(src='@/assets/curso/temas/tema_3/img_12.png' alt='Ficha de presupuesto de producción') 
+            img.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_12.png' alt='Ficha de presupuesto de producción') 
 
         
 

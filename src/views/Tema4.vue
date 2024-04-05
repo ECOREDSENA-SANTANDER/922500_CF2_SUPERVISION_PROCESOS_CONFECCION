@@ -11,12 +11,12 @@
     .tarjeta.mb-5
       .col-md.tarjeta.bg-02.p-5
         .row
-          .col-2 
-            img.img-t.img-a.mt-4(src='@/assets/curso/temas/tema_4/img_5.svg', alt='Imagen decorativa')
-          .col-6
+          .col-sm-12.col-lg-2 
+            img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_5.svg', alt='Imagen decorativa')
+          .col-sm-12.col-lg-6
             p.mb-4 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción y/o fichas técnicas, así como en muestras físicas. Teniendo en cuenta las características de estos elementos, la cantidad del lote a producir y las políticas de la empresa, se procede a calcular la necesidad de materiales e insumos.
-          .col-4  
-            img.img-b(src='@/assets/curso/temas/tema_4/img_1.png', alt='En las plantas de producción existe una actividad clave dentro de la planeación')    
+          .col-sm-12.col-lg-4  
+            img.img-b.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_1.png', alt='En las plantas de producción existe una actividad clave dentro de la planeación')    
     
     separador
 
@@ -26,7 +26,7 @@
     p.mb-5 Es un documento en el cual se consigna información referente al lote que se va a producir, esta información se relaciona a continuación, ver ejemplo en tabla 4:
 
     .row.mb-5  
-      .col-9 
+      .col-sm-12.col-lg-9 
         TabsA.color-acento-contenido.mb-5
           .tarjeta.color-acento-botones--borde.p-4(titulo="Número de documento o consecutivo ")
             p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
@@ -66,8 +66,8 @@
               |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
             p This is 
 
-      .col-3(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema_4/img_6.svg', alt='Imagen decorativa')  
+      .col-sm-12.col-lg-3(data-aos="fade-left")
+        img.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_6.svg', alt='Imagen decorativa')  
 
 
     p.mb-0 Este tipo de documento requiere aprobación por parte de un representante de la organización, usualmente por el gerente o administrador, y también debe ser recibido por alguien del departamento de producción. Para el supervisor, esta información es fundamental para planificar los recursos necesarios. 
@@ -136,7 +136,7 @@
 
 
     .row.mb-5
-      .col-md-3.col-lg.mb-5.mb-lg-0
+      .col-sm-12.col-lg-3.mb-5.mb-lg-0
         .tarjeta-avatar
           .tarjeta.color-tarjeta-avatar
             .p-4
@@ -144,7 +144,7 @@
               h2.text-center Identificación de la prenda de vestir
               p Número de referencia, descripción y un dibujo con sus especificaciones señaladas.
 
-      .col-md-3.col-lg.mb-5.mb-lg-0
+      .col-sm-12.col-lg-3.mb-5.mb-lg-0
         .tarjeta-avatar
           .tarjeta.color-tarjeta-avatar
             .p-4
@@ -152,7 +152,7 @@
               h2.text-center Materias primas
               p Se relaciona cuáles materias primas se utilizan en esta prenda de vestir, su composición, su nombre comercial, el consumo y en algunas ocasiones el proveedor.
 
-      .col-md-3.col-lg.mb-5.mb-lg-0
+      .col-sm-12.col-lg-3.mb-5.mb-lg-0
         .tarjeta-avatar
           .tarjeta.color-tarjeta-avatar
             .p-4
@@ -160,7 +160,7 @@
               h2.text-center Otras especificaciones
               p También trae especificaciones de costuras, máquinas, puntadas por pulgada, medidas, características de terminado, y un dibujo plano de la prenda de vestir. 
 
-      .col-md-3.col-lg.mb-5.mb-lg-0
+      .col-sm-12.col-lg-3.mb-5.mb-lg-0
         .tarjeta-avatar
           .tarjeta.color-tarjeta-avatar
             .p-4
@@ -204,8 +204,8 @@
 
 
     .mt-5.d-flex.mb-0
-      .d-flex.flex-wrap.align-items-center.pe-4 
-        h3.col.px-4.mb-0.text-white.bg-img-tema1(style='width: 800px;') En la imagen se detalla un ejemplo de ficha técnica. 
+      .d-flex.flex-wrap.align-items-center.pe-4-cus 
+        h3.col.px-4.mb-0.text-white.bg-img-tema1.wtitle En la imagen se detalla un ejemplo de ficha técnica. 
 
     .tarjeta--bg3.p-4.mb-0.align-items-center
       .row.justify-content-center.mb-5(data-aos='fade-left')

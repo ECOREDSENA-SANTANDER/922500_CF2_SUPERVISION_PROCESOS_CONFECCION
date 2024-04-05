@@ -34,7 +34,7 @@
     
     
     .row.mt-5.px-4.mb-5
-      .col-4.position-relative.px-0
+      .col-sm-12.col-lg-4.position-relative.px-0
         figure.px-2
           img(src="@/assets/curso/temas/tema_2/img_6.png", alt="Longitud se define como la distancia entre dos puntos")
         .row.image-cover.mx-0
@@ -50,7 +50,7 @@
               p En cuanto a los materiales utilizados en la confección, como telas, elásticos, cintas y hilos, se comercializan y emplean con estas unidades de medida, así como sus fracciones correspondientes.
             
     
-      .col-4.position-relative.px-0
+      .col-sm-12.col-lg-4.position-relative.px-0
         figure.px-2
           img(src="@/assets/curso/temas/tema_2/img_7.png", alt="La distancia que hay entre dos puntos")
         .row.image-cover.mx-0
@@ -67,7 +67,7 @@
     
     
     
-      .col-4.position-relative.px-0
+      .col-sm-12.col-lg-4.position-relative.px-0
         figure.px-2
           img(src="@/assets/curso/temas/tema_2/img_8.png", alt="Existen otros elementos utilizados en la fabricación y acabado de prendas de vestir")
         .row.image-cover.mx-0
