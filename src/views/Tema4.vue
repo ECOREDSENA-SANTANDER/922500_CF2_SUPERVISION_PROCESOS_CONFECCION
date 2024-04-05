@@ -8,54 +8,72 @@
         span 4
       h1 Consumos de materias primas
 
-    .row.justify-content-center
-      .col-lg-8(data-aos='fade-right')
-        figure.mb-3
-          img.img-a(src='@/assets/curso/tema_4/img_1.png', alt='Imagen decorativa') 
-        p.mb-0 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción o fichas técnicas, y también en muestras físicas. De acuerdo con las características de estos elementos, la cantidad del lote a producir, y las políticas de la empresa; se procederá a calcular la necesidad de materiales e insumos.
+    .tarjeta.mb-5
+      .col-md.tarjeta.bg-02.p-5
+        .row
+          .col-2 
+            img.img-t.img-a.mt-4(src='@/assets/curso/temas/tema_4/img_5.svg', alt='Imagen decorativa')
+          .col-6
+            p.mb-4 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción y/o fichas técnicas, así como en muestras físicas. Teniendo en cuenta las características de estos elementos, la cantidad del lote a producir y las políticas de la empresa, se procede a calcular la necesidad de materiales e insumos.
+          .col-4  
+            img.img-b(src='@/assets/curso/temas/tema_4/img_1.png', alt='En las plantas de producción existe una actividad clave dentro de la planeación')    
     
     separador
 
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 4.1 Orden de producción (OP)
 
-    p.text-center.mb-5 Es un documento en el cual se consigna información referente al lote que se va a producir, esta información se relaciona a continuación, ver ejemplo en tabla 4:
+    p.mb-5 Es un documento en el cual se consigna información referente al lote que se va a producir, esta información se relaciona a continuación, ver ejemplo en tabla 4:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        TabsC(data-aos="flip-up")
-          .py-4.py-md-5.tab1(titulo="Número de documento o consecutivo")
-            .tarjeta--bg1.p-4
-              p.mb-0 Para controlar los lotes de producción que se van ejecutando.
+    .row.mb-5  
+      .col-9 
+        TabsA.color-acento-contenido.mb-5
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Número de documento o consecutivo ")
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+              strong user style sheets
+              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+            p This is 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Referencia")
+            p Para una identificación más precisa, a las prendas de vestir se les asigna números de referencia, códigos, consecutivos y demás. Esto se hace con criterios como el tipo de prenda, si es de dama o caballero, infantil o para adulto, así como criterios por color y por tallaje. 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Descripción")
+            h4 PASO 1: The splendor
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+              strong user style sheets
+              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+            p This is 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Fechas")
+            h4 PASO 1: The splendor
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+              strong user style sheets
+              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+            p This is 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Clientes")
+            h4 PASO 1: The splendor
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+              strong user style sheets
+              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+            p This is 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Cantidad")
+            h4 PASO 1: The splendor
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+              strong user style sheets
+              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+            p This is 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Identificación de tallas")
+            h4 PASO 1: The splendor
+            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
+              strong user style sheets
+              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
+            p This is 
 
-          .py-4.py-md-5.tab1(titulo="Referencia")
-            .tarjeta--bg1.p-4
-              p.mb-0 Para una identificación más precisa, a las prendas de vestir se les asigna números de referencia, códigos, consecutivos y demás. Esto se hace con criterios como el tipo de prenda, si es de hombre, dama, infantil, adulto, el color, la talla. 
+      .col-3(data-aos="fade-left")
+        img(src='@/assets/curso/temas/tema_4/img_6.svg', alt='Imagen decorativa')  
 
-          .py-4.py-md-5.tab1(titulo="Descripción")
-            .tarjeta--bg1.p-4
-              p.mb-0 Además de la referencia o código, es importante que en este documento se describa el tipo de prenda que se va a someter a procesos de trazo y corte.
 
-          .py-4.py-md-5.tab1(titulo="Fechas")
-            .tarjeta--bg1.p-4
-              p.mb-0 Todas las fechas son importantes para poder hacer seguimiento. En producción es importante la información que tenga que ver con las fechas, como son de la elaboración del documento, del inicio de la producción, y de la terminación de la misma.
+    p.mb-0 Este tipo de documento requiere aprobación por parte de un representante de la organización, usualmente por el gerente o administrador, y también debe ser recibido por alguien del departamento de producción. Para el supervisor, esta información es fundamental para planificar los recursos necesarios. 
+    p.mb-5 Este documento puede originarse en el departamento de corte, que a su vez lo recibe de los departamentos de producción o ventas, dependiendo del tamaño de la organización, puede haber una persona designada para cada tarea, mientras que en una pequeña empresa, una sola persona se encarga de gestionar y documentar las ventas y programar la producción.
 
-          .py-4.py-md-5.tab1(titulo="Cliente")
-            .tarjeta--bg1.p-4
-              p.mb-0 Muy importante que en la orden de producción esté reseñado el nombre del cliente al que se le va a trabajar. 
-
-          .py-4.py-md-5.tab1(titulo="Cantidad")
-            .tarjeta--bg1.p-4
-              p.mb-0 Esta información es definitiva, se referencia cantidad por talla, color y cantidad total. En el cuadro que se consignan las tallas y las cantidades se puede aprovechar para nombrar las tallas por números o letras, y comercialmente tienen sus equivalencias. 
-
-          .py-4.py-md-5.tab1(titulo="Identificación de tallas")
-            .tarjeta--bg1.p-4
-              p.mb-0 Existen otros criterios para la identificación de las tallas a producir, como si es ropa interior o exterior, cuando son prendas superiores o inferiores, cuando son prendas junior, infantiles o de adulto, cuando son prendas de dama u hombre.
-
-    .row.justify-content-center.mb-5
-      .col-lg-8.border_1
-        p.mb-0 Este documento debe ser aprobado por alguien de la organización, habitualmente es el gerente o administrador; también debe ser recibido por alguien del departamento de producción. Para el supervisor, esta información es importante para planear sus recursos. Este documento puede venir desde el departamento de corte, que a su vez lo recibieron de Gerencia de producción o de ventas. De acuerdo con el tamaño de la organización, hay una persona ejecutando cada labor, y si es una pequeña empresa, es una persona que gestiona y documenta las ventas de la compañía, y programa la producción.
-
+    
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -116,52 +134,84 @@
 
     p.mb-5 Es un documento que le permite al departamento de creación comunicarse con las demás áreas encargadas de la elaboración de productos terminados, en este se especifica:
 
-    .tarjeta--bg2.p-4(data-aos="fade-left")
-      h5 Identificación de la prenda de vestir
-      p Número de referencia, descripción y un dibujo con sus especificaciones señaladas.
-    .tarjeta--bg3.p-4(data-aos="fade-right")
-      h5 Materias primas
-      p Se relaciona cuáles materias primas se utilizan en esta prenda de vestir, su composición, su nombre comercial, el consumo y en algunas ocasiones el proveedor.
-    .tarjeta--bg2.p-4(data-aos="fade-left")
-      h5 Insumos
-      p En la ficha técnica vienen señalados cuales insumos están incorporados en la prenda, cuáles son sus calidades, sus dimensiones, y sus cantidades por prenda, adicional señalan la posición donde van colocados estos insumos. En esta área están los botones, las cremalleras, los hilos, los elásticos, las marquillas, las etiquetas, las hebillas, los broches, etc.
-    .tarjeta--bg3.p-4.mb-5(data-aos="fade-right")
-      h5 Otras especificaciones
-      p También trae especificaciones de costuras, máquinas, puntadas por pulgada, medidas, características de terminado, y un dibujo plano de la prenda de vestir. 
-    
+
+    .row.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          .tarjeta.color-tarjeta-avatar
+            .p-4
+              img.img-tarjet(src='@/assets/curso/temas/tema_4/img_7.svg' alt='AvatarTop')
+              h2.text-center Identificación de la prenda de vestir
+              p Número de referencia, descripción y un dibujo con sus especificaciones señaladas.
+
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          .tarjeta.color-tarjeta-avatar
+            .p-4
+              img.img-tarjet(src='@/assets/curso/temas/tema_4/img_8.svg' alt='AvatarTop')
+              h2.text-center Materias primas
+              p Se relaciona cuáles materias primas se utilizan en esta prenda de vestir, su composición, su nombre comercial, el consumo y en algunas ocasiones el proveedor.
+
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          .tarjeta.color-tarjeta-avatar
+            .p-4
+              img.img-tarjet(src='@/assets/curso/temas/tema_4/img_9.svg' alt='AvatarTop')
+              h2.text-center Otras especificaciones
+              p También trae especificaciones de costuras, máquinas, puntadas por pulgada, medidas, características de terminado, y un dibujo plano de la prenda de vestir. 
+
+      .col-md-3.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          .tarjeta.color-tarjeta-avatar
+            .p-4
+              img.img-tarjet(src='@/assets/curso/temas/tema_4/img_10.svg' alt='AvatarTop')
+              h2.text-center Insumos
+              p En la ficha técnica vienen señalados cuales insumos están incorporados en la prenda, cuáles son sus calidades, sus dimensiones, y sus cantidades por prenda, adicional señalan la posición donde van colocados estos insumos. En esta área están los botones, las cremalleras, los hilos, los elásticos, las marquillas, las etiquetas, las hebillas, los broches, etc.
+
+
+    p.mb-5 Consultar la siguiente imagen en donde encontrará la información de como esta conformada la ficha técnica.
+
+
+
+    .row.justify-content-center
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 1.
+          span  Ficha técnica
 
     .row.justify-content-center.mb-5(data-aos="slide-down")
       .col-lg-8(data-aos='fade-right')
         p.text-center.mb-5 
           strong Información que conforma la ficha técnica
         figure
-          img.img-a(src='@/assets/curso/tema_4/img_2.svg', alt='Imagen decorativa') 
+          img.img-a(src='@/assets/curso/temas/tema_4/img_2.svg', alt='Figura 1. Ficha técnica') 
         figcaption Nota. Chi, B. (2020).
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
+    .row.mb-5
+      .col-lg-6(data-aos="fade-right")
         .bloque-texto-c.tarjeta--bg4.p-4.mb-5(data-aos='fade-left')
           i.fas.fa-quote-right
-          h3.mb-2 No existe ningún estándar internacional para hacer Fichas Técnicas, pero si existe un acuerdo general sobre el tipo de información que debes incluir. Esta información se desarrolla en varias hojas, y todas forman una Ficha Técnica
+          h3.mb-2 No existe ningún estándar internacional para hacer Fichas Técnicas, pero si existe un acuerdo general sobre el tipo de información que debes incluir. Esta información se desarrolla en varias hojas, y todas forman una Ficha Técnica.
           span - Chi, 2020
+        p Este documento es la guía que orienta los departamentos y asegura que los procesos de producción determinen correctamente las especificaciones técnicas del producto establecidas y aseguren las condiciones de la prenda, a cabalidad. El cumplimiento de estas especificaciones se podría denominar buena calidad.  Haciendo la analogía, una ficha de diseño, o ficha técnica es, a los fabricantes de prendas de vestir, como el plano de un edificio, al maestro de obra.
+      .col-lg-6(data-aos="fade-left")
+        p.mb-4 En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores 
 
-        .row
-          .col-lg-6(data-aos="fade-right")
-            p Este documento es la guía que orienta los departamentos y asegura que los procesos de producción determinen correctamente las especificaciones técnicas del producto establecidas y aseguren las condiciones de la prenda, a cabalidad. El cumplimiento de estas especificaciones se podría denominar buena calidad.  Haciendo la analogía, una ficha de diseño, o ficha técnica es, a los fabricantes de prendas de vestir, como el plano de un edificio, al maestro de obra.
+        figure
+          img.img-a(src='@/assets/curso/temas/tema_4/img_3.svg', alt='Nota. Chi, B. (2020).') 
+        figcaption Nota. Chi, B. (2020).
 
-            p En la imagen se observa la relación de la ficha técnica con los demás departamentos. 
-          .col-lg-6(data-aos="fade-left")
-            figure
-              img.img-a(src='@/assets/curso/tema_4/img_3.svg', alt='Imagen decorativa') 
-            figcaption Nota. Chi, B. (2020).
-        
-    .row.justify-content-center.mb-5
-      .col-lg-5
-        .tarjeta--bg2.p-3
-          p.mb-0.text-center En la imagen se detalla un ejemplo de ficha técnica. 
 
-    figure(data-aos="zoom-in")
-      img.img-a(src='@/assets/curso/tema_4/img_4.svg', alt='Imagen decorativa') 
+
+    .mt-5.d-flex.mb-0
+      .d-flex.flex-wrap.align-items-center.pe-4 
+        h3.col.px-4.mb-0.text-white.bg-img-tema1(style='width: 800px;') En la imagen se detalla un ejemplo de ficha técnica. 
+
+    .tarjeta--bg3.p-4.mb-0.align-items-center
+      .row.justify-content-center.mb-5(data-aos='fade-left')
+        .col-lg-12
+          figure.mb-5(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/tema_4/img_4.svg', alt='En la imagen se detalla un ejemplo de ficha técnica.')
     figcaption Nota. SENA (2021).
 
 

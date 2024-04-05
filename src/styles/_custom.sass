@@ -3,12 +3,22 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 40%
-    right: 50%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 71%
+    right: 70%
+  &-3
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 8%
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 11%
+    right: 8%
 
 
 @keyframes float1
@@ -24,11 +34,59 @@
   background-repeat: no-repeat
   background-position: center
 
+.bg-02 
+  background-color: #E6FDFD !important
+  margin: auto -5em 0
+
+.bg-tarjeta 
+  background-color: #FFE8DE !important
+
+.bg-tarjeta-rosa 
+  background-color: #F1DADE !important
+
+.tarjeta-descarga
+  border-radius: 0px
+
+.tarjeta.color-secundario * 
+  color: black
+
+.tarjeta-avatar > img 
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+
+.bg-img-blue
+  background-color: #9F0925; 
+  border-radius: 20px 
+  padding: 7px
+  text-align: left
+
+.icon-img-blue
+  max-width: 40px; 
+  left: -91%; 
+  position: relative
+
+
 .img-a 
   display: block 
   margin: auto   
   width: auto
   height: auto
+
+.img-b
+  float: right
+  width: 600px
+  height: 200px
+  position: relative
+  top: 120px
+  border-radius: 11.5%
+  margin: 10%
+  display: block
+  
 
 .BorTit
   border-left: 5px solid $color-acento-contenido
@@ -99,7 +157,7 @@
       margin-right: 1rem
       text-align: center
       border-radius: 50%
-      background-color: #EA526F
+      background-color: #9F0925 !important
       margin-top: 30px
       span 
         color: white
@@ -131,6 +189,24 @@
 .tarjeta--bg1
   background-color: #FFE8DE
 
+.tarjeta--bg6
+  background-color: #FF8A5B !important
+
+.avatar-b-1
+  background-color: #FFE8DE !important
+
+.avatar-b-2
+  background-color: #CEFAFB !important
+
+.avatar-b-3
+  background-color: #ECCDD3 !important
+
+.avatar-b-4
+  background-color: #D0DAF6 !important
+
+.cajon-interno
+  background-color: #FFFFFF !important
+
 .cajon.color-primario 
   background-color: #FFE8DE
 
@@ -140,6 +216,32 @@
 
 .tarjeta--bg2
   background-color: #DBFAFA
+
+.tarjeta--bg3
+  background-color: #F4E5E8 !important
+
+.position-relative
+  position: relative
+
+.image-cover
+  position: absolute
+  top: 0px
+  opacity: 0
+  transition: all 1000ms
+.image-cover:hover
+  display:block
+  opacity: 100%
+  transition: all 650ms
+.image-cover
+  position: absolute
+  top: 0px
+  opacity: 0
+  transition: all 1000ms
+.image-cover:hover
+  display:block
+  opacity: 100%
+  transition: all 650ms
+
 
 .tarjeta--bg3
   background-color: #EDFCFC
@@ -162,20 +264,27 @@
 .tarjeta--bg4
   background-color: #FFE2D2
 
+.bg4 
+  background: linear-gradient(#F7FCFD, #D9F4F7 75%);
+  margin: auto -5em 0
+
 .tarjeta--bg5
   background-color: #FCE5E9
 
 .border--bg1
-  border: 3px solid #EA526F
+  border: 3px solid #0CE6EA
 
 .border--bg2
-  border: 3px solid #25CED1
+  border: 3px solid #FF8A5B
 
 .border--bg3
   border-top: 5px solid#25CED1
 
 .border--bg4
   border-top: 5px solid#FF8A5B
+
+.border--bg5
+  border: 3px solid #0CE6EA
 
 .tabs-a.color-acento-contenido .tabs-a__tab__selected
   color: $white !important
@@ -206,6 +315,33 @@
   background-size: cover
   background-repeat: no-repeat
   background-position: center
+
+.bg05 
+  background-image: url('../assets/curso/tema_1/img_33.svg');
+
+.bg06 
+  background-image: url('../assets/curso/tema_3/img_15.svg');
+
+.bg07 
+  background-image: url('../assets/curso/tema_3/img_16.svg');
+
+.color-acento-botones--borde
+  background-color: #FFEDE6 !important 
+
+.tarjeta.color-acento-botones--borde 
+  border: solid 0px 
+
+.img-tarjet 
+  left: 50%
+  top: 0
+  transform: translateX(-80%)
+  display: block
+  width: 70px
+  margin: 0 auto
+
+.color-tarjeta-avatar
+  background-color: #FFDCCD !important
+
 
 .box-images
   display: flex
@@ -302,34 +438,7 @@
     .tabs-d__pre-header
       margin-bottom: 10px
 
-.tabs-c__tab  
-  background-color: #E8E8E8 !important
-  border: 15px solid white !important
-  font-size: 15px !important 
-  min-width: 270px   
 
-.tabs-c__tab--active
-  color: $white
-  background: $color-acento-contenido !important
-  border: 15px solid white !important
-  font-size: 15px !important  
-  min-width: 270px
-
-.tabs-c__tab:hover
-  color: $white
-  background-color: $color-acento-contenido !important
-  border: 15px solid white !important 
-  font-size: 15px !important    
-  min-width: 270px
-
-.tabs-c__tab--active:before 
-  width: 0
-  height: 0
-  border-left: 0px solid transparent
-  border-right: 0px solid transparent
-  border-top: 10px solid
-  left: 50%
-  top: calc(100% + 6px)
 
 .slyder-a__btn--sigt 
   top: 160px !important
@@ -349,4 +458,41 @@
     color: white !important
 .lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
   display: flex
+
+.imagen-arriba
+  float: right
+  width: 600px
+  height: 200px
+  position: relative
+  top: -145px
+  border-radius: 4.5%
+  margin: 10%
+  display: block
+
+.logo-sena 
+  margin: 0
+  width: 46%
+  max-width: 100%
+
+.color-sintesis
+  border-left: 5px solid #61B536
+  padding: 6px 0px 6px 10px
+
+
+.tabs-c__tab--active:before
+  color: #1448D3 !important
+
+.tabs-c__tab--active:after
+  color: #1448D3 !important
+
+.tabs-c__content-item
+  background-color: #FFE8DE !important
+
+
+
+.bg-img-tema1
+  background-color: #9F0925
+  border-radius: -7px
+  padding: 7px
+  text-align: left
 

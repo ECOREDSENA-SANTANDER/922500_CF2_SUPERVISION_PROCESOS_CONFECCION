@@ -8,58 +8,71 @@
         span 5
       h1 Cálculo de consumo de materiales e insumos
 
-    .row.justify-content-center.mb-5
-      .col-lg-10 
-        .cajon.color-primario.p-4.mb-5(data-aos="zoom-in")
-          p En el área de confecciones de prendas de vestir, una de las funciones importantes a realizar es la relación de los materiales e insumos y el uso de estos en los procesos productivos necesarios para obtener prendas de vestir. En esta área no se define cuáles insumos llevan los vestuarios, esa actividad se realiza en el área de diseño, también conocida, como investigación y desarrollo.
+    .row.mb-5
+      .col-lg-6(data-aos="fade-right")
+        .row.justify-content-center.mb-4
+          .col-lg-12 
+            .cajon.color-primario.p-4.mb-5(data-aos="zoom-in")
+              p En el área de confecciones de prendas de vestir, una de las funciones importantes a realizar es la relación de los materiales e insumos y el uso de estos en los procesos productivos necesarios para obtener prendas de vestir. En esta área no se define cuáles insumos llevan los vestuarios, esa actividad se realiza en el área de diseño, también conocida, como investigación y desarrollo.
+        
+        p El encargado de producción no es quien define las materias primas que llevan las prendas de vestir, ni las cantidades unitarias, sin embargo, dentro de sus funciones está el comprender todo lo relacionado con esta actividad y determinar necesidades para los lotes a producir. Por ese motivo hace parte de sus competencias las siguientes actividades:
+      
+      .col-lg-6(data-aos="fade-left")
+        figure
+          img.img-a(src='@/assets/curso/temas/tema_5/img_12.png', alt='Imagen decorativa') 
 
-        p.mb-5(data-aos='fade-left') El encargado de producción no es quien define las materias primas que llevan las prendas de vestir, ni las cantidades unitarias, sin embargo, dentro de sus funciones está el comprender todo lo relacionado con esta actividad y determinar necesidades para los lotes a producir. Por ese motivo hace parte de sus competencias las siguientes actividades:
 
-        .row.justify-content-center
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
-            .border--bg1.p-3
-              .tarjeta--bg5.p-4
-                p.mb-0 Identificar los materiales e insumos que llevan las prendas de vestir, esta información viene en las fichas técnicas, o en las muestras iniciales o muestras físicas. Allí vienen definidos cuales son, y en que posiciones van. En las muestras iniciales y en las fichas técnicas vienen especificados: los insumos que se van a utilizar en los lotes de producción.
-          .col-lg-6.d-flex(data-aos="fade-left")
-            .border--bg2.p-3
-              .tarjeta--bg2.p-4.d-flex
-                p.mt-4.mb-5 Determinar las cantidades de materias primas e insumos que componen los atuendos, y con esta información poder calcular todo lo necesario para confeccionar el lote.
+   
+    .row
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema_5/img_13.svg' alt='Imagen decorativa')
+          .tarjeta.border--bg1
+            .p-4
+              p Identificar los materiales e insumos que requieren las prendas, información que se encuentra en las fichas técnicas o en las muestras iniciales. Estas fichas técnicas y muestras iniciales especifican los insumos que se utilizarán en los lotes de producción, así como su disposición en la prenda.
+
+      .col-lg-6
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema_5/img_14.svg' alt='Imagen decorativa')
+          .tarjeta.border--bg2
+            .p-4
+              p Determinar las cantidades de materias primas e insumos que componen los atuendos, y con esta información poder calcular todo lo necesario para confeccionar el lote.
+
     separador
 
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 5.1  Cálculo de consumo unitario
 
+
     .tarjeta--bg2.p-5.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
         .col-lg-8.mb-4.mb-lg-0
-          p Los cálculos de consumo unitario permiten determinar la cantidad de materiales e insumos que se necesitan para la elaboración de una prenda de vestir, o para prestar un servicio que tenga que ver con el sistema moda. Los resultados pueden ser en unidades de medida, o fracciones de ella.  
-
+          p.mb-3 Los cálculos de consumo unitario permiten determinar la cantidad de materiales e insumos que se necesitan para la elaboración de una prenda de vestir, o para prestar un servicio que tenga que ver con el sistema moda. Los resultados pueden ser en unidades de medida, o fracciones de ella.  
           p Desde la elaboración de la muestra inicial, se definen por cada prenda los insumos y materiales necesarios, es así como las fichas técnicas cobran gran importancia en el proceso de producción y los cálculos asociados, dejando registro para corroborar esta información y donde el encargado de producción puede basarse para hacer los respectivos cálculos de los lotes de producción.
         .col-lg-4
-          figure
-            img.img-a(src='@/assets/curso/tema_5/img_1.png' alt='Imagen decorativa') 
+          img.imagen-arriba(src='@/assets/curso/temas/tema_5/img_1.svg', alt='Cálculo de consumo unitario') 
 
-    .row.justify-content-center.mb-5
-      .col-lg-11
-        .list.mb-3(data-aos="zoom-in")
-          .list__item 
-            .list__item__bulletNumber 
-              span 1
-          .list__txt
-            h5.m-top Cálculo de consumo de hilo
 
-        p.mb-5(data-aos="zoom-in") Desde diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, ver tabla 5:
+
+    .mt-5.d-flex.mb-5
+      .d-flex.flex-wrap.align-items-center.pe-4
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Cálculo de consumo de hilo
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
+
+    p.mb-5(data-aos="zoom-in") Desde diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, ver tabla 5:
 
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down-right")
             figure
-              img.img-a(src='@/assets/curso/tema_5/img_2.png', alt='Imagen decorativa') 
+              img.img-a(src='@/assets/curso/temas/tema_5/img_2.png', alt='Imagen decorativa') 
           .col-lg-8(data-aos="fade-down-left")
             TabsA.color-acento-contenido.mb-5
               .tarjeta.tarjeta--bg4.p-4(titulo="El color")
                 h4 El color
                 p Se define de acuerdo con el diseño, la silueta, las tendencias, y el propósito del diseñador.
-              .tarjeta.tarjeta--bg4p-4(titulo="El calibre")
+              .tarjeta.tarjeta--bg4.p-4(titulo="El calibre")
                 h4 El calibre
                 p La resistencia o el grosor, se define de acuerdo con el gramaje o peso de las telas, también según el tipo de costura que se va a hacer con él.
               .tarjeta.tarjeta--bg4.p-4(titulo="La composición")
@@ -102,65 +115,42 @@
                 td 301	
                 td Doble pespunte (plana).	
                 td 2.8	
-                td 1	
+                td 2.8	
                 td 1/1
               tr.text-center
                 td 401	
                 td Cadeneta doble.	
                 td 5.5	
-                td 1	
+                td 2.8
                 td 1/3
               tr.text-center
-                td 304	
-                td Zigzag sencillo.	
-                td 7	
-                td 1	
-                td 1/1
+                td 	
+                td 	
+                td 	
+                td 
+                td 
               tr.text-center
-                td 315	
-                td Triple zigzag.	
-                td 8.5	
-                td 1	
-                td 1/1
-              tr.text-center
-                td 504	
-                td Sobrehilado 3 hilos.	
-                td 14	
-                td 1	
-                td 1/5/5
-              tr.text-center
-                td 406	
-                td Recubridora a tres hilos (sin recubridor).	
-                td 18	
-                td 2	
-                td 1/1/5
-              tr.text-center
-                td 602	
-                td Recubridora a 4 hilos (con recubridor).	
-                td 22	
-                td 2	
-                td 3/1/1/5
-              tr.text-center
-                td 605	
-                td Recubridora de 5 hilos (con recubridor). 	
-                td 25	
-                td 3	
-                td 3/1/1/1/5
+                td 
+                td 
+                td 	
+                td 
+                td 
+              
 
         .row.mb-5
           .col-lg-4(data-aos="fade-down-left")
             figure
-              img.img-a(src='@/assets/curso/tema_5/img_3.png', alt='Imagen decorativa') 
+              img.img-a(src='@/assets/curso/temas/tema_5/img_3.png', alt='Imagen decorativa') 
           .col-lg-8(data-aos="fade-down-right")
             ul.lista-ul--color.lista-ul--separador
               li 
                 .lista-ol--cuadro__vineta
                   span 1
-                | Los datos de la tabla anterior se relacionan con un tejido con un espesor de 3 mm, aproximadamente.
+                | Los datos de la tabla anterior se relacionan con un tejido con Incrementar desperdicio, o sea 
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Incrementar desperdicio, o sea hilo que no se utiliza o sobrante, así:
+                | Hilo que no se utiliza o sobrante, así:
 
               li.pb-0
                 ul.lista-ul--color
@@ -176,110 +166,142 @@
                   span 3
                 | Se suma el hilo necesario para cada costura y se divide entre el total de la relación de hilos (columna 5), el resultado se relaciona con cada una de las partes que componen la costura. 
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-2
-        .tarjeta--bg1.p-2
-          h5.mb-0.text-center Ejemplo     
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-8.border_1
-        p Al sumar la longitud de las costuras de cadeneta doble 401, dio como resultado 5.5 metros, y la relación de hilos que componen la costura es de 1/3; 
+    .tarjeta.mb-5
+      .col-md.tarjeta.bg-02.p-5
+        .row.justify-content-center.mb-5(data-aos="zoom-in")
+          .col-lg-2
+            .tarjeta--bg6.p-2
+              h5.mb-0.text-center Ejemplo     
 
-        p Entonces:   5.5 / 4 = 1,37
+        .row.justify-content-center.mb-5(data-aos="zoom-in")
+          .col-lg-8.border_1
+            p Al sumar la longitud de las costuras de cadeneta doble 401, dio como resultado 5.5 metros, y la relación de hilos que componen la costura es de 1/3; 
 
-        p Eso significa que mientras se tiene un gasto en el hilo de arriba o pespunte de una cuarta parte del consumo total 1, 37 metros, en el looper o costura de abajo se triplica el  gasto, es decir 4.12 metros de costura. 
+            p Entonces:   5.5 / 4 = 1,37
 
-        p.mb-0 Por eso interpretando la tabla 5, se ve que para esa costura la relación de hilos es 1/3, mientras la cantidad de hilo que se gasta en el pespunte (costura de arriba) es una parte, la cantidad de hilo para el amarre (costura de abajo), es tres veces esa medida.
+            p Eso significa que mientras se tiene un gasto en el hilo de arriba o pespunte de una cuarta parte del consumo total 1, 37 metros, en el looper o costura de abajo se triplica el  gasto, es decir 4.12 metros de costura. 
 
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tarjeta--bg2.p-5.mb-5(data-aos="zoom-in")
-          .row.justify-content-center.align-items-center
-            .col-lg-8.mb-4.mb-lg-0
-              p Los cálculos para desperdicios es importante tenerlos en cuenta para determinar consumos, partiendo de esto, es importante considerar qué tipo de tecnología de la máquina se va a utilizar, pues con una máquina convencional no se corta el hilo a ras de la tela y las máquinas electrónicas si lo hacen.
+            p.mb-0 Por eso interpretando la tabla 5, se ve que para esa costura la relación de hilos es 1/3, mientras la cantidad de hilo que se gasta en el pespunte (costura de arriba) es una parte, la cantidad de hilo para el amarre (costura de abajo), es tres veces esa medida.
 
+
+
+    .row.mb-5
+      .col-lg-9(data-aos="fade-right")
+        .row.justify-content-center.mb-4
+          .col-lg-12 
+            .cajon.color-primario.p-4.mb-3(data-aos="zoom-in")
+              p.mb-3 Los cálculos para desperdicios es importante tenerlos en cuenta para determinar consumos, partiendo de esto, es importante considerar qué tipo de tecnología de la máquina se va a utilizar, pues con una máquina convencional no se corta el hilo a ras de la tela y las máquinas electrónicas si lo hacen.
               p Luego de conocer la cantidad de hilo para cada tipo de costura, la cantidad total de hilo por prenda y la necesidad de hilo para el lote, se calcula la cantidad de metros que trae cada cono y como resultado se conoce cuántos conos se necesitan. Se debe recordar, revisar el inventario inicial existente para este producto.
-            .col-lg-4
-              figure
-                img.img-a(src='@/assets/curso/tema_5/img_4.png', alt='Imagen decorativa') 
+          p De acuerdo con la empresa proveedora de hilos, vienen en diferente presentación, y diferentes unidades de medida: metros, yardas y conos, teniendo en cuenta el calibre, vienen en presentación 2.500, 5.000, y 8.000 metros. Generalmente existe en las empresas una tabla dinámica para calcular el consumo de hilo, según los tejidos.
 
-        p.mb-5(data-aos="zoom-in") De acuerdo con la empresa proveedora de hilos, vienen en diferente presentación, y diferentes unidades de medida: metros, yardas y conos, teniendo en cuenta el calibre, vienen en presentación 2.500, 5.000, y 8.000 metros. Generalmente existe en las empresas una tabla dinámica para calcular el consumo de hilo, según los tejidos.
+      .col-lg-3(data-aos="fade-left")
+        figure
+          img.img-a(src='@/assets/curso/temas/tema_5/img_4.svg', alt='Imagen decorativa')
 
-        .row.justify-content-center.mb-5
-          .col-lg-6
-            .border--bg3.p-2(data-aos="zoom-in")
-              p En resumen, para realizar cálculos de consumos de hilos es muy importante, medir las longitudes de las costuras y determinar consumos con base en:
-            .row.bg01.rounded.mb-4.p-2(data-aos="fade-left")
-              .col-lg-12
-                p.mb-0.text-center El tipo de puntada
-            .row.bg02.rounded.mb-4.p-2(data-aos="fade-right")
-              .col-lg-12
-                p.mb-0.text-center El número de puntadas por pulgada
-            .row.bg03.rounded.mb-4.p-2(data-aos="fade-left")
-              .col-lg-12
-                p.mb-0.text-center La máquina y el tipo de tecnología que utiliza
-            .row.bg04.rounded.mb-5.p-2(data-aos="fade-right")
-              .col-lg-12
-                p.mb-0.text-center El tipo de tejido o tela
 
-            p.text-center.mb-3(data-aos="fade-left") Descargue la siguiente plantilla y tabla dinámica de Excel, preconfigurada para realizar el cálculo de consumo de hilo para tejido liviano:
 
-            .row.justify-content-center(data-aos="fade-right")
-              .col-lg-9
-                a.anexo(:href="obtenerLink('/downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls')" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-xml.svg" alt='Imagen decorativa')
-                  .anexo__texto
-                    p #[strong Anexo.] Cálculo de consumo de hilo
 
-        .list.mb-3(data-aos="zoom-in")
-          .list__item 
-            .list__item__bulletNumber 
-              span 2
-          .list__txt
-            h5.m-top Cálculo de consumo de tela
 
-        p.mb-5(data-aos="zoom-in") Para determinar la cantidad de tela que consume o se requiere para confeccionar una prenda o un lote de producción, se depende de la elaboración del trazo, entendido como el dibujo de los moldes de la prenda que se va a cortar, sobre la tela o un papel que tenga las mismas dimensiones que ella; teniendo en cuenta que se debe ubicar de acuerdo con el ancho de la tela y evitando al máximo dejar espacios vacíos, ya que eso hace parte del desperdicio de tela.
+    .row
+      .col-lg-3
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema_5/img_15.svg' alt='Imagen decorativa')
+          .tarjeta.avatar-b-1
+            .p-4
+              p El tipo de puntada.
 
-        .cajon.color-primario.p-4(data-aos="zoom-in")
-          p Los moldes se van ubicando, teniendo como límite el ancho de la tela, y en la medida que se van dibujando los moldes, se va alargando este dibujo, a esa longitud se denomina largo del trazo. De acuerdo con eso, ese largo del trazo se divide entre las tallas que se dibujaron y el resultado es el consumo promedio (C.P.)
+      .col-lg-3
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema_5/img_16.svg' alt='Imagen decorativa')
+          .tarjeta.avatar-b-2
+            .p-4
+              p El número de puntadas por pulgada.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-4
-        .border--bg2.p-4.text-center
-          h5.mb-0 Fórmula para hallar el Consumo Promedio
-          p.mb-0 C.P. = Largo del trazo / N° de tallas trazadas.
+      .col-lg-3
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema_5/img_17.svg' alt='Imagen decorativa')
+          .tarjeta.avatar-b-3
+            .p-4
+              p La máquina y el tipo de tecnología que utiliza.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-2
-        .tarjeta--bg4.p-2
-          h5.text-center.mb-0 Ejemplo 
+      .col-lg-3
+        .tarjeta-avatar-b.mb-5
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/temas/tema_5/img_18.svg' alt='Imagen decorativa')
+          .tarjeta.avatar-b-4
+            .p-4
+              p El tipo de tejido o tela.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-8.border_1
-        p Largo del trazo 5,18 metros, tallas trazadas: la talla M se dibuja 2 veces, la talla L se dibuja 3 veces, y la talla XL se dibuja 2 veces o sea 7 tallas dibujadas. De acuerdo con los estudios de mercado hay unas tallas que se venden más que otras y por eso se producen más unidades de esas tallas.
 
-        p.mb-0 CP = 5,18 m / 7 
-        p CP = 0,74 m. →, cantidad de tela necesaria para una unidad. 
-        p m = metros 
+    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/temas/tema_1/img_31.svg" alt='Imagen decorativa')
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Anexo. Cálculo de consumo de hilo
+              p.text-small Descargue la siguiente plantilla y tabla dinámica de Excel, preconfigurada para realizar el cálculo de consumo de hilo para tejido liviano: 
+            .col-sm-auto
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
-        p Se llama consumo promedio porque no es la medida de la talla más pequeña (M), ni de la talla más grande (XL), ya que están dibujadas todas las tallas juntas. 
+    .mt-5.d-flex.mb-5
+      .d-flex.flex-wrap.align-items-center.pe-4
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Cálculo de consumo de tela
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
 
-        p Si se fuera a programar la producción de 70 unidades, se multiplica la tela que necesito para una unidad. 
+    .row.mb-5
+      .col-lg-9(data-aos="fade-right")
+        .row.justify-content-center.mb-4
+          .col-lg-12 
+          p Para calcular la cantidad de tela necesaria para cada prenda o lote de producción, se debe realizar un trazo, que consiste en dibujar los moldes de la prenda sobre la tela o un papel con dimensiones similares. Este trazo se realiza teniendo en cuenta el ancho de la tela y procurando evitar espacios vacíos que generen desperdicio de tela. 
+            .cajon.color-primario.p-4.mb-3(data-aos="zoom-in")
+              p.mb-3 Los moldes se ubican dentro del ancho de la tela, y la longitud del trazo se calcula dividiéndola entre las tallas dibujadas, obteniendo así el consumo promedio (C.P.).
+              .cajon.cajon-interno.align-items-center.text-center
+                .border--bg5.p-4.text-center
+                  h5.mb-0 Fórmula para hallar el Consumo Promedio
+                  p.mb-0 C.P. = Largo del trazo / N° de tallas trazadas.
 
-        p.mb-0 Entonces: 
-        p.mb-0 CP= 0.74 m * 70 unidades
-        p.mb-0 CP= 51.8 m de tela requeridos
+      .col-lg-3(data-aos="fade-left")
+        figure
+          img.img-a(src='@/assets/curso/temas/tema_5/img_19.png', alt='Imagen decorativa')
 
-    .row.justify-content-center.mb-5
-      .col-lg-8
-        .tarjeta--bg2.p-4(data-aos="zoom-in")
-          p.mb-0.text-center A continuación, se ve una imagen del trazo, cuya longitud es de 4 m 91.35 cm, en la cual hay dibujadas 4 tallas. De acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
+
+    .tarjeta.mb-5
+      .col-md.tarjeta.bg-02.p-5
+        .row.justify-content-center.mb-5(data-aos="zoom-in")
+          .col-lg-2
+            .tarjeta--bg6.p-2
+              h5.text-center.mb-0 Ejemplo 
+
+        .row.justify-content-center.mb-5(data-aos="zoom-in")
+          .col-lg-8.border_1
+            p Largo del trazo 5,18 metros, tallas trazadas: la talla M se dibuja 2 veces, la talla L se dibuja 3 veces, y la talla XL se dibuja 2 veces o sea 7 tallas dibujadas. De acuerdo con los estudios de mercado hay unas tallas que se venden más que otras y por eso se producen más unidades de esas tallas.
+
+            p.mb-0 CP = 5,18 m / 7 
+            p CP = 0,74 m. →, cantidad de tela necesaria para una unidad. 
+            p m = metros 
+
+            p Se llama consumo promedio porque no es la medida de la talla más pequeña (M), ni de la talla más grande (XL), ya que están dibujadas todas las tallas juntas. 
+
+            p Si se fuera a programar la producción de 70 unidades, se multiplica la tela que necesito para una unidad. 
+
+            p.mb-0 Entonces: 
+            p.mb-0 CP= 0.74 m * 70 unidades
+            p.mb-0 CP= 51.8 m de tela requeridos
+
+    p.mb-5 A continuación, se ve una imagen del trazo, cuya longitud es de 4 m 91.35 cm, en la cual hay dibujadas 4 tallas. De acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       span Largo del trazo: 4 m
     figure(data-aos="zoom-in")
-      img.img-a(src='@/assets/curso/tema_5/img_9.png', alt='Imagen decorativa') 
+      img.img-a(src='@/assets/curso/temas/tema_5/img_9.png', alt='Largo del trazo: 4 m') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).
 
     separador
@@ -289,35 +311,35 @@
 
     p.mb-5 Una vez se ha determinado cuántas son las cantidades de insumos y materias primas por una unidad, se multiplica por la cantidad del lote u orden de producción.
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-2
-        .tarjeta--bg4.p-2
-          h5.text-center.mb-0 Ejemplo 
+    .tarjeta.mb-5
+      .col-md.tarjeta.bg-02.p-5
+        .row.justify-content-center.mb-5(data-aos="zoom-in")
+          .col-lg-2
+            .tarjeta--bg6.p-2
+              h5.text-center.mb-0 Ejemplo 
 
-    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede observar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente: 
+        .row.justify-content-center.mb-5(data-aos="zoom-in")
+          .col-lg-8.border_1
+            p Cada unidad requiere de los siguientes insumos: 
 
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-8.border_1
-        p Cada unidad requiere de los siguientes insumos: 
+            ul.lista-ul--color
+              li
+                i.lista-ul__vineta
+                | Botones: 9 unidades
+              li
+                i.lista-ul__vineta
+                | Entretela: 0,20 metros
+              li
+                i.lista-ul__vineta
+                | Tela principal: 1,30 metros
+              li
+                i.lista-ul__vineta
+                | Bolsa cubre vestido: 1 unidad
+              li
+                i.lista-ul__vineta
+                | Etiquetas: 2 unidades.
 
-        ul.lista-ul--color
-          li
-            i.lista-ul__vineta
-            | Botones: 9 unidades
-          li
-            i.lista-ul__vineta
-            | Entretela: 0,20 metros
-          li
-            i.lista-ul__vineta
-            | Tela principal: 1,30 metros
-          li
-            i.lista-ul__vineta
-            | Bolsa cubre vestido: 1 unidad
-          li
-            i.lista-ul__vineta
-            | Etiquetas: 2 unidades.
-
-        p.mb-0 Se determinan las necesidades de materiales e insumos, en la ficha de cálculo de consumo por lote visible en la tabla 6. 
+            p.mb-0 Se determinan las necesidades de materiales e insumos, en la ficha de cálculo de consumo por lote visible en la tabla 6. 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
@@ -349,11 +371,11 @@
                 td 150	
                 td 50
               tr.text-center.td_bg1
-                td(colspan=2) ARTÍCULO	
-                td PROVEEDOR
-                td PRESENTACIÓN
-                td CONSUMO  POR PRENDA 
-                td TOTAL NECESARIO 
+                td(colspan=2) Artículo	
+                td Proveedor
+                td Presentación
+                td Consumo por Prenda
+                td Total necesario
               tr.text-center
                 td(colspan=2) Tela principal	
                 td Texta	
@@ -367,42 +389,42 @@
                 td 0,2	
                 td 80 
               tr.text-center
-                td(colspan=2) Botones	
-                td Botytex	
-                td Unidades	
-                td 9	
-                td 3600
+                td 	
+                td 	
+                td 	
+                td 	
+                td 
+                td
               tr.text-center
-                td(colspan=2) Etiquetas	
-                td Marquilla	
-                td Unidades	
-                td 2	
-                td 800
-              tr.text-center
-                td(colspan=2) Bolsas	
-                td Plástica	
-                td Unidades	
-                td 1	
-                td 400
+                td
+                td 	
+                td 	
+                td 	
+                td
+                td 
               tr.text-center
                 td(colspan=2) Autorizó
                 td
                 td Recibe
                 td(colspan=2)
 
-        p.mb-5 De acuerdo con este ejemplo, puede observar que la cantidad total de prendas (camisas), a producir son 400 unidades, esta cifra está en el encabezado, en la primera columna aparece el nombre del insumo o producto del cuál se calcula la cantidad necesaria para realizar el lote, ejemplo: tela, botón, etiqueta. 
+      p.mb-5 De acuerdo con este ejemplo, puede observar que la cantidad total de prendas (camisas), a producir son 400 unidades, esta cifra está en el encabezado, en la primera columna aparece el nombre del insumo o producto del cuál se calcula la cantidad necesaria para realizar el lote, ejemplo: tela, botón, etiqueta. 
 
-        .cajon.color-primario.p-4.mb-5(data-aos="zoom-in") 
-          p.mb-0 En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, ese consumo viene definido en la ficha técnica de diseño, para diligenciar la última columna se multiplica el consumo x prenda (cuarta columna), por la cantidad de prendas total, en este caso 400 unidades (1,3 X 400 = 520, 0,2 x 400 = 80, 9 x 400 = 3600, 2 x 400 = 800, 1 x 400 =400) y ahí se tienen calculados la necesidad de materiales e insumos para este lote de camisas de la referencia 1030.
+        
 
-        .row
-          .col-lg-4(data-aos="fade-right")
+        .row.mb-5 
+          .col-lg-9(data-aos="fade-right")
+            .cajon.color-primario.p-4.mb-5(data-aos="zoom-in") 
+              p.mb-0 En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, ese consumo viene definido en la ficha técnica de diseño, para diligenciar la última columna se multiplica el consumo x prenda (cuarta columna), por la cantidad de prendas total, en este caso 400 unidades (1,3 X 400 = 520, 0,2 x 400 = 80, 9 x 400 = 3600, 2 x 400 = 800, 1 x 400 =400) y ahí se tienen calculados la necesidad de materiales e insumos para este lote de camisas de la referencia 1030.
+            
+          .col-lg-3(data-aos="fade-left")
             figure
-              img.img-a(src='@/assets/curso/tema_5/img_10.png', alt='Imagen decorativa') 
-          .col-lg-8(data-aos="fade-left")
-            p En algunas ocasiones y de acuerdo con políticas de la empresa, se podrían incluir valores unitarios y valores totales, de los insumos y las materias primas necesarias.   
+              img.img-a(src='@/assets/curso/temas/tema_5/img_10.svg', alt='Imagen decorativa') 
 
-            p A continuación, se presenta la tabla 7 donde se incluyen valores unitario y total.
+      p.mb-4 En algunas ocasiones y de acuerdo con políticas de la empresa, se podrían incluir valores unitarios y valores totales, de los insumos y las materias primas necesarias.   
+      p.mb-5 A continuación, se presenta la tabla 7 donde se incluyen valores unitario y total.
+            
+
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 7.
@@ -419,7 +441,7 @@
         tbody
           tr.text-center
             td REF: #[.text-danger 1030]	
-            td(rowspan=2) Cantidades por talla:
+            td Tallas
             td S
             td M	 
             td L 	 
@@ -427,11 +449,12 @@
             td XXL
           tr.text-center
             td CANT: #[.text-danger 400]
-            td.text-danger 50 	 
-            td.text-danger 150	
-            td.text-danger 150 	
-            td.text-danger 50 	
-            td.text-danger 0
+            td Cantidad
+            td 50 	 
+            td 150	
+            td 150 	
+            td 50 	
+            td 0
           tr.text-center.td_bg1
             td ARTÍCULO
             td PROVEEDOR	
@@ -441,51 +464,44 @@
             td VR/TOTAL UNITARIO 	
             td VR/TOTAL LOTE
           tr.text-center
-            td Tela	
+            td Tela principal	
+            td Texta
             td Texta	
             td Metros	
             td 1,3	
-            td $ 10.000	
-            td $ 13.000	
-            td $ 5.200.000
+            td 520	
+            td 
           tr.text-center
             td Entretela	
+            td Texta
             td Texta	
             td Metros	
             td 0,2	
-            td $ 3.000	
-            td $ 600	
-            td $ 240.000
-          tr.text-center
-            td Botones 	
-            td Botytex	
-            td Unidades	
-            td 9	
-            td $ 100	
-            td $ 900	
-            td $ 360.000
-          tr.text-center
-            td Etiquetas	
-            td Marquilla	
-            td Unidades	
-            td 2	
-            td $ 200	
-            td $ 400	
-            td $ 160.000
-          tr.text-center
-            td Bolsas	
-            td Plástica	
-            td Unidades	
-            td 1	
-            td $ 150	
-            td $ 150	
-            td $ 60.000
-          tr.text-center
-            td(colspan=4) TODOS LOS MATERIALES E INSUMOS QUE VAN INCORPORADOS EN LA PRENDA
+            td 80	
             td 
-              h5 TOTAL UNITARIO	  
+          tr.text-center
+            td  	
+            td 	
+            td 	
+            td 	
+            td 	
+            td  	
+            td  
+          tr.text-center
             td 
-              h5 $ 15.050  
+            td 
+            td 
+            td 
+            td 
+            td 	
+            td
+          tr.text-center
+            td 
+            td
+            td  
+            td
+            td  
+            td
             td
           tr.text-center
             td(colspan=5)
@@ -494,19 +510,19 @@
             td 
               h5 $ 6.020.000,00 
 
-    p.mb-5(data-aos="zoom-in") Para comprender este ejemplo (Ficha Cálculo de materiales e insumos), se debe tener presente los cálculos que se realizaron en la ficha de cálculo de consumo por lote, donde se realizó el cálculo de las cantidades necesarias de insumos y materiales para el lote de 400 camisas, ahora en esta tabla se entregan los valores a esos materiales e insumos para cada camisa y valor para todo el lote.
+    p.mb-5(data-aos="zoom-in") Para comprender este ejemplo <b>(Ficha Cálculo de materiales e insumos)</b>, se debe tener presente los cálculos que se realizaron en la ficha de cálculo de consumo por lote, donde se realizó el cálculo de las cantidades necesarias de insumos y materiales para el lote de 400 camisas, ahora en esta tabla se entregan los valores a esos materiales e insumos para cada camisa y valor para todo el lote.
 
-    .tarjeta--bg1.p-4.mb-5(data-aos="zoom-in") 
-      p.text-center.mb-0 En la primera columna aparece el nombre del material o insumo que se va a costear, o sea darle valor monetario a esa cantidad de insumo o materia prima.
-
+    
     .row
-      .col-lg-8(data-aos="fade-right")
-        p En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, en la quinta columna aparece el precio de cada unidad de medida con que se comercializa el insumo, en la sexta columna (VR/TOTAL UNITARIO),  se coloca el resultado de multiplicar la columna 4 (CONSUMO), multiplicado por los valores que aparecen en la columna 5 (VR/UNIT), y en la última columna( VR/TOTAL LOTE), se coloca el resultado de la columna (VR/TOTAL UNITARIO) multiplicado por la cantidad total del lote (CANT:400), así se tiene el costo unitario de una camisa y también se tiene el costo total del lote a producir.
+      .col-lg-7(data-aos="fade-right")
+        .tarjeta--bg1.p-4.mb-5(data-aos="zoom-in") 
+          p.mb-0 En la primera columna aparece el nombre del material o insumo que se va a costear, o sea darle valor monetario a esa cantidad de insumo o materia prima.
 
+        p.mb-3 En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, en la quinta columna aparece el precio de cada unidad de medida con que se comercializa el insumo, en la sexta columna (VR/TOTAL UNITARIO),  se coloca el resultado de multiplicar la columna 4 (CONSUMO), multiplicado por los valores que aparecen en la columna 5 (VR/UNIT), y en la última columna( VR/TOTAL LOTE), se coloca el resultado de la columna (VR/TOTAL UNITARIO) multiplicado por la cantidad total del lote (CANT:400), así se tiene el costo unitario de una camisa y también se tiene el costo total del lote a producir. 
         p Con esta información se pueden planear también las compras y los presupuestos.
-      .col-lg-4(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left")
         figure
-          img.img-a(src='@/assets/curso/tema_5/img_11.png', alt='Imagen decorativa') 
+          img.img-a(src='@/assets/curso/temas/tema_5/img_11.png', alt='Imagen decorativa') 
 
 
 

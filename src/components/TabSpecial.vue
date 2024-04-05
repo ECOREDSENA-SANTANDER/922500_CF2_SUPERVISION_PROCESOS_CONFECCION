@@ -3,7 +3,7 @@
   .tabs-d__header
     .row.m-0
       .col-auto.arrow.align-self-center
-        img(src="@/assets/curso/tabs-arrow-1.svg")
+        img(src="@/assets/template/tabs-arrow-1.svg")
       .col-sm-6.col-lg-4.col-xl.tabs-d__tab(
         v-for="(elm,index) of elements"
         :key="'tabs-c-menu-'+elm.id"
@@ -20,7 +20,7 @@
             span {{elm.titulo}}
         .tabs-d__container-active(v-if="selected === elm.id")
       .col-auto.arrow.align-self-center
-        img(src="@/assets/curso/tabs-arrow-2.svg")
+        img(src="@/assets/template/tabs-arrow-2.svg")
 
   .tabs-c__content-item(
     v-for="elm of elements"

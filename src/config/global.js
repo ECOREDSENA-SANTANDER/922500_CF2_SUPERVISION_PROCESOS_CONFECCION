@@ -2,10 +2,27 @@ export default {
   global: {
     componenteFormativo: 'Materias primas e insumos de confección industrial',
     descripcionCurso:
-      'En este componente se abordan los fundamentos de las materias primas e insumos de confección industrial, permitiendo contextualizar al aprendiz en los tipos, clasificación e implementación, requeridos para la producción de prendas. De igual manera se abordan conceptos de costos, presupuestos y cálculos de consumo; conocimientos necesarios para poder determinar los materiales e insumos requeridos para la elaboración de prendas de vestir.',
+      'El componente aborda los fundamentos de las materias primas e insumos de confección industrial, lo que permite contextualizar al aprendiz en cuanto a los tipos, clasificación e implementación para la producción de prendas, Así mismo se incluyen conceptos de costos, presupuestos y cálculos de consumo, conocimientos necesarios para determinar los materiales requeridos para la elaboración de prendas de vestir.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/4.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -22,25 +39,21 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Materias primas e insumos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Materias primas',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Insumos',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Cadena de valor',
             hash: 't_1_3',
@@ -49,33 +62,28 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Unidades de medida',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Presupuestos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Consumos de materias primas',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '4.1',
             titulo: 'Orden de producción (OP)',
             hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '4.2',
             titulo: 'Ficha técnica',
             hash: 't_4_2',
@@ -84,19 +92,16 @@ export default {
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Cálculo de consumo de materiales e insumos',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '5.1',
             titulo: 'Cálculo de consumo unitario',
             hash: 't_5_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '5.2',
             titulo: 'Cálculo de consumo por lote',
             hash: 't_5_2',
@@ -105,31 +110,26 @@ export default {
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Inventario',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '6.1',
             titulo: 'Políticas empresariales de inventarios',
             hash: 't_6_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.2',
             titulo: 'Sistemas de inventarios',
             hash: 't_6_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.3',
             titulo: 'Funciones del inventario',
             hash: 't_6_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '6.4',
             titulo: 'Tipos de inventarios',
             hash: 't_6_4',
@@ -184,20 +184,20 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Telas',
       referencia:
         'SENA. (2021) Telas, materiales, insumos y maquinaria para la confección de ropa interior. Material formativo Programa tecnólogo de diseño para la industria de la moda.',
       tipo: 'PDF',
       link: '/downloads/Anexo_1_Telas_Sena.pdf',
     },
     {
-      tema: '',
+      tema: 'Insumos',
       referencia: 'Rojas C (s.f.) Fundamentación textil. Hilaturas – Hilos ',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_2_Fundamentacion_Textil_Hilaturas_Hilos.pdf',
     },
     {
-      tema: '',
+      tema: 'Consumo de hilo',
       referencia:
         'Coats Multisolution (s.f.) Cálculo de consumo de hilo para tejido liviano. ',
       tipo: 'Documento',
@@ -205,7 +205,7 @@ export default {
         '/downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls',
     },
     {
-      tema: '',
+      tema: 'Planeación y control de la producción',
       referencia:
         'Sipper, D; Bulfin, R. (1998). Planeación y control de la producción. McGraw-Hill Interamericana Editores.',
       tipo: 'E-book/Enlace',
@@ -213,21 +213,21 @@ export default {
         'https://www.academia.edu/10997351/Daniel_Sipper_Planeaci%C3%B3n_y_Control_de_La_Producci%C3%B3n',
     },
     {
-      tema: '',
+      tema: 'Inventarios',
       referencia:
         'Fondo esperanza (s.f.) Cómo hacer un buen inventario | Aprendo y Emprendo. [Video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/s_GBs0V4cR0',
     },
     {
-      tema: '',
+      tema: 'Funciones del inventario',
       referencia:
         'Hancco M. (2018) Tutorial Req Materia Prima y consumo [Video] YouTube.',
       tipo: 'Video',
       link: 'https://youtu.be/CEKjA_UsvnQ',
     },
     {
-      tema: '',
+      tema: 'Inventarios – Administración de la producción ',
       referencia:
         'Cruz Fernández, A. (2017). Gestión de inventarios: UF0476 . IC Editorial. Ebooks 7-24. ',
       tipo: 'Enlace de biblioteca',
