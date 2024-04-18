@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .row.mt-5.mb-5
       .col-lg-10
-        .color-sintesis  #[b Tecnólogo en supervisión en procesos de confección]  
-          p Síntesis: Materias primas e insumos de confección industrial
+        .color-sintesis  #[b Tecnólogo en supervisión en procesos de confección.]  
+          p Síntesis: Materias primas e insumos de confección industrial.
       .col-lg-2
         figure.logo-sena 
           img(src="@/assets/curso/temas/sena.svg", alt="alt")

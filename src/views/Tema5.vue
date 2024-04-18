@@ -58,7 +58,7 @@
 
     .mt-5.d-flex.mb-5
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Cálculo de consumo de hilo
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 310px;') Cálculo de consumo de hilo
         img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
 
     p.mb-5(data-aos="zoom-in") Desde diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, ver tabla 5:
@@ -87,7 +87,7 @@
 
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 5.
-          span Relación de consumo de hilo
+          span Relación de consumo de hilo.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -124,17 +124,42 @@
                 td 2.8
                 td 1/3
               tr.text-center
-                td 	
-                td 	
-                td 	
-                td 
-                td 
+                td 304	
+                td 	Zigzag sencillo.
+                td 	7
+                td 1
+                td 1/1
               tr.text-center
-                td 
-                td 
-                td 	
-                td 
-                td 
+                td 315
+                td Triple zigzag.
+                td 	8.5
+                td 1
+                td 1/1 
+              tr.text-center
+                td 504
+                td Sobrehilado 3 hilos.
+                td 	14
+                td 1
+                td 1/1/5  
+              tr.text-center
+                td 406
+                td Recubridora a tres hilos (sin recubridor).
+                td 	18
+                td 2
+                td 1/1/5 
+              tr.text-center
+                td 602
+                td Recubridora a 4 hilos (con recubridor).
+                td 	22
+                td 2
+                td 3/1/1/5 
+              tr.text-center
+                td 605
+                td Recubridora a 5 hilos (con recubridor).
+                td 	25
+                td 3
+                td 3/1/1/1/5 
+
               
 
         .row.mb-5
@@ -146,11 +171,11 @@
               li 
                 .lista-ol--cuadro__vineta
                   span 1
-                | Los datos de la tabla anterior se relacionan con un tejido con Incrementar desperdicio, o sea 
+                | Los datos de la tabla anterior se relacionan con un tejido con un espesor de 3 mm, aproximadamente.
               li 
                 .lista-ol--cuadro__vineta
                   span 2
-                | Hilo que no se utiliza o sobrante, así:
+                | Incrementar desperdicio, o sea hilo que no se utiliza o sobrante, asi:
 
               li.pb-0
                 ul.lista-ul--color
@@ -176,9 +201,9 @@
 
         .row.justify-content-center.mb-5(data-aos="zoom-in")
           .col-lg-8.border_1
-            p Al sumar la longitud de las costuras de cadeneta doble 401, dio como resultado 5.5 metros, y la relación de hilos que componen la costura es de 1/3; 
+            p Al sumar la longitud de las costuras de cadeneta doble 401, dio como resultado 5.5 metros, y la relación de hilos que componen la costura es de 1/3.
 
-            p Entonces:   5.5 / 4 = 1,37
+            p Entonces:   5.5 / 4 = 1,37.
 
             p Eso significa que mientras se tiene un gasto en el hilo de arriba o pespunte de una cuarta parte del consumo total 1, 37 metros, en el looper o costura de abajo se triplica el  gasto, es decir 4.12 metros de costura. 
 
@@ -247,13 +272,13 @@
               h3.mb-1 Anexo. Cálculo de consumo de hilo
               p.text-small Descargue la siguiente plantilla y tabla dinámica de Excel, preconfigurada para realizar el cálculo de consumo de hilo para tejido liviano: 
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
     .mt-5.d-flex.mb-5
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Cálculo de consumo de tela
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 320px;') Cálculo de consumo de tela
         img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
 
     .row.mb-5
@@ -284,22 +309,21 @@
           .col-lg-8.border_1
             p Largo del trazo 5,18 metros, tallas trazadas: la talla M se dibuja 2 veces, la talla L se dibuja 3 veces, y la talla XL se dibuja 2 veces o sea 7 tallas dibujadas. De acuerdo con los estudios de mercado hay unas tallas que se venden más que otras y por eso se producen más unidades de esas tallas.
 
-            p.mb-0 CP = 5,18 m / 7 
+            p.mb-0 CP = 5,18 m / 7.
             p CP = 0,74 m. →, cantidad de tela necesaria para una unidad. 
-            p m = metros 
+            p m = metros. 
 
             p Se llama consumo promedio porque no es la medida de la talla más pequeña (M), ni de la talla más grande (XL), ya que están dibujadas todas las tallas juntas. 
 
             p Si se fuera a programar la producción de 70 unidades, se multiplica la tela que necesito para una unidad. 
 
             p.mb-0 Entonces: 
-            p.mb-0 CP= 0.74 m * 70 unidades
-            p.mb-0 CP= 51.8 m de tela requeridos
+            p.mb-0 CP= 0.74 m * 70 unidades.
+            p.mb-0 CP= 51.8 m de tela requeridos.
 
-    p.mb-5 A continuación, se ve una imagen del trazo, cuya longitud es de 4 m 91.35 cm, en la cual hay dibujadas 4 tallas. De acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
-
+    p.mb-5 A continuación, se ve el dibujo del trazo cuya longitud es 5,18 metros, y en el cual hay dibujadas 7 tallas, entonces, de acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      span Largo del trazo: 4 m
+      span Largo del trazo: 5,18 mt.
     figure(data-aos="zoom-in")
       img.img-a(src='@/assets/curso/temas/tema_5/img_9.png', alt='Largo del trazo: 4 m') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).
@@ -325,16 +349,16 @@
             ul.lista-ul--color
               li
                 i.lista-ul__vineta
-                | Botones: 9 unidades
+                | Botones: 9 unidades.
               li
                 i.lista-ul__vineta
-                | Entretela: 0,20 metros
+                | Entretela: 0,20 metros.
               li
                 i.lista-ul__vineta
-                | Tela principal: 1,30 metros
+                | Tela principal: 1,30 metros.
               li
                 i.lista-ul__vineta
-                | Bolsa cubre vestido: 1 unidad
+                | Bolsa cubre vestido: 1 unidad.
               li
                 i.lista-ul__vineta
                 | Etiquetas: 2 unidades.
@@ -345,7 +369,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 6.
-          span Ficha de cálculo de consumo por lote
+          span Ficha de cálculo de consumo por lote.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -358,24 +382,24 @@
             tbody
               tr.text-center
                 td REF: 1030	
-                td Tallas:	
+                td Tallas
                 td S/8/28	
                 td M/10/30	
                 td L/12/32	
                 td XL/14/34
               tr.text-center
                 td Cantidad total: #[.text-danger 400]	
-                td Cantidad:	
+                td Cantidad
                 td 50	
                 td 150	
                 td 150	
                 td 50
-              tr.text-center.td_bg1
-                td(colspan=2) Artículo	
-                td Proveedor
-                td Presentación
-                td Consumo por Prenda
-                td Total necesario
+              tr.text-center.td_bg3
+                td(colspan=2) #[b Artículo	]
+                td #[b Proveedor]
+                td #[b Presentación]
+                td #[b Consumo por Prenda]
+                td #[b Total necesario]
               tr.text-center
                 td(colspan=2) Tela principal	
                 td Texta	
@@ -389,24 +413,23 @@
                 td 0,2	
                 td 80 
               tr.text-center
-                td 	
-                td 	
-                td 	
-                td 	
-                td 
-                td
+                td(colspan=2) Botones	
+                td 	Botytex
+                td 	Unidades
+                td 9
+                td 3600
               tr.text-center
-                td
-                td 	
-                td 	
-                td 	
-                td
-                td 
+                td(colspan=2) 	Etiquetas
+                td 	Marquilla
+                td 	Unidades
+                td 2
+                td 800
               tr.text-center
-                td(colspan=2) Autorizó
-                td
-                td Recibe
-                td(colspan=2)
+                td(colspan=2) Bolsas
+                td Plástica
+                td Unidades
+                td 1
+                td 400
 
       p.mb-5 De acuerdo con este ejemplo, puede observar que la cantidad total de prendas (camisas), a producir son 400 unidades, esta cifra está en el encabezado, en la primera columna aparece el nombre del insumo o producto del cuál se calcula la cantidad necesaria para realizar el lote, ejemplo: tela, botón, etiqueta. 
 
@@ -428,7 +451,7 @@
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 7.
-      span Ficha de cálculo de consumo por lote
+      span Ficha de cálculo de consumo por lote.
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
       table
         thead
@@ -448,66 +471,73 @@
             td XL 	
             td XXL
           tr.text-center
-            td CANT: #[.text-danger 400]
+            td Cantidad total:  #[.text-danger 400]
             td Cantidad
             td 50 	 
             td 150	
             td 150 	
             td 50 	
             td 0
-          tr.text-center.td_bg1
-            td ARTÍCULO
-            td PROVEEDOR	
-            td UNIDAD DE MEDIDA	
-            td CONSUMO	 
-            td VR/UNIT 	 
-            td VR/TOTAL UNITARIO 	
-            td VR/TOTAL LOTE
+          tr.text-center.td_bg3
+            td #[b ARTÍCULO]
+            td #[b PROVEEDOR	]
+            td #[b UNIDAD DE MEDIDA	]
+            td #[b CONSUMO	 ]
+            td #[b VR/UNIT 	 ]
+            td #[b VR/TOTAL UNITARIO 	]
+            td #[b VR/TOTAL LOTE]
           tr.text-center
-            td Tela principal	
+            td Tela 	
             td Texta
-            td Texta	
             td Metros	
             td 1,3	
-            td 520	
-            td 
+            td $10.000	
+            td $13.000
+            td $5.200.000
           tr.text-center
             td Entretela	
             td Texta
-            td Texta	
             td Metros	
             td 0,2	
-            td 80	
-            td 
+            td $3.000	
+            td $600
+            td $240.000
           tr.text-center
-            td  	
-            td 	
-            td 	
-            td 	
-            td 	
-            td  	
-            td  
+                td Botones	
+                td 	Botytex
+                td 	Unidades
+                td 9
+                td $100
+                td $900
+                td $360.000
           tr.text-center
-            td 
-            td 
-            td 
-            td 
-            td 
-            td 	
-            td
+                td 	Etiquetas
+                td 	Marquilla
+                td 	Unidades
+                td 2
+                td $200
+                td $400
+                td $160.000
           tr.text-center
-            td 
-            td
-            td  
-            td
-            td  
-            td
-            td
+                td Bolsas
+                td Plástica
+                td Unidades
+                td  1
+                td $150
+                td $150
+                td $60.000
+          tr.text-center
+            td(colspan=4) TODOS LOS MATERIALES E INSUMOS QUE VAN INCORPORADOS EN LA PRENDA	 
+            td.td_bg4 
+              h5 TOTAL UNITARIO
+            td.td_bg4
+              h5  $15.050
+            td &nbsp; 
           tr.text-center
             td(colspan=5)
-            td 
+            td.td_bg5
               h5 TOTAL LOTE	 
-            td 
+            td.td_bg5
               h5 $ 6.020.000,00 
 
     p.mb-5(data-aos="zoom-in") Para comprender este ejemplo <b>(Ficha Cálculo de materiales e insumos)</b>, se debe tener presente los cálculos que se realizaron en la ficha de cálculo de consumo por lote, donde se realizó el cálculo de las cantidades necesarias de insumos y materiales para el lote de 400 camisas, ahora en esta tabla se entregan los valores a esos materiales e insumos para cada camisa y valor para todo el lote.

@@ -25,7 +25,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 1.1  Materias primas
 
-    p.mb-5(data-aos="zoom-in") Se puede definir la materia prima como el conjunto de elementos que están presentes en la elaboración de un producto, es decir aquello que se transforma y se incorpora en la producción final de un producto. Las materias primas pueden ser de tres tipos.
+    p.mb-5(data-aos="zoom-in") Se puede definir la materia prima como el conjunto de elementos que están presentes en la elaboración de un producto, es decir aquello que se transforma y se incorpora en la producción final de un producto. Las materias primas pueden ser de tres tipos:
 
 
     .row.justify-content-center.mb-5.d-flex
@@ -76,7 +76,7 @@
       .py-4.py-md-5.tab1(titulo="Rayón o viscosa")
         .row.justify-content-center
           .col-sm-12.col-lg-5
-            p.mb-0.mx-3 Rayón o viscosa es una fibra artificial manufacturada que luego de un proceso químico, el resultante es regenerado e introducido en orificios formado filamentos para luego hacer el tejido. Se utiliza para fabricar prendas cómodas  y su apariencia es similar algodón o a la seda.
+            p.mb-0.mx-3 Rayón o viscosa es una fibra artificial manufacturada que luego de un proceso químico, el resultante es regenerado e introducido en orificios formado filamentos para luego hacer el tejido. Se utiliza para fabricar prendas cómodas  y su apariencia es similar al algodón o a la seda.
           .col-sm-12.col-lg-5 
             img.mx-3(src='@/assets/curso/temas/tema_1/img_35.svg', alt="Fibra artificial manufacturada")
       .py-4.py-md-5.tab1(titulo="Lino")
@@ -94,9 +94,9 @@
       .py-4.py-md-5.tab1(titulo="Lana")
         .row.justify-content-center
           .col-sm-12.col-lg-5
-            p.mb-0.mx-3 No se encuentra en DI
+            p.mb-0.mx-3 Es otra fibra natural de origen animal, su utilización es la de las más antiguas que ha realizado la humanidad. Proviene de animales como las llamas, las ovejas, las alpacas y las cabras.
           .col-sm-12.col-lg-5 
-            img.mx-3(src='@/assets/curso/temas/tema_1/img_34.svg', alt="Materias primas de origen mineral")
+            img.mx-3(src='@/assets/curso/temas/tema_1/img_38.png', alt="Materias primas de origen mineral")
 
 
     .mt-5.d-flex.mb-5
@@ -117,8 +117,7 @@
             i.lista-ul__vineta
             h5 Características de las telas
 
-        p.mb-5 Las telas tienen características especiales que son importantes conocer para saber elegirlas de acuerdo con el propósito que se espera cumplir con el material y así poder seleccionar la más indicada; sus hilos entrecruzados de diferentes maneras definen el tejido y adquieren una presentación, otro aspecto son las dimensiones donde normalmente se valorará el ancho y el largo.
-
+        p.mb-5 Las telas presentan características específicas que son importantes tener en cuenta al elegirlas, como la forma en que están entrecruzadas las fibras, que define el tejido y su apariencia, y las dimensiones, especialmente el ancho y el largo.
         
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -127,7 +126,7 @@
           .tarjeta.bg-tarjeta 
             .p-4
               h2.text-center Fabricación
-              p pueden estar elaboradas en un telar con hilos perpendiculares (urdimbre), e hilos horizontales (trama), a este tipo de tejido con dos hilos se le conoce como <b>tejido plano</b>, también existen tejidos realizados por una sola aguja, o sea un solo hilo que se va entrelazando, a ese se le denomina <b>tejido de punto</b>.
+              p Pueden estar elaboradas en un telar con hilos perpendiculares (urdimbre), e hilos horizontales (trama), a este tipo de tejido con dos hilos se le conoce como <b>tejido plano</b>, también existen tejidos realizados por una sola aguja, o sea un solo hilo que se va entrelazando, a ese se le denomina <b>tejido de punto</b>.
 
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
@@ -209,7 +208,7 @@
                   img.img-a(src='@/assets/curso/temas/tema_1/img_15.png', alt='Imagen decorativa denim') 
               .col-md-6.mb-4.mb-md-0
                 h5 Denim
-                p También conocida como tela vaquera o mezclilla, es empleado para la producción de jeans, anteriormente se composición era 100% algodón, pero en los últimos tiempos se le ha incorporado elastómero con el fin de que gane elasticidad.
+                p También conocida como tela vaquera o mezclilla, es empleado para la producción de jeans, anteriormente su composición era 100% algodón, pero en los últimos tiempos se le ha incorporado elastómero con el fin de que gane elasticidad.
 
             
             
@@ -233,9 +232,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Anexo. Telas, Sena.
-              p.text-small La revisión del documento disponible a continuación permitirá profundizar acerca de las telas, sus características, tejidos y diferentes usos: 
+              p.text-small La revisión del documento disponible a continuación permitirá profundizar acerca de las telas, sus características, tejidos y diferentes usos.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_1_Telas_Sena.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
@@ -312,7 +311,7 @@
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg--5.my-2.mb-md-0
             h4.mb-3 Cremalleras
-            p También llamado cierre, que ese ubica en las prendas de vestir con el fin de cerrar y abrir aberturas o uniones de piezas. Está compuesto por unos dientes que se unen y abren, impulsados por una paleta o cabeza de cierre, estos dientes están sujetos por una cinta de tela en la mayoría de los casos. Los hay metálicos o de nylon o plástico.
+            p También llamado cierre, que se ubica en las prendas de vestir con el fin de cerrar y abrir aberturas o uniones de piezas. Está compuesto por unos dientes que se unen y abren, impulsados por una paleta o cabeza de cierre, estos dientes están sujetos por una cinta de tela en la mayoría de los casos. Los hay metálicos o de nylon o plástico.
 
           .col-md-5
             figure
@@ -355,7 +354,7 @@
     separador
 
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
-      .h2 1.3  Cadena de valor.
+      .h2 1.3  Cadena de valor
 
     .row(data-aos='fade-right')
       .col-lg-3
@@ -398,7 +397,7 @@
               h3.mb-1 Materiales e insumos para vestuario.
               p.text-small Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Infografia-CF2_Funciones inventario.pdf')" target="_blank")
                 span Enlace
                 i.fas.fa-link
     
@@ -461,7 +460,7 @@ export default {
       {
         titulo: 'Cremalleras',
         texto:
-          'También llamado cierre, que ese ubica en las prendas de vestir con el fin de cerrar y abrir aberturas o uniones de piezas. Está compuesto por unos dientes que se unen y abren, impulsados por una paleta o cabeza de cierre, estos dientes están sujetos por una cinta de tela en la mayoría de los casos. Los hay metálicos o de nylon o plástico.',
+          'También llamado cierre, que se ubica en las prendas de vestir con el fin de cerrar y abrir aberturas o uniones de piezas. Está compuesto por unos dientes que se unen y abren, impulsados por una paleta o cabeza de cierre, estos dientes están sujetos por una cinta de tela en la mayoría de los casos. Los hay metálicos o de nylon o plástico.',
         imagen: require('@/assets/curso/temas/tema_1/img_21.png'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

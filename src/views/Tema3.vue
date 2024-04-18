@@ -70,7 +70,7 @@
                   li 
                     i.lista-ul__vineta
                     p.mb-0  #[strong Código o referencia:] 
-                      | para efectos de control con códigos, números, referencias o códigos de barra
+                      | para efectos de control con códigos, números, referencias o códigos de barra.
                   li 
                     i.lista-ul__vineta
                     p.mb-0  #[strong Cantidades:] 
@@ -87,7 +87,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 2.
-          span Ficha de presupuesto de ventas
+          span Ficha de presupuesto de ventas.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -105,7 +105,7 @@
                 td(colspan=2) FECHA INICIO: 05/ 3/21	
                 td(colspan=3) FECHA FIN: 05/30/21
               tr.text-center 
-                td(colspan=7) Las referencias que empiecen por 10 son dama, las que empiecen por 30 son hombre.
+                td(colspan=7) Las referencias que empiecen por 10 son dama, las que empiecen por 30 por caballero.
               tr.text-center.td_bg1
                 td 
                   h5 REF	
@@ -185,10 +185,10 @@
                     | Las necesidades de materias primas e insumos, con el fin de conocer cuáles y en qué cantidades se requieren.
                   li 
                     i.lista-ul__vineta
-                    | La necesidad de servicios, traducidos en mano de obra directa: diseño, corte, confección, bordados, estampación, lavandería, terminación.
+                    | La necesidad de servicios, traducidos en mano de obra directa: diseño, corte, confección, bordados, estampación, lavandería y terminación.
                   li 
                     i.lista-ul__vineta
-                    | Necesidad de otros recursos que se necesitan para satisfacer la demanda: bodega, energía eléctrica, papelería, víveres, transporte.  
+                    | Necesidad de otros recursos que se necesitan para satisfacer la demanda: bodega, energía eléctrica, papelería, víveres y transporte.  
             .row.justify-content-center.align-items-center
               .col-md-4
                 figure
@@ -222,7 +222,7 @@
         .col-lg-8(data-aos="fade-right")
           .titulo-sexto.color-acento-contenido(data-aos="fade-right")
             h5 Tabla 3.
-            span Ficha de presupuesto de producción
+            span Ficha de presupuesto de producción.
           .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
             table
               thead

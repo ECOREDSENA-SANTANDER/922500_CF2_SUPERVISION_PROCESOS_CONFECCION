@@ -48,7 +48,7 @@
               .h4.text-center.mt-4 De longitud
               p.mt-3.ml-5.md-3 La longitud se define como la distancia entre dos puntos y las unidades de medida de longitud más comunes incluyen el metro, la yarda, el centímetro, la pulgada, el kilómetro y la milla. 
               p En cuanto a los materiales utilizados en la confección, como telas, elásticos, cintas y hilos, se comercializan y emplean con estas unidades de medida, así como sus fracciones correspondientes.
-            
+              
     
       .col-sm-12.col-lg-4.position-relative.px-0
         figure.px-2
@@ -80,14 +80,13 @@
                   img(src="@/assets/curso/temas/tema_2/img_12.svg", alt="Imagen descriptiva").w-10.margin-0-auto
               .h4.text-center.mt-4 Otros
               p.mt-3.ml-5.md-3 Existen otros elementos utilizados en la fabricación y acabado de prendas de vestir que se comercializan y calculan por unidades, decenas, docenas o millares, como botones, hebillas, cremalleras, marquillas, etiquetas y bolsas.
-   
     
     p(data-aos='fade-left') A continuación en la tabla 1, se presentan algunas unidades de medida en su presentación más comercial, y en qué tipos de materiales e insumos se aplican generalmente.
 
     
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 1.
-          span Ejemplos de unidades de medida y materiales
+          span Ejemplos de unidades de medida y materiales.
         .tabla-a.color-acento-contenido.mb-5(data-aos='fade-left')
           table
             thead

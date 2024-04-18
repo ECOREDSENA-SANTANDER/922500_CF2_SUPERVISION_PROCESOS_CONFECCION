@@ -13,8 +13,7 @@
       .col-sm-12.col-lg-3 
         img.d-none.d-lg-block.img-a(src='@/assets/curso/temas/tema_6/img_10.svg', alt='Imagen decorativa')
       .col-sm-12.col-lg-9
-        p Es la descripción actualizada que realiza una organización de sus productos o servicios, donde se especifica: fecha, lugar, código, referencia, cantidad, este se registra de manera organizada, coherente y racional; este permite conocer qué se tiene y qué se necesita, para lograr esto es fundamental realizar una buena planeación, lo que permitirá un buen desempeño y la toma de mejores decisiones en la gestión de compras.
-
+        p La descripción actualizada que una organización realiza de sus productos o servicios incluye detalles como la fecha, el lugar, códigos, referencias y cantidades. Este registro se lleva de manera organizada, coherente y racional, lo que permite una gestión efectiva al conocer tanto lo disponible como lo necesario; para lograr esto es fundamental una buena planificación, lo que facilita un desempeño óptimo y la toma de decisiones acertadas en cuanto a compras se refiere.
     .tarjeta--bg1.color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.align-items-center
         .col-lg-6.mb-4.mb-lg-0
@@ -22,7 +21,7 @@
         .col-lg-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 2.
-            span Actividad de inventario
+            span Actividad de inventario.
           figure
             img(src='@/assets/curso/temas/tema_6/img_1.png', alt='Figura 2.Actividad de inventario') 
           figcaption Nota. Arrechedora, I. (2020).
@@ -110,6 +109,60 @@
       .col-lg-4.mb-3.mb-lg-0.d-flex(data-aos="fade-down-right")
         figure
           img(src='@/assets/curso/temas/tema_6/img_2.png', alt='Imagen decorativa') 
+    
+    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+      h5 Tabla 8.
+      span Ficha Control de inventario.
+    .row.justify-content-center
+      .col-sm-12.col-lg-10.justify-content-center
+        .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
+          table
+            thead
+              tr
+                th(colspan=8) 
+                  h4 Ficha Control de inventario
+            tbody
+              tr
+                td Fecha:	 	
+                td
+                td(colspan=4) Empresa: XXX	
+                td(colspan=2) Documento N°:
+              tr
+                td Producto:
+                td 
+                td(colspan=3) Producto:
+                td(colspan=2) Proovedor:
+                td
+              tr.text-center.td_bg1
+                td Fecha 	
+                td Entrada
+                td Salida	
+                td Saldo	
+                td Fecha	
+                td Entrada
+                td Salida	
+                td Saldo
+              tr
+                td
+                td
+                td
+                td
+                td
+                td
+                td
+                td
+              tr
+                td
+                td
+                td
+                td
+                td
+                td
+                td
+                td
+              tr.text-center
+                td(colspan=2) Observaciones:
+                td(colspan=6)
 
 
     .mt-5.d-flex.mb-5
@@ -154,10 +207,12 @@
 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-11
+      .col-sm-12.col-lg-11
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 3.
           span  Insumos con código QR.
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-sm-12.col-lg-8
         figure
           img(src='@/assets/curso/temas/tema_6/img_6.png', alt='Figura 3. Insumos con código QR.') 
         figcaption Nota. Arrechedora, I. (2020). 
@@ -165,71 +220,8 @@
     .row.justify-content-center.mb-5 
       .col-10
         .cajon.color-secundario.p-4
-          p Sistematizar los procedimientos de un inventario, garantiza que el flujo de información y de materiales, sea dinámico, y que de manera óptima funcionen todos los procesos de la compañía; también ayuda a que las existencias por efecto o por exceso, no afecten la producción o la parte financiera de la organización, a mantener bajo control las variables de entradas, salidas y existencia real, y permite tomar decisiones mucho más inteligentes. Realmente el sistema o software que se esté utilizando lo que hace es, recibir los datos y hacer de manera rápida los cálculos de la mercancía que se tiene.
-
-
-
-
-    .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-      h5 Tabla 8.
-      span Ficha Control de inventario
-    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-      table
-        thead
-          tr
-            th(colspan=8) 
-              h4 DATOS APROXIMADOS A 10 PUNTADAS POR PULGADAS
-        tbody
-          tr
-            td Fecha:	 	
-            td
-            td(colspan=4) Empresa: XXX	
-            td(colspan=2) Documento N°:
-          tr
-            td Producto:
-            td 
-            td(colspan=3) Producto:
-            td(colspan=2) Proovedor:
-            td
-          tr.text-center.td_bg1
-            td Fecha 	
-            td Entrada
-            td Salida	
-            td Saldo	
-            td Fecha	
-            td Entrada
-            td Salida	
-            td Saldo
-          tr
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-          tr
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-            td
-          tr.text-center
-            td(colspan=2) Observaciones:
-            td(colspan=6)
-
-
-    
-
-    
-    
-      
-
-    
+          p.mb-3 La sistematización de los procedimientos de inventario garantiza un flujo dinámico de información y materiales, optimizando así todos los procesos de la compañía. Además, ayuda a prevenir impactos negativos en la producción o la situación financiera debido a excesos o deficiencias en las existencias, ya que mantiene bajo control las variables de entradas, salidas y existencias reales, facilita la toma de decisiones más informadas.
+          p.mb-0 En realidad, el sistema o software utilizado simplemente recopila datos y realiza cálculos rápidos sobre la mercancía disponible.
     separador
 
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
@@ -243,7 +235,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
           figcaption Video. Description
 
-    p.mb-5 A continuación, se presenta el video tutorial para identificar la función del inventario, los requerimientos de materia prima y consumo     
+    p.mb-5 A continuación, se presenta el video tutorial para identificar la función del inventario, los requerimientos de materia prima y consumo.
 
 
     .row.justify-content-center.align-items-center.mb-5

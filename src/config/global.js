@@ -145,12 +145,6 @@ export default {
         desarrolloContenidos: true,
       },
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -347,8 +341,8 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Maria Camila Garcia Santamaria',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricia Aristizabal',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
@@ -393,7 +387,7 @@ export default {
         },
         {
           nombre: 'Vilma Lucia Perilla M',
-          cargo: 'Revisión pedagógica y metodológica',
+          cargo: 'Revisora pedagógica y metodológica',
           centro: 'Centro de Gestión Industrial Regional Distrito Capital',
         },
         {
@@ -408,37 +402,20 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Francisco José Lizcano Reyes',
-          cargo: 'Responsable del equipo',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Leyson Fabian Castaño Perez',
-          cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-        {
           nombre: ['Oscar Ivan Uribe Ortiz'],
-          cargo: 'Diseño web',
+          cargo: 'Diseñador web',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Ricardo Alfonso González Vargas',
-          cargo: 'Desarrollo front-end',
+          nombre: 'Lizeth Karina Manchego Suarez',
+          cargo: 'Desarrollora Full-Stack',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
-        },
-        {
-          nombre: 'Jhon Edinson Castañeda Oviedo',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
         },
         {
           nombre: 'Jhana Johanna Bustillo Ardila',
-          cargo: 'Validación de diseño y contenido',
+          cargo: 'Validadora de diseño y contenido',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
@@ -449,7 +426,7 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          cargo: 'Validadora y vinculadora en plataforma LMS',
           centro: 'Centro de Comercio y Servicios Regional Tolima',
         },
       ],

@@ -29,42 +29,19 @@
       .col-sm-12.col-lg-9 
         TabsA.color-acento-contenido.mb-5
           .tarjeta.color-acento-botones--borde.p-4(titulo="Número de documento o consecutivo ")
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is 
+            p Para controlar los lotes de producción que se van ejecutando.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Referencia")
-            p Para una identificación más precisa, a las prendas de vestir se les asigna números de referencia, códigos, consecutivos y demás. Esto se hace con criterios como el tipo de prenda, si es de dama o caballero, infantil o para adulto, así como criterios por color y por tallaje. 
+            p Para una identificación más precisa, a las prendas de vestir se les asigna números de referencia, códigos, consecutivos y demás. Esto se hace con criterios como el tipo de prenda, si es de dama o caballero, infantil o para adulto, así como criterios por color y por tallaje.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Descripción")
-            h4 PASO 1: The splendor
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is 
+            p Además de la referencia o código, es importante que en este documento se describa el tipo de prenda que se va a someter a procesos de trazo y corte.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Fechas")
-            h4 PASO 1: The splendor
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is 
+            p Todas las fechas son importantes para poder hacer seguimiento. En producción es importante la información que tenga que ver con las fechas, como son de la elaboración del documento, del inicio de la producción y la terminación de la misma.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Clientes")
-            h4 PASO 1: The splendor
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is 
+            p Muy importante que en la orden de producción esté reseñado el nombre del cliente al que se le va a trabajar.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Cantidad")
-            h4 PASO 1: The splendor
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is 
+            p Esta información es definitiva, se referencia cantidad por talla, color y cantidad total. En el cuadro que se consignan las tallas y las cantidades se pueden aprovechar para nombrar las tallas por números o letras, y comercialmente tiene sus equivalencias.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Identificación de tallas")
-            h4 PASO 1: The splendor
-            p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-              strong user style sheets
-              |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-            p This is 
+            p Existen otro para la identificación de las tallas a producir, como si es ropa interior o exterior, cuando son prendas superiores o inferiores, cuando son prendas junior, infantiles o de adulto, cuando son prendas de dama o caballero.
 
       .col-sm-12.col-lg-3(data-aos="fade-left")
         img.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_6.svg', alt='Imagen decorativa')  
@@ -78,7 +55,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 4.
-          span Ejemplo ficha orden de producción
+          span Ejemplo ficha orden de producción.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
           table
             thead
@@ -177,7 +154,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 1.
-          span  Ficha técnica
+          span  Ficha técnica.
 
     .row.justify-content-center.mb-5(data-aos="slide-down")
       .col-lg-8(data-aos='fade-right')
