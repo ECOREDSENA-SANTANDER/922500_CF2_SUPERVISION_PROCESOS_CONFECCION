@@ -34,7 +34,7 @@
     
     
     .row.mt-5.px-4.mb-5
-      .col-sm-12.col-lg-4.position-relative.px-3
+      .col-sm-12.col-lg-4.position-relative.px-3.item-parent
         .bg-card-img
           img(src="@/assets/curso/temas/tema_2/img_6.png", alt="Longitud se define como la distancia entre dos puntos")
           p.title-card-img.text-center.mt-3-cus De Longitud 
@@ -49,7 +49,7 @@
           
               
               
-      .col-sm-12.col-lg-4.position-relative.px-3
+      .col-sm-12.col-lg-4.position-relative.px-3.item-parent
         .bg-card-img
           img(src="@/assets/curso/temas/tema_2/img_7.png", alt="La distancia que hay entre dos puntos")
           p.title-card-img.text-center.mt-3-cus De peso 
@@ -62,7 +62,7 @@
                 p.mt-3.ml-5.md-3 La distancia que hay entre dos puntos se llama longitud, las unidades de medida de longitud más usadas son: metro, yardas, centímetros, pulgadas, kilómetros, milla. 
                 p Las telas, los elásticos, las cintas, los hilos son algunos de los materiales que se comercializan y emplean con estas unidades de medida, y sus respectivas fracciones.
       
-      .col-sm-12.col-lg-4.position-relative.px-3
+      .col-sm-12.col-lg-4.position-relative.px-3.item-parent
         .bg-card-img
           img(src="@/assets/curso/temas/tema_2/img_8.png", alt="La distancia que hay entre dos puntos")
           p.title-card-img.text-center.mt-3-cus Otros 
