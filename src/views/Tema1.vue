@@ -9,41 +9,40 @@
       h1 Materias primas e insumos 
 
     
-    .tarjeta.mb-5
-      .col-md.tarjeta.bg-02.p-5
-        .row
-          .col-2 
-            img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_25.svg', alt='Iconos de materias prima')
-          .col-sm-12.col-lg-6
-            p La diversidad de materias primas, accesorios e insumos que se relacionan con la industria textil hace de este escenario un gran campo para recorrer, en este sentido conocer los principales materiales e insumos para la confección es fundamental para decisiones futuras en relación con el diseño y la producción de prendas. 
-          .col-4 
-            img.mt-4.img-b.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_2.png', alt='Telas de muestra')
+    .fullview 
+      .row.px-5.pt-5.position-relative(data-aos="fade-right")
+        .col-2 
+          img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_25.svg', alt='Iconos de materias prima')
+        .col-sm-12.col-lg-6
+          p La diversidad de materias primas, accesorios e insumos que se relacionan con la industria textil hace de este escenario un gran campo para recorrer, en este sentido conocer los principales materiales e insumos para la confección es fundamental para decisiones futuras en relación con el diseño y la producción de prendas. 
+        .col-4 
+          img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_2.png', alt='Telas de muestra')
   
 
     separador
 
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.1  Materias primas
 
-    p.mb-5(data-aos="zoom-in") Se puede definir la materia prima como el conjunto de elementos que están presentes en la elaboración de un producto, es decir aquello que se transforma y se incorpora en la producción final de un producto. Las materias primas pueden ser de tres tipos:
+    p.mb-5(data-aos="fade-right") Se puede definir la materia prima como el conjunto de elementos que están presentes en la elaboración de un producto, es decir aquello que se transforma y se incorpora en la producción final de un producto. Las materias primas pueden ser de tres tipos:
 
 
-    .row.justify-content-center.mb-5.d-flex
-      .col-lg-4.d-flex(data-aos="fade-right")
+    .row.justify-content-center.mb-5.d-flex(data-aos="fade-right")
+      .col-lg-4.d-flex
         .nav-holder2.d-flex(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema_1/img_3.svg', alt="Materias primas de origen vegetal")
           .text.px-lg-5.p-4
             p.mb-3 Son  extraídas de la naturaleza como plantas, algodón, lino, semillas y transformadas en materiales que se convierten en bienes de consumo.
             p.mb-0 Las principales son el algodón y el lino. Las prendas más comunes que se fabrican con estas fibras son: chaquetas, camisas, pantalones, sacos.
-      .col-lg-4.d-flex(data-aos="fade-down")
+      .col-lg-4.d-flex
         .nav-holder3.d-flex(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema_1/img_4.svg', alt="Materias primas de origen animal")
           .text.px-lg-5.p-4
             p.mb-3 Son  extraídas de animales, como  lana, seda, cueros. Las más utilizadas en el sistema moda son las lanas y las sedas.
             p.mb-0 Desde tiempos prehistóricos el ser humano viene utilizando las fibras, pelos y pieles para la confección de prendas de vestir.
-      .col-lg-4.d-flex(data-aos="fade-left")
+      .col-lg-4.d-flex
         .nav-holder2.d-flex(@mouseover="mostrarIndicador = false")
           .indicador--click(v-if="mostrarIndicador")
           img(src='@/assets/curso/temas/tema_1/img_5.svg', alt="Materias primas de origen mineral")
@@ -54,18 +53,18 @@
 
 
 
-    .mt-5.d-flex.mb-5
+    .mt-5.d-flex.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 190px;') Fibras textiles
-        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 210px;') Fibras textiles
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -82%; max-width: 55px;').icon-img-blue
 
-    p.md-4 Llevan este nombre un conjunto de filamentos o hebras que conforman los hilos con los que se construyen los tejidos; son naturales o sintéticas (provienen de derivados del petróleo). 
-    p Las más utilizadas son: 
+    p.md-4(data-aos="fade-right") Llevan este nombre un conjunto de filamentos o hebras que conforman los hilos con los que se construyen los tejidos; son naturales o sintéticas (provienen de derivados del petróleo). 
+    p(data-aos="fade-right") Las más utilizadas son: 
 
     
 
 
-    TabsC(data-aos="flip-up")
+    TabsC(data-aos="fade-right")
       .py-4.py-md-5.tab1(titulo="Algodón")
         .row.justify-content-center
           .col-sm-12.col-lg-5
@@ -99,15 +98,15 @@
             img.mx-3(src='@/assets/curso/temas/tema_1/img_38.png', alt="Materias primas de origen mineral")
 
 
-    .mt-5.d-flex.mb-5
+    .mt-5.d-flex.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 100px;') Tela
-        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 125px;') Tela
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -78%; max-width: 55px;').icon-img-blue
       
-    p.mb-5 Las telas son la materia prima por excelencia en la confección de prendas de vestir, siendo el componente principal en su composición, pues se trata de tejidos fabricados con fibras textiles entrelazadas en un telar o máquina, cuenta con diversos usos tanto en prendas de vestir como en ropa de hogar y otros sectores industriales y domésticos. Vale la pena señalar que además de las fibras vegetales, existen tejidos fabricados con fibras de origen animal.
+    p.mb-5(data-aos="fade-right") Las telas son la materia prima por excelencia en la confección de prendas de vestir, siendo el componente principal en su composición, pues se trata de tejidos fabricados con fibras textiles entrelazadas en un telar o máquina, cuenta con diversos usos tanto en prendas de vestir como en ropa de hogar y otros sectores industriales y domésticos. Vale la pena señalar que además de las fibras vegetales, existen tejidos fabricados con fibras de origen animal.
 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-lg-2
           figure
             img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_26.png', alt='Imagen decorativa') 
@@ -119,7 +118,7 @@
 
         p.mb-5 Las telas presentan características específicas que son importantes tener en cuenta al elegirlas, como la forma en que están entrecruzadas las fibras, que define el tejido y su apariencia, y las dimensiones, especialmente el ancho y el largo.
         
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema_1/img_27.svg' alt='AvatarTop')
@@ -145,7 +144,7 @@
               p La elasticidad se refiere a la capacidad de la tela para estirarse y volver a su forma original, esta característica es importante al fabricar prendas, ya que algunas requieren mayor elasticidad que otras, como en el caso de la ropa deportiva.
 
 
-    .row.mb-5
+    .row.mb-5(data-aos="fade-right")
       .col-sm-12.col-lg-2
           figure
             img.br-10.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_10.png', alt='Imagen decorativa') 
@@ -153,7 +152,7 @@
         ul.lista-ul--color.mb-3
           li 
             i.lista-ul__vineta
-            h5 Características de las telas
+            h5 Composición de las telas 
 
         p.mb-5 Hace referencia a las clases de fibras con las que están constituidas las telas, algunas están compuestas en un ciento por ciento de la misma fibra y hay otras conformadas por mezclas de diferentes fibras, unas naturales y otras sintéticas. Hay múltiples tejidos con mezclas, y de acuerdo con las textilerías que las fabrican, reciben diferentes nombres comerciales, tales como Indiana, Perchado, Monserrat Chicago, Amatista, Aurora, Vesubio, Arkansas. 
 
@@ -161,7 +160,7 @@
 
 
 
-    .row.mb-5      
+    .row.mb-5(data-aos="fade-right")     
       .col-lg-9
         ul.lista-ul--color.mb-3
           li 
@@ -218,33 +217,33 @@
           img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_30.png', alt='Imagen decorativa') 
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-10
         .cajon.color-primario.p-4.mb-3
           p.text-center.mb-0 El consumo de tela se lleva a cabo de manera masiva durante todo el año a nivel mundial. Este sector económico, parte de la industria textil, experimenta una gran demanda, lo que resulta en una facturación y generación de empleo significativamente importantes. La revisión del documento disponible a continuación permitirá profundizar acerca de las telas, sus características, tejidos y diferentes usos. 
 
 
-    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema_1/img_31.svg", alt='Imagen decorativa')
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Anexo. Telas, Sena.
+              h3.mb-1 Anexo. Telas.
               p.text-small La revisión del documento disponible a continuación permitirá profundizar acerca de las telas, sus características, tejidos y diferentes usos.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_1_Telas_Sena.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo1_telas_sena.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
     separador
 
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.2 Insumos
 
 
-    .row.mb-5   
+    .row.mb-5(data-aos="fade-right")   
       .col-sm-12.col-lg-8   
         .cajon.color-primario.p-4.mb-3
             p.text-center.mb-0 Los insumos se caracterizan por ser recursos, objetos o materiales transformados o modificados utilizados en la producción de otros bienes, productos o servicios. Estos juegan un papel muy importante en la estética y funcionalidad del producto, por eso son parte fundamental de la imagen de una prenda de vestir.
@@ -259,7 +258,7 @@
 
 
 
-    .tarjeta.tarjeta--azul-1.p-3.bg05.mb-5 
+    .tarjeta.tarjeta--azul-1.p-3.bg05.mb-5(data-aos="fade-right") 
       SlyderA
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg-5.my-2.mb-md-0
@@ -328,7 +327,7 @@
 
 
 
-    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-0
+    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-0(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema_1/img_31.svg")
@@ -337,14 +336,14 @@
             .col.mb-3.mb-sm-0
               p.text-small A continuación, se relacionan dos documentos que le permitirán profundizar en los conceptos de la confección y fundamentación textil, se invita a estudiarlos. 
 
-    .row.justify-content-center
-      .col-lg-5(data-aos="fade-right")
+    .row.justify-content-center(data-aos="fade-right")
+      .col-lg-5
         a.anexo.mb-4(:href="obtenerLink('/downloads/eslabones_de_confeccion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-ppt.svg" alt='Imagen decorativa')
           .anexo__texto
             p #[strong Anexo.] Eslabones de confección.
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5
         a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_2_Fundamentacion_Textil_Hilaturas_Hilos.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg" alt='Imagen decorativa')
@@ -353,7 +352,7 @@
 
     separador
 
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       .h2 1.3  Cadena de valor
 
     .row(data-aos='fade-right')
@@ -367,27 +366,27 @@
           p.mb-0 Este conjunto de partes o sistema, conformado por recursos tangibles e intangibles, agrega valor a la cadena. La producción, como conjunto de actividades que agregan valor al proceso para obtener un bien o un servicio, se ve beneficiada al sumar materiales e insumos que contribuyen a la construcción de las prendas de vestir.
 
     
-    p.mb-3 Dentro de este conjunto de acciones y partes, se encuentran las materias primas e insumos, cuya selección y origen pueden dar identidad a los productos, la marca y la organización en general, formando parte de una estrategia diferenciadora con respecto a la competencia. La calidad, el origen y la marca de los insumos suministrados por los proveedores pueden ayudar a darle un mayor reconocimiento a las prendas de vestir, por lo que una buena selección de proveedores contribuye a mejorar la cadena de valor.
-    p.mb-5 Las actividades que tienen que ver con quienes son los proveedores de insumos, los criterios con que se seleccionan y el sector al que pertenecen, permiten darles valor a los productos.
+    p.mb-3(data-aos="fade-right") Dentro de este conjunto de acciones y partes, se encuentran las materias primas e insumos, cuya selección y origen pueden dar identidad a los productos, la marca y la organización en general, formando parte de una estrategia diferenciadora con respecto a la competencia. La calidad, el origen y la marca de los insumos suministrados por los proveedores pueden ayudar a darle un mayor reconocimiento a las prendas de vestir, por lo que una buena selección de proveedores contribuye a mejorar la cadena de valor.
+    p.mb-5(data-aos="fade-right") Las actividades que tienen que ver con quienes son los proveedores de insumos, los criterios con que se seleccionan y el sector al que pertenecen, permiten darles valor a los productos.
 
 
-    .mt-5.d-flex.mb-0
+    .mt-5.d-flex.mb-0(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4-cus
         h3.col.px-4-cus.mb-0.text-white.bg-img-tema1.wtitle Cabe entonces revisar cuáles son los elementos que conforman la cadena de valor:
 
-    .tarjeta--bg3.p-4.mb-0.align-items-center
-      .row.justify-content-center.mb-5(data-aos='fade-left')
+    .tarjeta--bg3.p-4.mb-0.align-items-center(data-aos="fade-right")
+      .row.justify-content-center.mb-5
         .col-sm-12.col-lg-7
           figure.mb-5
             img(src='@/assets/curso/temas/tema_1/img_24.svg', alt='Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.')  
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-sm-12.col-lg-7
         .cajon.color-primario.p-4.mb-3
           p.text-center.mb-0 Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
 
    
-    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema_1/img_31.svg")
@@ -397,21 +396,10 @@
               h3.mb-1 Materiales e insumos para vestuario.
               p.text-small Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Infografia-CF2_Funciones inventario.pdf')" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia-CF2_Funciones inventario.pdf')" target="_blank")
                 span Enlace
                 i.fas.fa-link
-    
-    //.row.justify-content-center.mb-3
-      .col-lg-6
-        p.text-center Se puede profundizar sobre los materiales utilizados en el desarrollo de colecciones de moda en el siguiente enlace:
-
-    //.row.justify-content-center
-      .col-lg-4
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Pag" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
-          .anexo__texto
-            p #[strong Enlace web]. Materiales e insumos para vestuario.              
+                
 
 </template>
 

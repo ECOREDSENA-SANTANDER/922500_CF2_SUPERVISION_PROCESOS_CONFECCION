@@ -8,16 +8,15 @@
         span 3
       h1 Presupuestos
 
-    .tarjeta.mb-5
-      .col-md.tarjeta.bg-02.p-5
-        .row
-          .col-2 
+    .fullview-3
+      .row.px-5.p-5.position-relative
+          .col-1 
             img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_13.svg', alt='Imagen descriptiva')
           .col-sm-12.col-lg-6
             p.mb-4 Para planear y ejecutar un proyecto de la manera más apropiada, es importante dimensionar y estimar la cantidad de recursos necesarios, las cantidades, el momento, y el costo de estos, a ese cálculo se le denomina presupuestar. 
             p El encargado de la actividad de producción debe saber articular su función de producir prendas, con las actividades donde se origina la información que va a definir sus objetivos, por eso es muy importante que comprenda las actividades que anteceden su programación. Incorporar los objetivos de la empresa a todos los integrantes de la organización es una premisa muy válida para tener en cuenta.
-          .col-4  
-            img.img-b.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_14.png', alt='Para planear y ejecutar un proyecto de la manera más apropiada')
+          .col-5  
+            img.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_14.png', alt='Para planear y ejecutar un proyecto de la manera más apropiada')
 
     .row 
       .col-12
@@ -105,7 +104,7 @@
                 td(colspan=2) FECHA INICIO: 05/ 3/21	
                 td(colspan=3) FECHA FIN: 05/30/21
               tr.text-center 
-                td(colspan=7) Las referencias que empiecen por 10 son dama, las que empiecen por 30 por caballero.
+                td(colspan=7) Las referencias que empiecen por 10 son dama, las que empiecen por 30 son caballero.
               tr.text-center.td_bg1
                 td 
                   h5 REF	

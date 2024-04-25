@@ -8,15 +8,14 @@
         span 4
       h1 Consumos de materias primas
 
-    .tarjeta.mb-5
-      .col-md.tarjeta.bg-02.p-5
-        .row
+    .fullview-4
+      .row.px-5.p-5.position-relative
           .col-sm-12.col-lg-2 
             img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_5.svg', alt='Imagen decorativa')
           .col-sm-12.col-lg-6
             p.mb-4 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción y/o fichas técnicas, así como en muestras físicas. Teniendo en cuenta las características de estos elementos, la cantidad del lote a producir y las políticas de la empresa, se procede a calcular la necesidad de materiales e insumos.
           .col-sm-12.col-lg-4  
-            img.img-b.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_1.png', alt='En las plantas de producción existe una actividad clave dentro de la planeación')    
+            img.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_1.png', alt='En las plantas de producción existe una actividad clave dentro de la planeación')    
     
     separador
 

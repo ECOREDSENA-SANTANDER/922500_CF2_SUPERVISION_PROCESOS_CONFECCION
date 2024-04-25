@@ -182,7 +182,7 @@ export default {
       referencia:
         'SENA. (2021) Telas, materiales, insumos y maquinaria para la confección de ropa interior. Material formativo Programa tecnólogo de diseño para la industria de la moda.',
       tipo: 'PDF',
-      link: '/downloads/Anexo_1_Telas_Sena.pdf',
+      link: '/downloads/anexo1_telas_sena.pdf',
     },
     {
       tema: 'Insumos',

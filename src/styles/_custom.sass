@@ -38,6 +38,41 @@
   background-color: #E6FDFD !important
   margin: auto -5em 0
 
+.fullview, .fullview-4
+    position: relative
+    margin: auto -4em 0
+.fullview:before
+    background: #E6FDFD
+    height: 200px
+    content: '';
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+.fullview-4:before
+    background: #E6FDFD
+    height: 250px
+    content: '';
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+.fullview-3
+    position: relative
+    margin: auto -3em 0
+.fullview-3:before
+    background: #E6FDFD
+    height: 300px
+    content: '';
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+
+.fix-pos
+  position: relative
+  top: -190px
+
 .bg-tarjeta 
   background-color: #FFE8DE !important
 
@@ -64,12 +99,24 @@
   border-radius: 20px 
   padding: 7px
   text-align: left
-  padding-left: 30px !important;
+  padding-left: 45px !important;
 
 .icon-img-blue
-  max-width: 40px; 
-  left: -91%; 
+  
   position: relative
+.bg-card-img
+  height: 500px
+  background-color: #FF8A5B
+  border-radius: 10px
+.title-card-img
+  font-size: 18px
+  font-weight: bold
+.mt-3-cus
+  margin-top: 0.8rem
+
+
+
+
 
 
 .img-a 
@@ -233,15 +280,12 @@
   display:block
   opacity: 100%
   transition: all 650ms
-.image-cover
-  position: absolute
-  top: 0px
-  opacity: 0
-  transition: all 1000ms
-.image-cover:hover
-  display:block
-  opacity: 100%
-  transition: all 650ms
+.bg-card-img-hover
+  height: 500px
+  margin: 0 !important
+.bg-hover
+  background-color: #F8AD8B
+  border-radius: 10px
 
 
 .tarjeta--bg3
