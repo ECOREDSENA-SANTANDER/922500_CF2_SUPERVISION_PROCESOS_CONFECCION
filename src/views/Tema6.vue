@@ -94,10 +94,11 @@
     p.mb-5(data-aos="zoom-in") Un sistema de inventarios es una herramienta de gestión empleada para registrar el conjunto de elementos que interactúan entre sí  productos, áreas, cantidades, precios, fechas, documentos, informaciones, logística, embalajes, presentación. También incluye en este sistema, normas, métodos y procedimientos aplicados para que la elaboración de inventarios realmente cumpla con su finalidad de saber cuánta mercancía existe, los niveles de rotación de los productos, cuales están por acabarse o identificar aquellos próximos a caducar y se pueden controlar las existencias de forma manual o de forma sistematizada.
 
 
-    .mt-5.d-flex.mb-5
+  
+    .mt-5.d-flex.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Inventario manual
-        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 250px;') Inventario manual
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -85%; max-width: 55px;').icon-img-blue
 
     
     .row.mb-5
@@ -165,12 +166,12 @@
                 td(colspan=6)
 
 
-    .mt-5.d-flex.mb-5
+    .mt-5.d-flex.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 300px;') Inventario sistematizado
-        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue     
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 320px;') Inventario sistematizado
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -88%; max-width: 55px;').icon-img-blue  
 
-    p.mb-5  Se requiere disponer de un software, el cual hay que alimentarlo con la siguiente información: 
+    p.mb-5  Se requiere disponer de un #[i software ], el cual hay que alimentarlo con la siguiente información: 
 
     .row.justify-content-center.mb-5 
       .col-10
@@ -196,7 +197,7 @@
     .row.mb-5 
       .col-sm-12.col-lg-7
         .cajon.color-primario.p-4.mb-5
-          p Después que el software tiene la información que le permite interactuar, se establece el código de identificación de los productos; de qué material está construido; con qué equipo se aplica, y en qué parte se coloca.
+          p Después que el #[i software ] tiene la información que le permite interactuar, se establece el código de identificación de los productos; de qué material está construido; con qué equipo se aplica, y en qué parte se coloca.
 
         p.mb-5 Estos programas tienen la facultad de imprimir códigos de barra entre otros, ya con los adhesivos de los códigos de barra, se le colocan a las materias primas e insumos, y con un lector de códigos de barra se lee la información allí consignada, este a su vez envía la información al sistema, este ejercicio se hace a la entrada y también a la salida, y de esta manera la información se mantiene actualizada, y en poco tiempo.
       
@@ -221,7 +222,7 @@
       .col-10
         .cajon.color-secundario.p-4
           p.mb-3 La sistematización de los procedimientos de inventario garantiza un flujo dinámico de información y materiales, optimizando así todos los procesos de la compañía. Además, ayuda a prevenir impactos negativos en la producción o la situación financiera debido a excesos o deficiencias en las existencias, ya que mantiene bajo control las variables de entradas, salidas y existencias reales, facilita la toma de decisiones más informadas.
-          p.mb-0 En realidad, el sistema o software utilizado simplemente recopila datos y realiza cálculos rápidos sobre la mercancía disponible.
+          p.mb-0 En realidad, el sistema o #[i software ] utilizado simplemente recopila datos y realiza cálculos rápidos sobre la mercancía disponible.
     separador
 
     #t_6_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in")

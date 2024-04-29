@@ -54,12 +54,10 @@
         .col-lg-4
           img.imagen-arriba(src='@/assets/curso/temas/tema_5/img_1.svg', alt='Cálculo de consumo unitario') 
 
-
-
-    .mt-5.d-flex.mb-5
+    .mt-5.d-flex.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 310px;') Cálculo de consumo de hilo
-        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 330px;') Cálculo de consumo de hilo
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -90%; max-width: 55px;').icon-img-blue
 
     p.mb-5(data-aos="zoom-in") Desde diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, ver tabla 5:
 
@@ -211,7 +209,7 @@
 
 
 
-    .row.mb-5
+    .row
       .col-lg-9(data-aos="fade-right")
         .row.justify-content-center.mb-4
           .col-lg-12 
@@ -224,7 +222,7 @@
         figure
           img.img-a(src='@/assets/curso/temas/tema_5/img_4.svg', alt='Imagen decorativa')
 
-
+    p.mb-5 En resumen, para realizar cálculos de consumos de hilos es muy importante, medir las longitudes de las costuras y determinar consumos con base en:
 
 
 
@@ -275,11 +273,11 @@
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
-
-    .mt-5.d-flex.mb-5
+    
+    .mt-5.d-flex.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4
-        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 320px;') Cálculo de consumo de tela
-        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg').icon-img-blue
+        h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 330px;') Cálculo de consumo de tela
+        img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -90%; max-width: 55px;').icon-img-blue
 
     .row.mb-5
       .col-lg-9(data-aos="fade-right")
@@ -334,6 +332,7 @@
       .h2 5.2 Cálculo de consumo por lote
 
     p.mb-5 Una vez se ha determinado cuántas son las cantidades de insumos y materias primas por una unidad, se multiplica por la cantidad del lote u orden de producción.
+    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede observar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente: 
 
     .tarjeta.mb-5
       .col-md.tarjeta.bg-02.p-5
