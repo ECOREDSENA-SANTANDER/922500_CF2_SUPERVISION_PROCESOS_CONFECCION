@@ -204,7 +204,7 @@ export default {
         'Sipper, D; Bulfin, R. (1998). Planeación y control de la producción. McGraw-Hill Interamericana Editores.',
       tipo: 'E-book/Enlace',
       link:
-        'https://www.academia.edu/10997351/Daniel_Sipper_Planeaci%C3%B3n_y_Control_de_La_Producci%C3%B3n',
+        'https://www.academia.edu/30219185/Planeacion_y_Control_de_La_Produccion_Sipper',
     },
     {
       tema: 'Inventarios',
@@ -341,15 +341,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -402,22 +401,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ['Oscar Ivan Uribe Ortiz'],
-          cargo: 'Diseñador web',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          nombre: 'Yazmin Figueroa Pacheco',
+          cargo: 'Diseñadora web',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Lizeth Karina Manchego Suarez',
-          cargo: 'Desarrollora Full-Stack',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          cargo: 'Desarrolladora Full-Stack',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Jhana Johanna Bustillo Ardila',
+          nombre: 'Yuly Andrea Rey Quiñonez',
           cargo: 'Validadora de diseño y contenido',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -425,9 +421,19 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Validadora y vinculadora en plataforma LMS',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
