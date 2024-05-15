@@ -246,7 +246,7 @@
     .row.mb-5(data-aos="fade-right")   
       .col-sm-12.col-lg-8   
         .cajon.color-primario.p-4.mb-3
-            p.text-center.mb-0 Los insumos se caracterizan por ser recursos, objetos o materiales transformados o modificados utilizados en la producción de otros bienes, productos o servicios. Estos juegan un papel muy importante en la estética y funcionalidad del producto, por eso son parte fundamental de la imagen de una prenda de vestir.
+            p.mb-0 Los insumos se caracterizan por ser recursos, objetos o materiales transformados o modificados utilizados en la producción de otros bienes, productos o servicios. Estos juegan un papel muy importante en la estética y funcionalidad del producto, por eso son parte fundamental de la imagen de una prenda de vestir.
         p.mb-4 Los accesorios, directamente relacionados con el acabado y embalaje de un producto, se pueden definir como elementos terminados que ayudan a complementar, adornar o decorar el producto. En el proceso de producción, estos materiales e insumos se clasifican en dos escenarios: confección y empaque, los primeros se refieren a aquellos utilizados en la producción de prendas, mientras que los de empaque están relacionados con el producto final entregado al usuario.
         p Los insumos más utilizados en la industria de la moda son:            
 
@@ -394,7 +394,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Materiales e insumos para vestuario.
-              p.text-small Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
+              p.text-small Se puede profundizar sobre los materiales utilizados en el desarrollo de colecciones de moda en el siguiente enlace.
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia-CF2_Funciones inventario.pdf')" target="_blank")
                 span Enlace

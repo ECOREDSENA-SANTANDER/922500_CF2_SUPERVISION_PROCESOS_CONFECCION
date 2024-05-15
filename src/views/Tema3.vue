@@ -80,7 +80,7 @@
                       | del pedido y fecha límite para despachar; ésta última es muy importante para el área de producción.
 
 
-    p.mb-5 A continuación en la tabla 2, se puede observar un ejemplo de presupuesto de ventas donde se describe lo anteriormente dicho.
+    p.mb-5 A continuación en la tabla 2, se puede evidenciar un ejemplo de presupuesto de ventas donde se describe lo anteriormente dicho.
     
     .row.justify-content-center
       .col-lg-10

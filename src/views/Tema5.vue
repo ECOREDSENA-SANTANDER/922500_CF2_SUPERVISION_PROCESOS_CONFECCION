@@ -59,7 +59,7 @@
         h3.col.px-4.mb-0.text-white.bg-img-blue(style='width: 330px;') Cálculo de consumo de hilo
         img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -90%; max-width: 55px;').icon-img-blue
 
-    p.mb-5(data-aos="zoom-in") Desde diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, ver tabla 5:
+    p.mb-5(data-aos="zoom-in") Desde diseño establecen cálculos respecto  al hilo teniendo presente los siguientes aspectos, consultar tabla 5:
 
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down-right")
@@ -342,7 +342,7 @@
               h5.text-center.mb-0 Ejemplo 
 
         .row.justify-content-center.mb-5(data-aos="zoom-in")
-          .col-lg-8.border_1
+          .col-lg-9.border_1
             p Cada unidad requiere de los siguientes insumos: 
 
             ul.lista-ul--color
@@ -430,7 +430,7 @@
                 td 1
                 td 400
 
-      p.mb-5 De acuerdo con este ejemplo, puede observar que la cantidad total de prendas (camisas), a producir son 400 unidades, esta cifra está en el encabezado, en la primera columna aparece el nombre del insumo o producto del cuál se calcula la cantidad necesaria para realizar el lote, ejemplo: tela, botón, etiqueta. 
+      p.mb-5 De acuerdo con este ejemplo, puede evidenciar que la cantidad total de prendas (camisas), a producir son 400 unidades, esta cifra está en el encabezado, en la primera columna aparece el nombre del insumo o producto del cuál se calcula la cantidad necesaria para realizar el lote, ejemplo: tela, botón, etiqueta. 
 
         
 

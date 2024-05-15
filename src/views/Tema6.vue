@@ -20,10 +20,10 @@
           p Para el desarrollo de sus actividades las empresas necesitan aprovisionarse de bienes y servicios para cumplir sus propósitos. La gestión del almacén se lleva a cabo a través de los inventarios en los que se detallan de forma ordenada los contenidos de bienes, que las empresas tienen en sus instalaciones. La información contenida en dichos inventarios forma un insumo importante para la empresa y sus operaciones comerciales, al mismo tiempo se provee información sobre materia prima necesaria para prestar los servicios. 
         .col-lg-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 2.
+            h5 Figura 3.
             span Actividad de inventario.
           figure
-            img(src='@/assets/curso/temas/tema_6/img_1.png', alt='Figura 2.Actividad de inventario') 
+            img(src='@/assets/curso/temas/tema_6/img_1.png', alt='Figura 3.Actividad de inventario') 
           figcaption Nota. Arrechedora, I. (2020).
 
     
@@ -51,7 +51,7 @@
       .row.justify-content-center
         .col-lg-5
           hr
-          .list_1.mb-0(data-aos="zoom-in")
+          .list_1.mb-0(data-aos="zoom-in").h-list
             .list_1__item 
               .list_1__item__bulletNumber 
                 span 1
@@ -59,7 +59,7 @@
               h5 Respuesta de los proveedores
               p El tiempo de respuesta para entregar los pedidos de parte de los proveedores es fundamental para que las programaciones se cumplan, es imposible hacer un plan cuando existe incertidumbre en poseer en inventario los materiales que se necesitan.
           hr
-          .list_1.mb-3(data-aos="zoom-in")
+          .list_1.mb-3(data-aos="zoom-in").h-list
             .list_1__item 
               .list_1__item__bulletNumber 
                 span 3
@@ -69,7 +69,7 @@
           hr
         .col-lg-5
           hr
-          .list_1.mb-5(data-aos="zoom-in")
+          .list_1(data-aos="zoom-in").h-list
             .list_1__item 
               .list_1__item__bulletNumber 
                 span 2
@@ -77,14 +77,14 @@
               h5 Frecuencia de utilización de un insumo o material
               p Existen materiales e insumos que en las empresas se utilizan más a menudo que otros, de acuerdo con este criterio, se establece mantener inventario constante de estos productos. 
           hr
-          .list_1.mb-5(data-aos="zoom-in")
+          .list_1(data-aos="zoom-in").h-list
             .list_1__item 
               .list_1__item__bulletNumber 
                 span 4
             .list_1__txt
               h5 Períodos de plazo y descuentos
               p Los términos de negociación, como los plazos y descuentos, pueden influir en la gestión de inventarios sin afectar la parte financiera. 
-        
+          hr
 
     separador
 
@@ -105,7 +105,7 @@
       .col-lg-8.mb-3(data-aos="fade-down-left")
         p.mb-3 El conteo de los productos se hace manual, y se registra en formatos diseñados para este fin, es un método costoso debido a la cantidad de tiempo, cantidad de personas, y cantidad de papelería que se requiere. Debido a esto, el inventario físico se realiza pocas veces al año para corroborar la información teórica y la información real. 
         p.mb-3 A estos inventarios se les va sumando las compras que en determinada fecha se realiza, y se descuenta los materiales utilizados en las diferentes referencias producidas; la información continua, actualizada y detallada no es fácil hacerla debido a la cantidad de elementos que de manera manual se debe hacer funcionar. Este tipo de inventarios se deben hacer periódicamente.
-        p Las empresas que llevan este tipo de inventario lo realizan en un documento denominado Kardex, un formato que permite registrar la entrada y salida de materiales e insumos, ver tabla 8.
+        p Las empresas que llevan este tipo de inventario lo realizan en un documento denominado #[i Kardex], un formato que permite registrar la entrada y salida de materiales e insumos, consultar tabla 8.
 
       .col-lg-4.mb-3.mb-lg-0.d-flex(data-aos="fade-down-right")
         figure
@@ -197,7 +197,7 @@
     .row.mb-5 
       .col-sm-12.col-lg-7
         .cajon.color-primario.p-4.mb-5
-          p Después que el #[i software ] tiene la información que le permite interactuar, se establece el código de identificación de los productos; de qué material está construido; con qué equipo se aplica, y en qué parte se coloca.
+          p Después que el #[i software ] tiene la información que le permite interactuar, se establece el código de identificación de los productos; de qué material está construido, con qué equipo se aplica y en qué parte se coloca.
 
         p.mb-5 Estos programas tienen la facultad de imprimir códigos de barra entre otros, ya con los adhesivos de los códigos de barra, se le colocan a las materias primas e insumos, y con un lector de códigos de barra se lee la información allí consignada, este a su vez envía la información al sistema, este ejercicio se hace a la entrada y también a la salida, y de esta manera la información se mantiene actualizada, y en poco tiempo.
       
@@ -210,12 +210,12 @@
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-sm-12.col-lg-11
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 3.
+          h5 Figura 4.
           span  Insumos con código QR.
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-sm-12.col-lg-8
         figure
-          img(src='@/assets/curso/temas/tema_6/img_6.png', alt='Figura 3. Insumos con código QR.') 
+          img(src='@/assets/curso/temas/tema_6/img_6.png', alt='Figura 4. Insumos con código QR.') 
         figcaption Nota. Arrechedora, I. (2020). 
         
     .row.justify-content-center.mb-5 

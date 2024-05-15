@@ -22,7 +22,7 @@
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in")
       .h2 4.1 Orden de producción (OP)
 
-    p.mb-5 Es un documento en el cual se consigna información referente al lote que se va a producir, esta información se relaciona a continuación, ver ejemplo en tabla 4:
+    p.mb-5 Es un documento en el cual se consigna información referente al lote que se va a producir, esta información se relaciona a continuación, consultar ejemplo en tabla 4:
 
     .row.mb-5  
       .col-sm-12.col-lg-9 
@@ -174,7 +174,10 @@
         p.mb-4 En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores 
 
         figure
-          img.img-a(src='@/assets/curso/temas/tema_4/img_3.svg', alt='Nota. Chi, B. (2020).') 
+        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+          h5 Figura 2.
+          span Ejemplo de la ficha técnica
+        img.img-a(src='@/assets/curso/temas/tema_4/img_3.svg', alt='Nota. Chi, B. (2020).') 
         figcaption Nota. Chi, B. (2020).
 
 
