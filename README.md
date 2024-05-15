@@ -1,8 +1,8 @@
-# **Materias primas e insumos de confección industrial**
+# **ecoredsena-base v7.0.1**
 
-## **https://ecored-sena.github.io/922500_CF2_SUPERVISION_PROCESOS_CONFECCION/#/**
+## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
 
 #
 
