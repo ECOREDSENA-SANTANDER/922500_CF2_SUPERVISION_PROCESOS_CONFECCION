@@ -8,13 +8,13 @@
           p Síntesis: Materias primas e insumos de confección industrial.
       .col-lg-2
         figure.logo-sena 
-          img(src="@/assets/curso/temas/sena.svg", alt="alt")
+          img(src="@/assets/curso/temas/sena.svg")
     p.mb-5 Para ejecutar un proyecto se hace necesario presupuestar los elementos que están presentes en la elaboración de los productos, pero así mismo se deben determinar las cantidades y costos de estos. Es decir, las materias primas presentes, las cuales pueden ser de distinto origen y tipo como fibras textiles o telas. A continuación, se presenta un esquema gráfico que resume de manera visual estos aspectos:
 
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

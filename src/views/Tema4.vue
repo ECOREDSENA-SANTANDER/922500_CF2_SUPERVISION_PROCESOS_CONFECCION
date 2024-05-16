@@ -160,7 +160,7 @@
         p.text-center.mb-5 
           strong Información que conforma la ficha técnica
         figure
-          img.img-a(src='@/assets/curso/temas/tema_4/img_2.svg', alt='Figura 1. Ficha técnica') 
+          img.img-a(src='@/assets/curso/temas/tema_4/img_2.svg', alt='La imagen muestra un diagrama que detalla la información que conforma la ficha técnica en el ámbito de la moda. En el centro, hay una carpeta etiquetada "FICHA TÉCNICA" y dos figuras humanas estilizadas a los lados. Alrededor de la carpeta, se distribuyen en un circuito los siguientes elementos: Medidas, Prueba de calce, Fornituras, Carta de colores, Gráfica, Tejidos, Desglose de materiales, Escalado, Etiquetado, Portada, Construcción y Detalles.') 
         figcaption Nota. Chi, B. (2020).
 
     .row.mb-5
@@ -177,7 +177,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 2.
           span Ejemplo de la ficha técnica
-        img.img-a(src='@/assets/curso/temas/tema_4/img_3.svg', alt='Nota. Chi, B. (2020).') 
+        img.img-a(src='@/assets/curso/temas/tema_4/img_3.svg', alt='En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores ') 
         figcaption Nota. Chi, B. (2020).
 
 

@@ -378,7 +378,7 @@
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-7
           figure.mb-5
-            img(src='@/assets/curso/temas/tema_1/img_24.svg', alt='Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.')  
+            img(src='@/assets/curso/temas/tema_1/img_24.svg', alt='La imagen muestra un diagrama de flujo del proceso de producción de ropa. El flujo comienza con el "Proveedor" de materiales, sigue con "Materias primas e insumos", luego "Producto", y finalmente el "Cliente" después de la "Distribución". Hay una ilustración de una persona ajustando un maniquí al lado del diagrama.')  
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-sm-12.col-lg-7

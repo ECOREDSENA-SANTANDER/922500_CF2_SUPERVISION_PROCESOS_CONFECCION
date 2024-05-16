@@ -23,7 +23,7 @@
             h5 Figura 3.
             span Actividad de inventario.
           figure
-            img(src='@/assets/curso/temas/tema_6/img_1.png', alt='Figura 3.Actividad de inventario') 
+            img(src='@/assets/curso/temas/tema_6/img_1.png', alt='Es importante conservar los inventarios de forma organizada, que permita llevar un control de existencias por referencias y así contar con lo suficiente y necesario.') 
           figcaption Nota. Arrechedora, I. (2020).
 
     
@@ -215,7 +215,7 @@
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-sm-12.col-lg-8
         figure
-          img(src='@/assets/curso/temas/tema_6/img_6.png', alt='Figura 4. Insumos con código QR.') 
+          img(src='@/assets/curso/temas/tema_6/img_6.png', alt='Insumos embalados en cajas de cartón que están identificadas con un código QR que contiene toda la información de su contenido') 
         figcaption Nota. Arrechedora, I. (2020). 
         
     .row.justify-content-center.mb-5 
