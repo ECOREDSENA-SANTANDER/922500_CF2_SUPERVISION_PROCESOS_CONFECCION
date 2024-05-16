@@ -109,7 +109,7 @@
     .row.mb-5(data-aos="fade-right")
       .col-lg-2
           figure
-            img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_26.png', alt='Imagen decorativa') 
+            img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_26.png' ) 
       .col-lg-9.mt-3
         ul.lista-ul--color.mb-3
           li 
@@ -147,7 +147,7 @@
     .row.mb-5(data-aos="fade-right")
       .col-sm-12.col-lg-2
           figure
-            img.br-10.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_10.png', alt='Imagen decorativa') 
+            img.br-10.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_10.png' ) 
       .col-sm-12.col-lg-10
         ul.lista-ul--color.mb-3
           li 
@@ -214,7 +214,7 @@
 
       .col-2
         figure
-          img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_30.png', alt='Imagen decorativa') 
+          img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_30.png' ) 
 
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -226,7 +226,7 @@
     .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/temas/tema_1/img_31.svg", alt='Imagen decorativa')
+          img(src="@/assets/curso/temas/tema_1/img_31.svg" )
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
@@ -252,7 +252,7 @@
 
       .col-4
         figure
-          img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_32.png', alt='Imagen decorativa')
+          img.d-none.d-lg-block(src='@/assets/curso/temas/tema_1/img_32.png' )
 
 
 
@@ -358,7 +358,7 @@
     .row(data-aos='fade-right')
       .col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema_1/img_23.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema_1/img_23.svg' )
 
       .col-lg-9
         .tarjeta--bg2.p-4.mb-5

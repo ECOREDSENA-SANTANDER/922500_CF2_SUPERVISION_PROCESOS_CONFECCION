@@ -19,7 +19,7 @@
       
       .col-lg-6(data-aos="fade-left")
         figure
-          img.img-a(src='@/assets/curso/temas/tema_5/img_12.png', alt='Imagen decorativa') 
+          img.img-a(src='@/assets/curso/temas/tema_5/img_12.png' ) 
 
 
    
@@ -64,7 +64,7 @@
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down-right")
             figure
-              img.img-a(src='@/assets/curso/temas/tema_5/img_2.png', alt='Imagen decorativa') 
+              img.img-a(src='@/assets/curso/temas/tema_5/img_2.png' ) 
           .col-lg-8(data-aos="fade-down-left")
             TabsA.color-acento-contenido.mb-5
               .tarjeta.tarjeta--bg4.p-4(titulo="El color")
@@ -163,7 +163,7 @@
         .row.mb-5
           .col-lg-4(data-aos="fade-down-left")
             figure
-              img.img-a(src='@/assets/curso/temas/tema_5/img_3.png', alt='Imagen decorativa') 
+              img.img-a(src='@/assets/curso/temas/tema_5/img_3.png' ) 
           .col-lg-8(data-aos="fade-down-right")
             ul.lista-ul--color.lista-ul--separador
               li 
@@ -220,7 +220,7 @@
 
       .col-lg-3(data-aos="fade-left")
         figure
-          img.img-a(src='@/assets/curso/temas/tema_5/img_4.svg', alt='Imagen decorativa')
+          img.img-a(src='@/assets/curso/temas/tema_5/img_4.svg' )
 
     p.mb-5 En resumen, para realizar cálculos de consumos de hilos es muy importante, medir las longitudes de las costuras y determinar consumos con base en:
 
@@ -293,7 +293,7 @@
 
       .col-lg-3(data-aos="fade-left")
         figure
-          img.img-a(src='@/assets/curso/temas/tema_5/img_19.png', alt='Imagen decorativa')
+          img.img-a(src='@/assets/curso/temas/tema_5/img_19.png' )
 
 
     .tarjeta.mb-5
@@ -441,7 +441,7 @@
             
           .col-lg-3(data-aos="fade-left")
             figure
-              img.img-a(src='@/assets/curso/temas/tema_5/img_10.svg', alt='Imagen decorativa') 
+              img.img-a(src='@/assets/curso/temas/tema_5/img_10.svg' ) 
 
       p.mb-4 En algunas ocasiones y de acuerdo con políticas de la empresa, se podrían incluir valores unitarios y valores totales, de los insumos y las materias primas necesarias.   
       p.mb-5 A continuación, se presenta la tabla 7 donde se incluyen valores unitario y total.
@@ -551,7 +551,7 @@
         p Con esta información se pueden planear también las compras y los presupuestos.
       .col-lg-5(data-aos="fade-left")
         figure
-          img.img-a(src='@/assets/curso/temas/tema_5/img_11.png', alt='Imagen decorativa') 
+          img.img-a(src='@/assets/curso/temas/tema_5/img_11.png' ) 
 
 
 

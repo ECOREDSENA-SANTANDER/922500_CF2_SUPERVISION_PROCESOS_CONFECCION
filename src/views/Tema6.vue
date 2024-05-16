@@ -11,7 +11,7 @@
 
     .row.mb-5
       .col-sm-12.col-lg-3 
-        img.d-none.d-lg-block.img-a(src='@/assets/curso/temas/tema_6/img_10.svg', alt='Imagen decorativa')
+        img.d-none.d-lg-block.img-a(src='@/assets/curso/temas/tema_6/img_10.svg' )
       .col-sm-12.col-lg-9
         p La descripción actualizada que una organización realiza de sus productos o servicios incluye detalles como la fecha, el lugar, códigos, referencias y cantidades. Este registro se lleva de manera organizada, coherente y racional, lo que permite una gestión efectiva al conocer tanto lo disponible como lo necesario; para lograr esto es fundamental una buena planificación, lo que facilita un desempeño óptimo y la toma de decisiones acertadas en cuanto a compras se refiere.
     .tarjeta--bg1.color-primario.p-4.mb-5(data-aos="zoom-in")
@@ -109,7 +109,7 @@
 
       .col-lg-4.mb-3.mb-lg-0.d-flex(data-aos="fade-down-right")
         figure
-          img(src='@/assets/curso/temas/tema_6/img_2.png', alt='Imagen decorativa') 
+          img(src='@/assets/curso/temas/tema_6/img_2.png' ) 
     
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 8.
@@ -178,18 +178,18 @@
         .py-3.py-md-4(titulo="Inventario\nsistematizado" :imagen="images[1]"  :numero="numbers[1]")
           .row.mb-5
             .col-lg-4.mb-4.mb-lg-0(data-aos="slide-left")
-              img(src='@/assets/curso/temas/tema_6/img_3.png', alt='Imagen decorativa') 
+              img(src='@/assets/curso/temas/tema_6/img_3.png' ) 
               h5.text-center Los proveedores
               p.text-center Nombre, dirección, portafolio de productos o servicios, precios, presentación, unidades de medida, redes, teléfonos, contactos y demás datos que lo identifique.
 
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema_6/img_4.png', alt='Imagen decorativa') 
+              img(src='@/assets/curso/temas/tema_6/img_4.png' ) 
               h5.text-center Los productos
               p.text-center Descripción, nombre comercial, presentación, unidad de medida, productor, código, referencia.
 
 
             .col-lg-4.mb-4.mb-lg-0(data-aos="fade-slide-right")
-              img(src='@/assets/curso/temas/tema_6/img_5.png', alt='Imagen decorativa') 
+              img(src='@/assets/curso/temas/tema_6/img_5.png' ) 
               h5.text-center Los clientes
               p.text-center Domicilio, precios de venta, redes, transportadoras, criterios de venta.
 
@@ -202,7 +202,7 @@
         p.mb-5 Estos programas tienen la facultad de imprimir códigos de barra entre otros, ya con los adhesivos de los códigos de barra, se le colocan a las materias primas e insumos, y con un lector de códigos de barra se lee la información allí consignada, este a su vez envía la información al sistema, este ejercicio se hace a la entrada y también a la salida, y de esta manera la información se mantiene actualizada, y en poco tiempo.
       
       .col-5
-        img.d-none.d-lg-block(src='@/assets/curso/temas/tema_6/img_11.svg', alt='Imagen decorativa')
+        img.d-none.d-lg-block(src='@/assets/curso/temas/tema_6/img_11.svg' )
 
     p.mb-5 Se utilizan también códigos QR, que son leídos con un dispositivo diseñado para ese fin. En ese código está toda la información de esa prenda de vestir, o de ese paquete, o de esa caja; existen sensores para determinar las cantidades que se tienen de algún producto.
 

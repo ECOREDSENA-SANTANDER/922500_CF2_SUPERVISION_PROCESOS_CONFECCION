@@ -11,7 +11,7 @@
     .fullview-4
       .row.px-5.p-5.position-relative
           .col-sm-12.col-lg-2 
-            img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_5.svg', alt='Imagen decorativa')
+            img.img-t.img-a.mt-4.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_5.svg' )
           .col-sm-12.col-lg-6
             p.mb-4 En las plantas de producción existe una actividad clave dentro de la planeación, que se refiere a verificar los tipos de materiales e insumos a utilizar. Esta información viene en documentos como órdenes de producción y/o fichas técnicas, así como en muestras físicas. Teniendo en cuenta las características de estos elementos, la cantidad del lote a producir y las políticas de la empresa, se procede a calcular la necesidad de materiales e insumos.
           .col-sm-12.col-lg-4  
@@ -43,7 +43,7 @@
             p Existen otro para la identificación de las tallas a producir, como si es ropa interior o exterior, cuando son prendas superiores o inferiores, cuando son prendas junior, infantiles o de adulto, cuando son prendas de dama o caballero.
 
       .col-sm-12.col-lg-3(data-aos="fade-left")
-        img.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_6.svg', alt='Imagen decorativa')  
+        img.d-none.d-lg-block(src='@/assets/curso/temas/tema_4/img_6.svg' )  
 
 
     p.mb-0 Este tipo de documento requiere aprobación por parte de un representante de la organización, usualmente por el gerente o administrador, y también debe ser recibido por alguien del departamento de producción. Para el supervisor, esta información es fundamental para planificar los recursos necesarios. 
