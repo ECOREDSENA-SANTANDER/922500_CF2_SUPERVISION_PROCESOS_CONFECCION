@@ -332,7 +332,7 @@
       .h2 5.2 Cálculo de consumo por lote
 
     p.mb-5 Una vez se ha determinado cuántas son las cantidades de insumos y materias primas por una unidad, se multiplica por la cantidad del lote u orden de producción.
-    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede observar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente: 
+    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede evidenciar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente: 
 
     .tarjeta.mb-5
       .col-md.tarjeta.bg-02.p-5
