@@ -171,13 +171,13 @@
           span - Chi, 2020
         p Este documento es la guía que orienta los departamentos y asegura que los procesos de producción determinen correctamente las especificaciones técnicas del producto establecidas y aseguren las condiciones de la prenda, a cabalidad. El cumplimiento de estas especificaciones se podría denominar buena calidad.  Haciendo la analogía, una ficha de diseño, o ficha técnica es, a los fabricantes de prendas de vestir, como el plano de un edificio, al maestro de obra.
       .col-lg-6(data-aos="fade-left")
-        p.mb-4 En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores 
+        p.mb-4 En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores.
 
         figure
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 2.
-          span Ejemplo de la ficha técnica
-        img.img-a(src='@/assets/curso/temas/tema_4/img_3.svg', alt='En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores ') 
+          span Ejemplo de la ficha técnica.
+        img.img-a(src='@/assets/curso/temas/tema_4/img_3.svg', alt='La imagen muestra una ilustración de una ficha técnica de moda, destacando los elementos clave que incluye: medidas, prueba de calce, fornituras, carta de colores, gráfica, tejidos, desglose de materiales, escalado, etiquetado, portada, construcción y detalles. Estos componentes rodean una carpeta etiquetada como "Ficha Técnica" en el centro.') 
         figcaption Nota. Chi, B. (2020).
 
 

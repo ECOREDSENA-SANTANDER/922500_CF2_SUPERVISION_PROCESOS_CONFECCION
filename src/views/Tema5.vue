@@ -319,7 +319,7 @@
             p.mb-0 CP= 0.74 m * 70 unidades.
             p.mb-0 CP= 51.8 m de tela requeridos.
 
-    p.mb-5 A continuación, se ve el dibujo del trazo cuya longitud es 5,18 metros, y en el cual hay dibujadas 7 tallas, entonces, de acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
+    p.mb-5 A continuación, se presenta una imagen del trazo cuya longitud es 5,18 metros, y en el cual hay dibujadas 7 tallas, entonces, de acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       span Largo del trazo: 5,18 mt.
     figure(data-aos="zoom-in")
@@ -362,7 +362,7 @@
                 i.lista-ul__vineta
                 | Etiquetas: 2 unidades.
 
-            p.mb-0 Se determinan las necesidades de materiales e insumos, en la ficha de cálculo de consumo por lote visible en la tabla 6. 
+            p.mb-0 Se determinan las necesidades de materiales e insumos, en la ficha de cálculo de consumo por lote presentado en la tabla 6. 
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10

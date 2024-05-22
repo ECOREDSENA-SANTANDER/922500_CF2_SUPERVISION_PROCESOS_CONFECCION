@@ -74,7 +74,7 @@
                 .h4.mt-4 Otros
                 p.mt-3.ml-5.md-3 Existen otros elementos utilizados en la fabricación y acabado de prendas de vestir que se comercializan y calculan por unidades, decenas, docenas o millares, como botones, hebillas, cremalleras, marquillas, etiquetas y bolsas.
     
-    p(data-aos='fade-left') A continuación en la tabla 1, se presentan algunas unidades de medida en su presentación más comercial, y en qué tipos de materiales e insumos se aplican generalmente.
+    p(data-aos='fade-left') A continuación, en la tabla 1, se presentan algunas unidades de medida en su presentación más comercial, y en qué tipos de materiales e insumos se aplican generalmente.
 
     
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
