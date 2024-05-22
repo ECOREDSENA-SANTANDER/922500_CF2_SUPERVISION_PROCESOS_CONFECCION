@@ -165,10 +165,13 @@
 
     .row.mb-5
       .col-lg-6(data-aos="fade-right")
-        .bloque-texto-c.tarjeta--bg4.p-4.mb-5(data-aos='fade-left')
-          i.fas.fa-quote-right
-          h3.mb-2 No existe ningún estándar internacional para hacer Fichas Técnicas, pero si existe un acuerdo general sobre el tipo de información que debes incluir. Esta información se desarrolla en varias hojas, y todas forman una Ficha Técnica.
-          span - Chi, 2020
+        .bloque-texto-d.color-acento-contenido.p-4.tarjeta--bg4.mb-5
+          .bloque-texto-d__texto.mb-2
+            i.fas.fa-quote-left
+            h3.mb-2 No existe ningún estándar internacional para hacer Fichas Técnicas, pero si existe un acuerdo general sobre el tipo de información que debes incluir. Esta información se desarrolla en varias hojas, y todas forman una Ficha Técnica.
+            i.fas.fa-quote-right
+          .bloque-texto-d__autor 
+            span.h5.mb-0 Chi, 2020
         p Este documento es la guía que orienta los departamentos y asegura que los procesos de producción determinen correctamente las especificaciones técnicas del producto establecidas y aseguren las condiciones de la prenda, a cabalidad. El cumplimiento de estas especificaciones se podría denominar buena calidad.  Haciendo la analogía, una ficha de diseño, o ficha técnica es, a los fabricantes de prendas de vestir, como el plano de un edificio, al maestro de obra.
       .col-lg-6(data-aos="fade-left")
         p.mb-4 En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores.
