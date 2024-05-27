@@ -81,7 +81,7 @@
           h5 Tabla 1.
           span Ejemplos de unidades de medida y materiales.
         .tabla-a.color-acento-contenido.mb-5(data-aos='fade-left')
-          table
+          table(alt='La imagen muestra una tabla que relaciona diferentes unidades de medida con ejemplos y materiales e insumos correspondientes. Para la longitud, se mencionan metros, centímetros y yardas, utilizados con telas, cintas, hilos, cremalleras y sesgos. El peso incluye kilogramos, gramos, libras y onzas, aplicados a telas, fibras, hilos y remaches. En cuanto al tiempo, se citan segundos, minutos y horas, relacionados con confección, bordado, lavandería y corte. El volumen se ejemplifica con metros cúbicos, centímetros cúbicos, litros, galones y botellas, usados en aceites, algodón y lubricantes. Por último, las unidades como la docena, centena y millar se aplican a botones, cremalleras y broches.')
             thead
               tr
                 th Unidades de medida

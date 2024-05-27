@@ -117,7 +117,7 @@
     .row.justify-content-center
       .col-sm-12.col-lg-10.justify-content-center
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-          table
+          table(alt='La "Tabla 8. Ficha Control de inventario" presenta un formato para el registro de entradas y salidas de productos en una empresa. Incluye campos para la fecha, el nombre de la empresa (XXX), el número de documento, el producto, el proveedor, y columnas para anotar la fecha, entrada, salida y saldo tanto del producto como del proveedor. Además, hay un espacio para observaciones. Esta ficha permite llevar un control detallado del inventario.')
             thead
               tr
                 th(colspan=8) 

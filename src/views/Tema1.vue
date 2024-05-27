@@ -378,7 +378,7 @@
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-7
           figure.mb-5
-            img(src='@/assets/curso/temas/tema_1/img_24.svg', alt='La imagen muestra un diagrama de flujo del proceso de producción de ropa. El flujo comienza con el "Proveedor" de materiales, sigue con "Materias primas e insumos", luego "Producto", y finalmente el "Cliente" después de la "Distribución". Hay una ilustración de una persona ajustando un maniquí al lado del diagrama.')  
+            img(src='@/assets/curso/temas/tema_1/img_24.svg', alt='La imagen ilustra un flujo de producción textil que inicia con el proveedor, quien suministra las materias primas e insumos necesarios. Estas materias primas son transformadas y se les agrega valor, pasando por un control de calidad, hasta convertirse en productos terminados. Los productos son luego distribuidos hasta llegar al cliente final. El diagrama visualiza las etapas clave: proveedor, materias primas e insumos, producto y cliente, destacando la importancia de la transformación, el valor agregado y el control de calidad en el proceso. ')  
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-sm-12.col-lg-7

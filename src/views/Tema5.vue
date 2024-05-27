@@ -87,7 +87,7 @@
           h5 Tabla 5.
           span Relación de consumo de hilo.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-          table
+          table(alt='La "Tabla 5. Relación de consumo de hilo" proporciona datos aproximados sobre el consumo de hilo en diferentes tipos de puntadas a 10 puntadas por pulgada. Incluye información sobre la serie de la puntada, el tipo de puntada, el total de hilo por cm de costura, el número de agujas y la relación de hilos. Por ejemplo, la puntada doble pespunte (serie 301) consume 2.8 cm de hilo por cm de costura con 2 agujas y una relación de hilos 1/1. Otras puntadas mencionadas incluyen cadena doble, zigzag sencillo, triple zigzag, sobrehilado a 3 hilos, recubridora a 2 y 3 hilos, y recubridora a 5 hilos, con sus respectivos consumos y configuraciones. ')
             thead
               tr
                 th(colspan=5) 
@@ -323,7 +323,7 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       span Largo del trazo: 5,18 mt.
     figure(data-aos="zoom-in")
-      img.img-a(src='@/assets/curso/temas/tema_5/img_9.png', alt='Largo del trazo: 4 m') 
+      img.img-a(src='@/assets/curso/temas/tema_5/img_9.png', alt='La imagen se prensenta un plano de corte con un largo del trazo de 5,18 metros. El plano incluye múltiples piezas de tela organizadas y optimizadas para maximizar el uso del material, con piezas de diferentes formas y tamaños dispuestas en un patrón específico. Los colores diferentes de las piezas indican probablemente distintas partes del patrón o tipos de tela. ') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).
 
     separador
@@ -332,7 +332,7 @@
       .h2 5.2 Cálculo de consumo por lote
 
     p.mb-5 Una vez se ha determinado cuántas son las cantidades de insumos y materias primas por una unidad, se multiplica por la cantidad del lote u orden de producción.
-    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se muestra a continuación, se puede evidenciar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente: 
+    p.mb-5 En la muestra inicial y en la ficha técnica, de la camisa referencia # 1030, que se prensenta a continuación, se puede evidenciar que su consumo por unidad, para producir 400 unidades de camisas, es el siguiente: 
 
     .tarjeta.mb-5
       .col-md.tarjeta.bg-02.p-5
@@ -370,7 +370,7 @@
           h5 Tabla 6.
           span Ficha de cálculo de consumo por lote.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-          table
+          table(alt='La "Tabla 6. Ficha de cálculo de consumo por lote" muestra el consumo de materiales e insumos para la orden de producción 98, con referencia 1030 y un total de 400 prendas en varias tallas. Se necesitan 520 metros de tela principal y 80 metros de entretela, ambos de Texta, 3600 botones de Botytex, 800 etiquetas de Marquilla y 400 bolsas de Plástica, detallando el consumo por prenda para cada artículo.')
             thead
               tr
                 th 
@@ -452,7 +452,7 @@
       h5 Tabla 7.
       span Ficha de cálculo de consumo por lote.
     .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-      table
+      table(alt='La "Tabla 7. Ficha de cálculo de consumo por lote" detalla los materiales e insumos necesarios para la orden de producción 98, con referencia 1030, y un total de 400 prendas en varias tallas (S, M, L, XL, XXL). Para cada artículo (tela, entretela, botones, etiquetas, bolsas) se especifica el proveedor, unidad de medida, consumo, valor unitario y valor total por lote. Los totales unitarios suman $15,050 y el total del lote asciende a $6,020,000. Esta tabla resume el costo total de los materiales que se incorporan en la prenda.')
         thead
           tr
             th 

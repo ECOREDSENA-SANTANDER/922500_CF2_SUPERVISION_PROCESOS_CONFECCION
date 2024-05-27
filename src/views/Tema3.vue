@@ -88,7 +88,7 @@
           h5 Tabla 2.
           span Ficha de presupuesto de ventas.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-          table
+          table(alt='La tabla expone una ficha de presupuesto de ventas" de la Industria de Ropa detalla una colección (#001) con 6 referencias, fechada en septiembre de 2021 y con un periodo de venta del 3 al 30 de mayo de 2021. Incluye productos como botas anchas (piel de durazno), estilo europeo (tela Kiss), faldas (tela Bonaire), y jeans clásicos (tela Artic), con cantidades entre 150 y 200 unidades. Las referencias que comienzan con 10 son para dama y las que comienzan con 30 son para hombre.')
             thead
               tr.text-center
                 th(colspan=7) 
@@ -223,7 +223,7 @@
             h5 Tabla 3.
             span Ficha de presupuesto de producción.
           .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-            table
+            table(alt='La "Tabla 3. Ficha de presupuesto de producción" muestra un programa de unidades a producir para una empresa en una fecha específica. La tabla detalla lo siguiente: se solicitan 500 unidades, se añaden 75 unidades para mantener un 15% en inventario, y se restan 100 unidades existentes en el inventario, resultando en un total de 475 unidades a producir.')
               thead
                 tr
                   th(colspan=3) 

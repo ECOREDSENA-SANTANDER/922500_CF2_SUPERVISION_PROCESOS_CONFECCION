@@ -56,7 +56,7 @@
           h5 Tabla 4.
           span Ejemplo ficha orden de producción.
         .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
-          table
+          table(alt='La "Tabla 4. Ejemplo ficha orden de producción" muestra una orden de producción para una empresa con detalles específicos. La orden de producción N° 17, fechada el 20 de junio de 2021, con la referencia 4015-8, corresponde al artículo "Chaqueta" para el cliente "Between jeans". La cantidad total a producir es 200 unidades, con una fecha de inicio del 25 de junio de 2021 y una fecha de terminación del 10 de julio de 2021. La tabla especifica las cantidades de cada talla: 20 unidades de talla 6/8/S, 40 de 8/30/M, 50 de 10/32/L, 60 de 12/34/XL, y 30 de 14/36/XXL. La orden es aprobada por el encargado de producción y recibida por el supervisor de trazo y corte.')
             thead
               tr
                 th(colspan=5) 
@@ -193,7 +193,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-left')
         .col-lg-12
           figure.mb-5(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema_4/img_4.svg', alt='En la imagen se detalla un ejemplo de ficha técnica.')
+            img(src='@/assets/curso/temas/tema_4/img_4.svg', alt='La imagen se presenta una ficha técnica de producción para un pantalón denim azul oscuro, con fecha de programación del 28/12/2021 y referencia JP 2163. Incluye detalles sobre el estilo, temporada (abril), y las medidas específicas de la prenda. También enumera los insumos necesarios, como cierres y botones, y describe las operaciones de confección y las instrucciones de lavado, junto con imágenes del diseño y medidas antes y después del lavado.')
     figcaption Nota. SENA (2021).
 
 
