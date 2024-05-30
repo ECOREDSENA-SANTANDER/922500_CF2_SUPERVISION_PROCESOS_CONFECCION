@@ -24,21 +24,21 @@
 
    
     .row
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.justify-content-center.align-items-center
+        .tarjeta-avatar-b.mb-5.h-card-avatar
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema_5/img_13.svg' alt='Imagen decorativa')
           .tarjeta.border--bg1
             .p-4
               p Identificar los materiales e insumos que requieren las prendas, información que se encuentra en las fichas técnicas o en las muestras iniciales. Estas fichas técnicas y muestras iniciales especifican los insumos que se utilizarán en los lotes de producción, así como su disposición en la prenda.
 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.justify-content-center.align-items-center
+        .tarjeta-avatar-b.mb-5.h-card-avatar
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema_5/img_14.svg' alt='Imagen decorativa')
           .tarjeta.border--bg2
             .p-4
-              p Determinar las cantidades de materias primas e insumos que componen los atuendos, y con esta información poder calcular todo lo necesario para confeccionar el lote.
+              p.mt-4 Determinar las cantidades de materias primas e insumos que componen los atuendos, y con esta información poder calcular todo lo necesario para confeccionar el lote.
 
     separador
 
@@ -228,7 +228,7 @@
 
     .row
       .col-lg-3
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5.h-card-avatar-2
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema_5/img_15.svg' alt='Imagen decorativa')
           .tarjeta.avatar-b-1
@@ -236,7 +236,7 @@
               p El tipo de puntada.
 
       .col-lg-3
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5.h-card-avatar-2
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema_5/img_16.svg' alt='Imagen decorativa')
           .tarjeta.avatar-b-2
@@ -244,7 +244,7 @@
               p El número de puntadas por pulgada.
 
       .col-lg-3
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5.h-card-avatar-2
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema_5/img_17.svg' alt='Imagen decorativa')
           .tarjeta.avatar-b-3
@@ -252,7 +252,7 @@
               p La máquina y el tipo de tecnología que utiliza.
 
       .col-lg-3
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5.h-card-avatar-2
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema_5/img_18.svg' alt='Imagen decorativa')
           .tarjeta.avatar-b-4
