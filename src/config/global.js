@@ -145,6 +145,12 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
@@ -159,11 +165,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      // {
-      //   icono: 'fas fa-file-pdf',
-      //   titulo: 'Descargar PDF',
-      //   download: 'downloads/prueba.pdf',
-      // },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -407,7 +413,7 @@ export default {
       autores: [
         {
           nombre: 'Yazmin Figueroa Pacheco',
-          cargo: 'Diseñadora Web',
+          cargo: 'Diseñadora de Contenidos Digitales',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
