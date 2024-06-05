@@ -233,8 +233,8 @@
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9BzFVlnhsHs" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. SENA 2024
 
     p.mb-5 A continuación, se presenta el video tutorial para identificar la función del inventario, los requerimientos de materia prima y consumo.
 
