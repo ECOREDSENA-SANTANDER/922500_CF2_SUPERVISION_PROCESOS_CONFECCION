@@ -174,8 +174,7 @@
             span.h5.mb-0 Chi, 2020
         p Este documento es la guía que orienta los departamentos y asegura que los procesos de producción determinen correctamente las especificaciones técnicas del producto establecidas y aseguren las condiciones de la prenda, a cabalidad. El cumplimiento de estas especificaciones se podría denominar buena calidad.  Haciendo la analogía, una ficha de diseño, o ficha técnica es, a los fabricantes de prendas de vestir, como el plano de un edificio, al maestro de obra.
       .col-lg-6(data-aos="fade-left")
-        p.mb-4 En el ejemplo se describe la relación de esta ficha con los siguientes departamentos: equipo técnico y de producción, proveedores/comerciales, fabrica y los diseñadores.
-
+        
         figure
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Figura 2.
@@ -193,7 +192,7 @@
       .row.justify-content-center.mb-5(data-aos='fade-left')
         .col-lg-12
           figure.mb-5(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema_4/img_4.svg', alt='La imagen se presenta una ficha técnica de producción para un pantalón denim azul oscuro, con fecha de programación del 28/12/2021 y referencia JP 2163. Incluye detalles sobre el estilo, temporada (abril), y las medidas específicas de la prenda. También enumera los insumos necesarios, como cierres y botones, y describe las operaciones de confección y las instrucciones de lavado, junto con imágenes del diseño y medidas antes y después del lavado.')
+            img(src='@/assets/curso/temas/tema_4/img_11.png', alt='La imagen se presenta una ficha técnica de producción para un pantalón denim azul oscuro, con fecha de programación del 28/12/2021 y referencia JP 2163. Incluye detalles sobre el estilo, temporada (abril), y las medidas específicas de la prenda. También enumera los insumos necesarios, como cierres y botones, y describe las operaciones de confección y las instrucciones de lavado, junto con imágenes del diseño y medidas antes y después del lavado.')
     figcaption Nota. SENA (2021).
 
 

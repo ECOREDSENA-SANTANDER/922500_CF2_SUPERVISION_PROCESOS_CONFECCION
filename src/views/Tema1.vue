@@ -310,7 +310,7 @@
         .row.justify-content-center.align-items-center
           .col-sm-12.col-lg--5.my-2.mb-md-0
             h4.mb-3 Cremalleras
-            p También llamado cierre, que se ubica en las prendas de vestir con el fin de cerrar y abrir aberturas o uniones de piezas. Está compuesto por unos dientes que se unen y abren, impulsados por una paleta o cabeza de cierre, estos dientes están sujetos por una cinta de tela en la mayoría de los casos. Los hay metálicos o de nylon o plástico.
+            p También llamado cierre, que se ubica en las prendas de vestir con el fin de cerrar y abrir aberturas o uniones de piezas. Está compuesto por unos dientes que se unen y abren, impulsados por una paleta o cabeza de cierre, estos dientes están sujetos por una cinta de tela. Los hay metálicos, de nylon o plásticos.
 
           .col-md-5
             figure

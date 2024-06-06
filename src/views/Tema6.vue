@@ -173,22 +173,22 @@
 
     p.mb-5  Se requiere disponer de un #[i software ], el cual hay que alimentarlo con la siguiente información: 
 
-    .row.justify-content-center.mb-5 
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-10
         .py-3.py-md-4(titulo="Inventario\nsistematizado" :imagen="images[1]"  :numero="numbers[1]")
           .row.mb-5
-            .col-lg-4.mb-4.mb-lg-0(data-aos="slide-left")
+            .col-lg-4.mb-4.mb-lg-0
               img(src='@/assets/curso/temas/tema_6/img_3.png' ) 
               h5.text-center Los proveedores
               p.text-center Nombre, dirección, portafolio de productos o servicios, precios, presentación, unidades de medida, redes, teléfonos, contactos y demás datos que lo identifique.
 
-            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
+            .col-lg-4.mb-4.mb-lg-0
               img(src='@/assets/curso/temas/tema_6/img_4.png' ) 
               h5.text-center Los productos
               p.text-center Descripción, nombre comercial, presentación, unidad de medida, productor, código, referencia.
 
 
-            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-slide-right")
+            .col-lg-4.mb-4.mb-lg-0
               img(src='@/assets/curso/temas/tema_6/img_5.png' ) 
               h5.text-center Los clientes
               p.text-center Domicilio, precios de venta, redes, transportadoras, criterios de venta.

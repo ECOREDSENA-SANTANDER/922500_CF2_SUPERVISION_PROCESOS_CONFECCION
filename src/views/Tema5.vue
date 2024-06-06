@@ -46,12 +46,12 @@
       .h2 5.1  Cálculo de consumo unitario
 
 
-    .tarjeta--bg2.p-5.mb-5(data-aos="zoom-in")
+    .tarjeta--bg2.px-5.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-8.mb-4.mb-lg-0
+        .col-lg-8.mb-0
           p.mb-3 Los cálculos de consumo unitario permiten determinar la cantidad de materiales e insumos que se necesitan para la elaboración de una prenda de vestir, o para prestar un servicio que tenga que ver con el sistema moda. Los resultados pueden ser en unidades de medida, o fracciones de ella.  
           p Desde la elaboración de la muestra inicial, se definen por cada prenda los insumos y materiales necesarios, es así como las fichas técnicas cobran gran importancia en el proceso de producción y los cálculos asociados, dejando registro para corroborar esta información y donde el encargado de producción puede basarse para hacer los respectivos cálculos de los lotes de producción.
-        .col-lg-4
+        .col-lg-4.mb-0.mt-2
           img.imagen-arriba(src='@/assets/curso/temas/tema_5/img_1.svg', alt='Cálculo de consumo unitario') 
 
     .mt-5.d-flex.mb-5(data-aos="fade-right")
