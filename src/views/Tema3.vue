@@ -218,11 +218,11 @@
         p.mb-5 En una compañía el estimado de ventas es de 500 unidades de camisetas en un período de un mes. La empresa tiene como política programar el 15% adicional al pedido, para resolver imprevistos que sucedan durante la producción, y al revisar en la bodega, se encuentran, que tienen 100 camisetas. En la siguiente tabla se ilustra la solución al ejemplo planteado.
 
       .row
-        .col-lg-8(data-aos="fade-right")
-          .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+        .col-sm-12.col-lg-12.col-xl-8
+          .titulo-sexto.color-acento-contenido
             h5 Tabla 3.
             span Ficha de presupuesto de producción.
-          .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in") 
+          .tabla-a.color-acento-contenido.mb-5
             table(alt='La "Tabla 3. Ficha de presupuesto de producción" muestra un programa de unidades a producir para una empresa en una fecha específica. La tabla detalla lo siguiente: se solicitan 500 unidades, se añaden 75 unidades para mantener un 15% en inventario, y se restan 100 unidades existentes en el inventario, resultando en un total de 475 unidades a producir.')
               thead
                 tr
@@ -260,9 +260,8 @@
                   td(colspan=2) Unidades para producir	
                   td 475
 
-        .col-lg-4(data-aos="fade-left")
-          figure
-            img.d-none.d-lg-block(src='@/assets/curso/temas/tema_3/img_12.png' alt='Ficha de presupuesto de producción') 
+        .col-xl-4.view-icon-card
+            img(src='@/assets/curso/temas/tema_3/img_12.png' alt='Ficha de presupuesto de producción') 
 
         
 

@@ -51,7 +51,7 @@
 
     
     .row.justify-content-center
-      .col-lg-8
+      .col-sm-12.col-lg-12.col-xl-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 4.
           span Ejemplo ficha orden de producción.
@@ -188,12 +188,12 @@
       .d-flex.flex-wrap.align-items-center.pe-4-cus 
         h3.col.px-4.mb-0.text-white.bg-img-tema1.wtitle En la imagen se detalla un ejemplo de ficha técnica. 
 
-    .tarjeta--bg3.p-4.mb-0.align-items-center
-      .row.justify-content-center.mb-5(data-aos='fade-left')
+    .tarjeta--bg3.p-4.mb-0.align-items-center.mb-0
+      .row.justify-content-center.mb-0(data-aos='fade-left')
         .col-lg-12
-          figure.mb-5(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema_4/img_11.png', alt='La imagen se presenta una ficha técnica de producción para un pantalón denim azul oscuro, con fecha de programación del 28/12/2021 y referencia JP 2163. Incluye detalles sobre el estilo, temporada (abril), y las medidas específicas de la prenda. También enumera los insumos necesarios, como cierres y botones, y describe las operaciones de confección y las instrucciones de lavado, junto con imágenes del diseño y medidas antes y después del lavado.')
-    figcaption Nota. SENA (2021).
+          figure.mb-0(data-aos="zoom-in")
+            img.mb-0(src='@/assets/curso/temas/tema_4/img_11.png', alt='La imagen se presenta una ficha técnica de producción para un pantalón denim azul oscuro, con fecha de programación del 28/12/2021 y referencia JP 2163. Incluye detalles sobre el estilo, temporada (abril), y las medidas específicas de la prenda. También enumera los insumos necesarios, como cierres y botones, y describe las operaciones de confección y las instrucciones de lavado, junto con imágenes del diseño y medidas antes y después del lavado.')
+          figcaption Nota. SENA (2021).
 
 
 </template>

@@ -35,44 +35,44 @@
     
     .row.mt-5.px-4.mb-5
       .col-sm-12.col-lg-4.position-relative.px-3.item-parent
-        .bg-card-img
-          img(src="@/assets/curso/temas/tema_2/img_6.png", alt="Longitud se define como la distancia entre dos puntos")
+        .bg-card-img.mb-cus
+          img.img-cover-cus(src="@/assets/curso/temas/tema_2/img_6.png", alt="Longitud se define como la distancia entre dos puntos")
           p.title-card-img.text-center.mt-3-cus De Longitud 
           .row.image-cover.m-0.p-0.bg-card-img-hover.bg-hover
             .col-12.px-4.pt-5
-              .row
+              .row.view-icon-card
                 .col-3
                   img(src="@/assets/curso/temas/tema_2/img_9.svg", alt="Imagen descriptiva").w-10.margin-0-auto
-                .h4.mt-4 De longitud
-                p.mt-3.ml-5.md-3 La longitud se define como la distancia entre dos puntos y las unidades de medida de longitud más comunes incluyen el metro, la yarda, el centímetro, la pulgada, el kilómetro y la milla. 
-                p En cuanto a los materiales utilizados en la confección, como telas, elásticos, cintas y hilos, se comercializan y emplean con estas unidades de medida, así como sus fracciones correspondientes.
+              .h4.mt-4 De longitud 
+              p.mt-3.ml-5.md-3 La longitud se define como la distancia entre dos puntos y las unidades de medida de longitud más comunes incluyen el metro, la yarda, el centímetro, la pulgada, el kilómetro y la milla. 
+              p En cuanto a los materiales utilizados en la confección, como telas, elásticos, cintas e hilos, se comercializan y emplean con estas unidades de medida, así como sus fracciones correspondientes.
           
               
               
       .col-sm-12.col-lg-4.position-relative.px-3.item-parent
-        .bg-card-img
-          img(src="@/assets/curso/temas/tema_2/img_7.png", alt="La distancia que hay entre dos puntos")
+        .bg-card-img.mb-cus
+          img.img-cover-cus(src="@/assets/curso/temas/tema_2/img_7.png", alt="La distancia que hay entre dos puntos")
           p.title-card-img.text-center.mt-3-cus De peso 
           .row.image-cover.m-0.p-0.bg-card-img-hover.bg-hover
             .col-12.px-4.pt-5
-              .row
+              .row.view-icon-card
                 .col-3
                   img(src="@/assets/curso/temas/tema_2/img_11.svg", alt="Imagen descriptiva").w-10.margin-0-auto
-                .h4.mt-4 De peso
-                p.mt-3.ml-5.md-3 La distancia que hay entre dos puntos se llama longitud, las unidades de medida de longitud más usadas son: metro, yardas, centímetros, pulgadas, kilómetros, milla. 
-                p Las telas, los elásticos, las cintas, los hilos son algunos de los materiales que se comercializan y emplean con estas unidades de medida, y sus respectivas fracciones.
+            .h4.mt-4 De peso
+            p.mt-3.ml-5.md-3 La distancia que hay entre dos puntos se llama longitud, las unidades de medida de longitud más usadas son: metro, yardas, centímetros, pulgadas, kilómetros, milla. 
+            p Las telas, los elásticos, las cintas, los hilos son algunos de los materiales que se comercializan y emplean con estas unidades de medida, y sus respectivas fracciones.
       
       .col-sm-12.col-lg-4.position-relative.px-3.item-parent
-        .bg-card-img
-          img(src="@/assets/curso/temas/tema_2/img_8.png", alt="La distancia que hay entre dos puntos")
+        .bg-card-img.mb-cus
+          img.img-cover-cus(src="@/assets/curso/temas/tema_2/img_8.png", alt="La distancia que hay entre dos puntos")
           p.title-card-img.text-center.mt-3-cus Otros 
           .row.image-cover.m-0.p-0.bg-card-img-hover.bg-hover
             .col-12.px-4.pt-5
-              .row
+              .row.view-icon-card
                 .col-3
                   img(src="@/assets/curso/temas/tema_2/img_12.svg", alt="Imagen descriptiva").w-10.margin-0-auto
-                .h4.mt-4 Otros
-                p.mt-3.ml-5.md-3 Existen otros elementos utilizados en la fabricación y acabado de prendas de vestir que se comercializan y calculan por unidades, decenas, docenas o millares, como botones, hebillas, cremalleras, marquillas, etiquetas y bolsas.
+              .h4.mt-4 Otros
+              p.mt-3.ml-5.md-3 Existen otros elementos utilizados en la fabricación y acabado de prendas de vestir que se comercializan y calculan por unidades, decenas, docenas o millares, como botones, hebillas, cremalleras, marquillas, etiquetas y bolsas.
     
     p(data-aos='fade-left') A continuación, en la tabla 1, se presentan algunas unidades de medida en su presentación más comercial, y en qué tipos de materiales e insumos se aplican generalmente.
 

@@ -325,7 +325,8 @@
   height: 150px
 .tarjeta--bg4
   background-color: #FFE2D2
-
+.view-icon-card
+    display: block
 .bg4 
   background: linear-gradient(#F7FCFD, #D9F4F7 75%);
   margin: auto -5em 0
@@ -554,7 +555,9 @@
     padding-right: 1.5rem !important;
 .wtitle 
   width: 800px
-
+.img-cover-cus
+  object-fit: cover;
+  height: 450px;
 .bg-img-tema1
   background-color: #9F0925
   border-radius: -7px
@@ -719,3 +722,14 @@
     height: 180px
   .h-card-avatar, .h-card-avatar-2
     height: auto !important
+
+@media only screen and (max-width: $bp-max-xl)
+  .view-icon-card
+    display: none
+  .mb-cus
+    margin-bottom: 2em  !important 
+@media only screen and (min-width: $bp-max-md) and (max-width: $bp-max-xl)
+  .h-card-avatar 
+      height: 240px !important;
+  .h-card-avatar-2
+    height: 130px !important;

@@ -321,7 +321,7 @@
 
     p.mb-5 A continuación, se presenta una imagen del trazo cuya longitud es 5,18 metros, y en el cual hay dibujadas 7 tallas, entonces, de acuerdo con la fórmula se divide el largo del trazo entre el número de tallas dibujadas. 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      span Largo del trazo: 5,18 mt.
+      span Largo del trazo: 5,18 m.
     figure(data-aos="zoom-in")
       img.img-a(src='@/assets/curso/temas/tema_5/img_9.png', alt='La imagen se prensenta un plano de corte con un largo del trazo de 5,18 metros. El plano incluye múltiples piezas de tela organizadas y optimizadas para maximizar el uso del material, con piezas de diferentes formas y tamaños dispuestas en un patrón específico. Los colores diferentes de las piezas indican probablemente distintas partes del patrón o tipos de tela. ') 
     figcaption(data-aos="zoom-in") Nota. SENA (2021).
@@ -430,21 +430,21 @@
                 td 1
                 td 400
 
-      p.mb-5 De acuerdo con este ejemplo, puede evidenciar que la cantidad total de prendas (camisas), a producir son 400 unidades, esta cifra está en el encabezado, en la primera columna aparece el nombre del insumo o producto del cuál se calcula la cantidad necesaria para realizar el lote, ejemplo: tela, botón, etiqueta. 
+    p.mb-5 De acuerdo con este ejemplo, puede evidenciar que la cantidad total de prendas (camisas), a producir son 400 unidades, esta cifra está en el encabezado, en la primera columna aparece el nombre del insumo o producto del cuál se calcula la cantidad necesaria para realizar el lote, ejemplo: tela, botón, etiqueta. 
 
+      
+
+    .row.mb-5
+      .col-lg-9
+        .cajon.color-primario.p-4
+          p.mb-0 En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, ese consumo viene definido en la ficha técnica de diseño, para diligenciar la última columna se multiplica el consumo x prenda (cuarta columna), por la cantidad de prendas total, en este caso 400 unidades (1,3 X 400 = 520, 0,2 x 400 = 80, 9 x 400 = 3600, 2 x 400 = 800, 1 x 400 =400) y ahí se tienen calculados la necesidad de materiales e insumos para este lote de camisas de la referencia 1030.
         
+      .col-lg-3(data-aos="fade-left")
+        figure
+          img.img-a(src='@/assets/curso/temas/tema_5/img_10.svg' ) 
 
-        .row.mb-5 
-          .col-lg-9(data-aos="fade-right")
-            .cajon.color-primario.p-4.mb-5(data-aos="zoom-in") 
-              p.mb-0 En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, ese consumo viene definido en la ficha técnica de diseño, para diligenciar la última columna se multiplica el consumo x prenda (cuarta columna), por la cantidad de prendas total, en este caso 400 unidades (1,3 X 400 = 520, 0,2 x 400 = 80, 9 x 400 = 3600, 2 x 400 = 800, 1 x 400 =400) y ahí se tienen calculados la necesidad de materiales e insumos para este lote de camisas de la referencia 1030.
-            
-          .col-lg-3(data-aos="fade-left")
-            figure
-              img.img-a(src='@/assets/curso/temas/tema_5/img_10.svg' ) 
-
-      p.mb-4 En algunas ocasiones y de acuerdo con políticas de la empresa, se podrían incluir valores unitarios y valores totales, de los insumos y las materias primas necesarias.   
-      p.mb-5 A continuación, se presenta la tabla 7 donde se incluyen valores unitario y total.
+    p.mb-4 En algunas ocasiones y de acuerdo con políticas de la empresa, se podrían incluir valores unitarios y valores totales, de los insumos y las materias primas necesarias.   
+    p.mb-4 A continuación, se presenta la tabla 7 donde se incluyen valores unitario y total.
             
 
 
@@ -547,7 +547,7 @@
         .tarjeta--bg1.p-4.mb-5(data-aos="zoom-in") 
           p.mb-0 En la primera columna aparece el nombre del material o insumo que se va a costear, o sea darle valor monetario a esa cantidad de insumo o materia prima.
 
-        p.mb-3 En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, en la quinta columna aparece el precio de cada unidad de medida con que se comercializa el insumo, en la sexta columna (VR/TOTAL UNITARIO),  se coloca el resultado de multiplicar la columna 4 (CONSUMO), multiplicado por los valores que aparecen en la columna 5 (VR/UNIT), y en la última columna( VR/TOTAL LOTE), se coloca el resultado de la columna (VR/TOTAL UNITARIO) multiplicado por la cantidad total del lote (CANT:400), así se tiene el costo unitario de una camisa y también se tiene el costo total del lote a producir. 
+        p.mb-3 En la segunda columna aparece el nombre del proveedor de este insumo o material a utilizar, en la tercera columna se nombra la unidad de medida con que se comercializa ese material, en la cuarta columna aparece el consumo necesario de cada insumo o material, en la quinta columna aparece el precio de cada unidad de medida con que se comercializa el insumo, en la sexta columna (VR/TOTAL UNITARIO),  se coloca el resultado de multiplicar la columna 4 (CONSUMO), multiplicado por los valores que aparecen en la columna 5 (VR/UNIT), y en la última columna (VR/TOTAL LOTE), se coloca el resultado de la columna (VR/TOTAL UNITARIO) multiplicado por la cantidad total del lote (CANT:400), así se tiene el costo unitario de una camisa y también se tiene el costo total del lote a producir. 
         p Con esta información se pueden planear también las compras y los presupuestos.
       .col-lg-5(data-aos="fade-left")
         figure

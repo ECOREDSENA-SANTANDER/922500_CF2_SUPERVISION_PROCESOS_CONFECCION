@@ -17,7 +17,7 @@
     .tarjeta--bg1.color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.align-items-center
         .col-lg-6.mb-4.mb-lg-0
-          p Para el desarrollo de sus actividades las empresas necesitan aprovisionarse de bienes y servicios para cumplir sus propósitos. La gestión del almacén se lleva a cabo a través de los inventarios en los que se detallan de forma ordenada los contenidos de bienes, que las empresas tienen en sus instalaciones. La información contenida en dichos inventarios forma un insumo importante para la empresa y sus operaciones comerciales, al mismo tiempo se provee información sobre materia prima necesaria para prestar los servicios. 
+          p Para el desarrollo de sus actividades las empresas necesitan aprovisionarse de bienes y servicios para cumplir sus propósitos. La gestión del almacén se lleva a cabo a través de los inventarios en los que se detallan de forma ordenada los contenidos de bienes, que las empresas tienen en sus instalaciones. La información contenida en dichos inventarios forman un insumo importante para la empresa y sus operaciones comerciales, al mismo tiempo se provee información sobre materia prima necesaria para prestar los servicios. 
         .col-lg-6
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 3.
@@ -40,7 +40,7 @@
       .h2 6.1 Políticas empresariales de inventarios 
 
     p.mb-3(data-aos="zoom-in") Se definen como estrategias empresariales pensadas para administrar eficientemente los recursos materiales de la organización, potenciando así los procesos de calidad de servicio al cliente y minimizando costos de mantenimiento. 
-    p.mb-5(data-aos="zoom-in") Se construyen de acuerdo con los siguientes criterios:
+    p.mb-0(data-aos="zoom-in") Se construyen de acuerdo con los siguientes criterios:
 
 
     .tarjeta.row.mb-5
@@ -101,7 +101,7 @@
         img.col-lg.d-flex(src='@/assets/curso/temas/icon-bot.svg')(style='left: -85%; max-width: 55px;').icon-img-blue
 
     
-    .row.mb-5
+    .row.mb-3
       .col-lg-8.mb-3(data-aos="fade-down-left")
         p.mb-3 El conteo de los productos se hace manual, y se registra en formatos diseñados para este fin, es un método costoso debido a la cantidad de tiempo, cantidad de personas, y cantidad de papelería que se requiere. Debido a esto, el inventario físico se realiza pocas veces al año para corroborar la información teórica y la información real. 
         p.mb-3 A estos inventarios se les va sumando las compras que en determinada fecha se realiza, y se descuenta los materiales utilizados en las diferentes referencias producidas; la información continua, actualizada y detallada no es fácil hacerla debido a la cantidad de elementos que de manera manual se debe hacer funcionar. Este tipo de inventarios se deben hacer periódicamente.
@@ -132,7 +132,7 @@
                 td Producto:
                 td 
                 td(colspan=3) Producto:
-                td(colspan=2) Proovedor:
+                td(colspan=2) Proveedor:
                 td
               tr.text-center.td_bg1
                 td Fecha 	
@@ -173,10 +173,10 @@
 
     p.mb-5  Se requiere disponer de un #[i software ], el cual hay que alimentarlo con la siguiente información: 
 
-    .row.justify-content-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.mb-0
       .col-10
-        .py-3.py-md-4(titulo="Inventario\nsistematizado" :imagen="images[1]"  :numero="numbers[1]")
-          .row.mb-5
+        .pt-3.py-md-4(titulo="Inventario\nsistematizado" :imagen="images[1]"  :numero="numbers[1]")
+          .row.mb-2
             .col-lg-4.mb-4.mb-lg-0
               img(src='@/assets/curso/temas/tema_6/img_3.png' ) 
               h5.text-center Los proveedores
@@ -194,12 +194,12 @@
               p.text-center Domicilio, precios de venta, redes, transportadoras, criterios de venta.
 
 
-    .row.mb-5 
+    .row.mb-4
       .col-sm-12.col-lg-7
         .cajon.color-primario.p-4.mb-5
           p Después que el #[i software ] tiene la información que le permite interactuar, se establece el código de identificación de los productos; de qué material está construido, con qué equipo se aplica y en qué parte se coloca.
 
-        p.mb-5 Estos programas tienen la facultad de imprimir códigos de barra entre otros, ya con los adhesivos de los códigos de barra, se le colocan a las materias primas e insumos, y con un lector de códigos de barra se lee la información allí consignada, este a su vez envía la información al sistema, este ejercicio se hace a la entrada y también a la salida, y de esta manera la información se mantiene actualizada, y en poco tiempo.
+        p.mb-0 Estos programas tienen la facultad de imprimir códigos de barra entre otros, ya con los adhesivos de los códigos de barra, se le colocan a las materias primas e insumos, y con un lector de códigos de barra se lee la información allí consignada, este a su vez envía la información al sistema, este ejercicio se hace a la entrada y también a la salida, y de esta manera la información se mantiene actualizada, y en poco tiempo.
       
       .col-5
         img.d-none.d-lg-block(src='@/assets/curso/temas/tema_6/img_11.svg' )

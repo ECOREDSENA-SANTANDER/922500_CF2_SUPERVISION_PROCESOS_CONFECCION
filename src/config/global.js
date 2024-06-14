@@ -229,7 +229,7 @@ export default {
     {
       tema: 'Inventarios – Administración de la producción ',
       referencia:
-        'Cruz Fernández, A. (2017). Gestión de inventarios: UF0476 . IC Editorial. Ebooks 7-24. ',
+        'Cruz Fernández, A. (2017). Gestión de inventarios: UF0476. IC Editorial. Ebooks 7-24. ',
       tipo: 'Enlace de biblioteca',
       link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8741 ',
     },

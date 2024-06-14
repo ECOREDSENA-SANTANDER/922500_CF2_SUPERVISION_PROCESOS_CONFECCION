@@ -206,7 +206,7 @@
                 figure
                   img.img-a(src='@/assets/curso/temas/tema_1/img_15.png', alt='Imagen decorativa denim') 
               .col-md-6.mb-4.mb-md-0
-                h5 Denim
+                h5 #[i Denim ]
                 p También conocida como tela vaquera o mezclilla, es empleado para la producción de jeans, anteriormente su composición era 100% algodón, pero en los últimos tiempos se le ha incorporado elastómero con el fin de que gane elasticidad.
 
             
