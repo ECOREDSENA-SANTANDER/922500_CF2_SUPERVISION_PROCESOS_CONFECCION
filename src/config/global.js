@@ -192,7 +192,7 @@ export default {
     },
     {
       tema: 'Insumos',
-      referencia: 'Rojas C (s.f.) Fundamentación textil. Hilaturas – Hilos ',
+      referencia: 'Rojas C (s.f.) Fundamentación textil. Hilaturas – Hilos. ',
       tipo: 'PDF',
       descarga: '/downloads/Anexo_2_Fundamentacion_Textil_Hilaturas_Hilos.pdf',
     },
@@ -203,14 +203,6 @@ export default {
       tipo: 'Documento',
       descarga:
         '/downloads/Anexo_3_Tabla_dinamica_calculo_consumo_hilo_tejido_liviano.xls',
-    },
-    {
-      tema: 'Planeación y control de la producción',
-      referencia:
-        'Sipper, D; Bulfin, R. (1998). Planeación y control de la producción. McGraw-Hill Interamericana Editores.',
-      tipo: 'E-book/Enlace',
-      link:
-        'https://www.academia.edu/30219185/Planeacion_y_Control_de_La_Produccion_Sipper',
     },
     {
       tema: 'Inventarios',
@@ -228,10 +220,10 @@ export default {
     },
     {
       tema: 'Inventarios – Administración de la producción ',
-      referencia:
-        'Cruz Fernández, A. (2017). Gestión de inventarios: UF0476. IC Editorial. Ebooks 7-24. ',
-      tipo: 'Enlace de biblioteca',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8741 ',
+      referencia: 'Zambelli Rafael. (2023) Gestion de inventarios Blog.',
+      tipo: 'Blog',
+      link:
+        'https://blog-es.checklistfacil.com/gestion-de-inventario/?utm_term=&utm_campaign=LATAM-ES-PAID-CF-GOOGLE-SEARCH-LM_NOVOS_LEADS-DSA-BLOG&utm_source=google&utm_medium=cpc&hsa_acc=6707140990&hsa_cam=21096577828&hsa_grp=160250856136&hsa_ad=693261475572&hsa_s',
     },
   ],
   glosario: [
@@ -300,8 +292,9 @@ export default {
 
     {
       referencia:
-        'Chi, B. (2020, 26 Nov). Ficha Técnica en moda: ¿qué información incluir? [Blog]. SeamPedia.com',
-      link: 'https://seampedia.com/ficha-tecnica-en-moda/',
+        'Chi, B. (2020, 26 Nov). ficha técnica, un documento imprescindible para la producción de moda. [Blog]. SeamPedia.com',
+      link:
+        'https://seampedia.com/ficha-tecnica-documento-inprescindible-produccion-moda/#:~:text=La%20ficha%20t%C3%A9cnica%20contiene%20toda,mejora%20los%20tiempos%20de%20entrega',
     },
 
     {
@@ -319,7 +312,7 @@ export default {
       referencia:
         'Depositphotos. (2017). Fibras de material azul enlazadas. Blog fotos.',
       link:
-        'https://sp.depositphotos.com/177910842/stock-photo-linked-blue-material-fibers.html',
+        'https://depositphotos.com/es/photos/fibras-de-material-azul-enlazadas.html',
     },
 
     {
@@ -455,25 +448,4 @@ export default {
     creativeCommons:
       'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }
