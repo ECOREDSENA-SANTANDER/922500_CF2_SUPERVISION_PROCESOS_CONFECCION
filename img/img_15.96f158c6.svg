@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="85" viewBox="0 0 85 85">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_6438" data-name="Rectángulo 6438" width="50" height="50" transform="translate(513 3946)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_57506" data-name="Grupo 57506" transform="translate(-180 -3928)">
+    <circle id="Elipse_4540" data-name="Elipse 4540" cx="42.5" cy="42.5" r="42.5" transform="translate(180 3928)" fill="#ff8a5b"/>
+    <g id="Enmascarar_grupo_58" data-name="Enmascarar grupo 58" transform="translate(-315)" clip-path="url(#clip-path)">
+      <g id="desgarrador-de-costuras" transform="translate(511.333 3944.333)">
+        <path id="Trazado_109280" data-name="Trazado 109280" d="M2.5,2.5H24.167V50.833H2.5Z" fill="#0093b9"/>
+        <path id="Trazado_109281" data-name="Trazado 109281" d="M15,2.5h9.167V50.833H15Z" fill="#fdc01e"/>
+        <path id="Trazado_109282" data-name="Trazado 109282" d="M29.167,2.5H50.833V50.833H29.167Z" fill="#0093b9"/>
+        <path id="Trazado_109283" data-name="Trazado 109283" d="M29.167,2.5h9.167V50.833H29.167Z" fill="#fdc01e"/>
+        <path id="Trazado_109284" data-name="Trazado 109284" d="M50.833,1.667H29.167a.833.833,0,0,0-.833.833V5.833H25V2.5a.833.833,0,0,0-.833-.833H2.5a.833.833,0,0,0-.833.833V50.833a.833.833,0,0,0,.833.833H24.167A.833.833,0,0,0,25,50.833V47.5h3.333v3.333a.833.833,0,0,0,.833.833H50.833a.833.833,0,0,0,.833-.833V2.5A.833.833,0,0,0,50.833,1.667ZM28.333,7.5v3.974L25,10.046V7.5Zm0,8.333H25V11.859l3.333,1.429ZM30,14l3.341,1.432a.208.208,0,0,1-.082.4H30ZM28.333,25.833H25V21.859l3.333,1.429ZM30,24l3.341,1.432a.208.208,0,0,1-.082.4H30ZM28.333,35.833H25V31.859l3.333,1.429ZM30,34l3.341,1.432a.208.208,0,0,1-.082.4H30Zm-5,3.5h3.333v3.974L25,40.046Zm-1.667,1.831L19.993,37.9a.208.208,0,0,1,.082-.4h3.258ZM25,30.046V27.5h3.333v3.974Zm-1.667-.714L19.993,27.9a.208.208,0,0,1,.082-.4h3.258ZM25,20.046V17.5h3.333v3.974Zm-1.667-.714L19.993,17.9a.208.208,0,0,1,.082-.4h3.258Zm0-10L19.993,7.9a.208.208,0,0,1,.082-.4h3.258Zm-20-6H14.167V50H3.333ZM23.333,50h-7.5V3.333h7.5v2.5H20.075a1.875,1.875,0,0,0-.739,3.6l4,1.713v4.689H20.075a1.875,1.875,0,0,0-.739,3.6l4,1.713v4.689H20.075a1.875,1.875,0,0,0-.739,3.6l4,1.713v4.689H20.075a1.875,1.875,0,0,0-.739,3.6l4,1.713v4.689h-5V47.5h5ZM25,45.833V41.859l3.333,1.429v2.546ZM30,44l3.341,1.432a.208.208,0,0,1-.082.4H30Zm0,3.5h3.258A1.875,1.875,0,0,0,34,43.9l-4-1.713V37.5h3.258A1.875,1.875,0,0,0,34,33.9l-4-1.713V27.5h3.258A1.875,1.875,0,0,0,34,23.9l-4-1.713V17.5h3.258A1.875,1.875,0,0,0,34,13.9l-4-1.713V7.5h5V5.833H30v-2.5h7.5V50H30ZM50,50H39.167V3.333H50Z"/>
+        <path id="Trazado_109285" data-name="Trazado 109285" d="M40.833,5.833H42.5V7.5H40.833Z"/>
+        <path id="Trazado_109286" data-name="Trazado 109286" d="M40.833,12.5H42.5v1.667H40.833Z"/>
+        <path id="Trazado_109287" data-name="Trazado 109287" d="M40.833,19.167H42.5v1.667H40.833Z"/>
+        <path id="Trazado_109288" data-name="Trazado 109288" d="M40.833,25.833H42.5V27.5H40.833Z"/>
+        <path id="Trazado_109289" data-name="Trazado 109289" d="M40.833,32.5H42.5v1.667H40.833Z"/>
+        <path id="Trazado_109290" data-name="Trazado 109290" d="M40.833,39.167H42.5v1.667H40.833Z"/>
+        <path id="Trazado_109291" data-name="Trazado 109291" d="M40.833,45.833H42.5V47.5H40.833Z"/>
+        <path id="Trazado_109292" data-name="Trazado 109292" d="M10.833,5.833H12.5V7.5H10.833Z"/>
+        <path id="Trazado_109293" data-name="Trazado 109293" d="M10.833,12.5H12.5v1.667H10.833Z"/>
+        <path id="Trazado_109294" data-name="Trazado 109294" d="M10.833,19.167H12.5v1.667H10.833Z"/>
+        <path id="Trazado_109295" data-name="Trazado 109295" d="M10.833,25.833H12.5V27.5H10.833Z"/>
+        <path id="Trazado_109296" data-name="Trazado 109296" d="M10.833,32.5H12.5v1.667H10.833Z"/>
+        <path id="Trazado_109297" data-name="Trazado 109297" d="M10.833,39.167H12.5v1.667H10.833Z"/>
+        <path id="Trazado_109298" data-name="Trazado 109298" d="M10.833,45.833H12.5V47.5H10.833Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
